@@ -1,17 +1,18 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
-
-import Home from './pages/Home'
-
+import logo from './logo.svg';
+import './App.css';
+import Navbar from './Navbar';
+import CONTENT_BODY from './Content_Body';
+import ABOUT from './About';
 function App() {
   return (
     <>
-      <BrowserRouter>
-        <Routes>
-          <Route path="/" element={<Home />} />
-        </Routes>
-      </BrowserRouter>
+    <Navbar/>
+    <CONTENT_BODY/>
+    <ABOUT/>
+
     </>
-  )
+    
+  );
 }
 
-export default App
+export default App;
