@@ -17,6 +17,7 @@ code {
 .Nav{
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   background-color:rgb(192, 192, 192);
   justify-content: center;
   font-family:cursive
@@ -28,6 +29,7 @@ code {
 .Logo{
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: center;
   background-color: rgb(191, 191, 191);
   border: 2px solid black;
@@ -35,6 +37,7 @@ code {
 }
 .about{
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
   background-color: rgb(191, 191, 191);
 
@@ -54,7 +57,19 @@ code {
 }
 .news{
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
   justify-content: center;
   background-color: rgb(191, 191, 191);
+}
+.head{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+.pics{
+  overflow-x: scroll;
+  height: 40vh;
+  
 }
