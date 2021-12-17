@@ -57,10 +57,10 @@ code {
 }
 .news{
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap:wrap;
   flex-direction: row;
   justify-content: center;
-  background-color: rgb(191, 191, 191);
+  background-color: rgb(191, 192, 191);
 }
 .head{
   display: flex;
