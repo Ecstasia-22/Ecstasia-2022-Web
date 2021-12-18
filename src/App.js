@@ -7,14 +7,13 @@ import Gallery from './Gallery';
 function App() {
   return (
     <>
-    <Navbar/>
-    <CONTENT_BODY/>
-    <Gallery/>
-    <ABOUT/>
+      <Navbar />
+      <CONTENT_BODY />
+      <Gallery />
+      <ABOUT />
 
     </>
-    
-  );
+  )
 }
 
-export default App;
+export default App
