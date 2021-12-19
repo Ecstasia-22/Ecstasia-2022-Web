@@ -1,4 +1,4 @@
-import CarouselContainer from "./CarouselContainer"
+import CarouselContainer from './CarouselContainer'
 const Gallery = () => {
   return (
     <>
@@ -7,7 +7,7 @@ const Gallery = () => {
       </div>
       <div className="pics">
         <p>
-          <CarouselContainer/>
+          <CarouselContainer />
         </p>
       </div>
     </>
