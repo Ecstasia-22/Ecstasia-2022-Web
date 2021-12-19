@@ -6,7 +6,7 @@ import Image2 from "./Assets/Sample2.jfif";
 import Image3 from "./Assets/Sample3.jpg";
 const CarouselContainer = () => {
     return (
-        <Carousel>
+        <Carousel style={{overflow:'hidden'}}>
   <Carousel.Item interval={3000}>
     <img
       className="d-block w-75"
