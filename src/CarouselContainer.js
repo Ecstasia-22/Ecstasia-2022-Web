@@ -42,5 +42,5 @@ const CarouselContainer = () => {
   </Carousel.Item>
 </Carousel>
     )
-
+  }
 export default CarouselContainer
