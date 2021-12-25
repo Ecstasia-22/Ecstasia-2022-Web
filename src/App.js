@@ -10,35 +10,35 @@ import REGISTER from './Register'
 import ABOUTUS from './AboutUs'
 import CONTACT from './Contact'
 import NEWSFEED from './NewsFeed'
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-function Home(){
-  return(
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
+function Home() {
+  return (
     <>
-      <CONTENT_BODY/>
-      <GALLERY/>
-      <ABOUT/>
+      <CONTENT_BODY />
+      <GALLERY />
+      <ABOUT />
     </>
-  );
+  )
 }
 function App() {
   return (
-    <div className='App'>
+    <div className="App">
       <Router>
         <Navbar />
 
         <Routes>
-          <Route path="/" element={<Home/>} />
-          <Route path="/Events" element={<EVENTS/>} />
-          <Route path="/Gallery" element={<GALLERY/>} />
-          <Route path="/Partners" element={<PARTNERS/>} />
-          <Route path="/Register" element={<REGISTER/>} />
-          <Route path="/AboutUs" element={<ABOUTUS/>} />
-          <Route path="/Contact" element={<CONTACT/>} />
-          <Route path="/NewsFeed" element={<NEWSFEED/>} />
+          <Route path="/" element={<Home />} />
+          <Route path="/Events" element={<EVENTS />} />
+          <Route path="/Gallery" element={<GALLERY />} />
+          <Route path="/Partners" element={<PARTNERS />} />
+          <Route path="/Register" element={<REGISTER />} />
+          <Route path="/AboutUs" element={<ABOUTUS />} />
+          <Route path="/Contact" element={<CONTACT />} />
+          <Route path="/NewsFeed" element={<NEWSFEED />} />
         </Routes>
       </Router>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App

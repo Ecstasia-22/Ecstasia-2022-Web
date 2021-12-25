@@ -1,11 +1,11 @@
-import React, { useState, useEffect } from "react";
-import "./Nav.css";
-import { Link } from "react-router-dom";
-import Ham from "./Assets/Ham.svg";
+import React, { useState, useEffect } from 'react'
+import './Nav.css'
+import { Link } from 'react-router-dom'
+import Ham from './Assets/Ham.svg'
 
 const Navbar = () => {
-  const [nav, setNav] = useState(false);
-  useEffect(() => {}, [nav]);
+  const [nav, setNav] = useState(false)
+  useEffect(() => {}, [nav])
   return (
     <div className="nav">
       <div className="navbar">
@@ -37,13 +37,13 @@ const Navbar = () => {
         </ul>
         <div className="ham-menu">
           <h1 className="" onClick={() => setNav(!nav)}>
-            {nav ? "X" : <img src={Ham} alt="hamburger menu" />}
+            {nav ? 'X' : <img src={Ham} alt="hamburger menu" />}
           </h1>
         </div>
       </div>
       <div>
-        <ul className={"mob-list" + (nav ? " display" : " display-none")}>
-        <Link to="/">
+        <ul className={'mob-list' + (nav ? ' display' : ' display-none')}>
+          <Link to="/">
             <li>HOME PAGE</li>
           </Link>
           <Link to="/Events">
@@ -70,7 +70,7 @@ const Navbar = () => {
         </ul>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Navbar;
+export default Navbar
