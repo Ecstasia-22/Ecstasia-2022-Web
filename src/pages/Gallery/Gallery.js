@@ -1,4 +1,4 @@
-import CarouselContainer from './CarouselContainer'
+import CarouselContainer from '../../CarouselContainer'
 const Gallery = () => {
   return (
     <>
