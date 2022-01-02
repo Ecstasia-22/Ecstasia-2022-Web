@@ -11,11 +11,15 @@
   align-items: center;
   font-size: 1.2rem;
   background-color: rgb(253, 253, 253);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 31px;
 }
 
 .nav-menu {
   display: grid;
-  grid-template-columns: repeat(7, auto);
+  grid-template-columns: repeat(8, auto);
   grid-gap: 10px;
   list-style: none;
   text-align: center;
