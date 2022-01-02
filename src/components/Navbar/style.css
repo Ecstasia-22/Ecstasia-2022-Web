@@ -25,7 +25,9 @@
   text-align: center;
   justify-content: start;
   width: 70vw;
+  height: 90px;
   margin-right: 2rem;
+  padding-top: 10px;
 }
 .nav-links {
   color: black;
