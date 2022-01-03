@@ -8,10 +8,10 @@ function App() {
     <>
       <BrowserRouter>
         <ScrollToTop />
-         <Navbar />
-          <Routes>
-            <Route path="/" element={<Home />} />
-          </Routes>
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<Home />} />
+        </Routes>
       </BrowserRouter>
     </>
   )

@@ -5,7 +5,7 @@ import './style.css'
 
 const Navbar = () => {
   const [clicked, setClicked] = useState(false)
-  
+
   const handleClick = () => {
     setClicked(!clicked)
   }
@@ -17,13 +17,14 @@ const Navbar = () => {
       </div>
       <ul className={clicked ? 'nav-menu active' : 'nav-menu'}>
         {MenuItems.map((item, index) => {
-          return(
+          return (
             <li key={index}>
               <Link className={item.cName} to={item.url}>
                 {item.title}
               </Link>
             </li>
-        )})}
+          )
+        })}
       </ul>
     </nav>
   )
