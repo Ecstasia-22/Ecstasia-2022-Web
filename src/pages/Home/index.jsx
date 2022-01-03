@@ -1,7 +1,7 @@
-import React from 'react'
 import './home.css'
+
 function Home() {
-  return <div>Home page</div>
+  return <>Home page</>
 }
 
 export default Home
