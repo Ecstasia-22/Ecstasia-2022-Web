@@ -2,6 +2,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import ScrollToTop from './ScrollToTop.js'
 import Navbar from './components/Navbar'
 import Home from './pages/Home'
+import Events from './pages/Events'
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="./pages/Events" element={<Events/>}/>
         </Routes>
       </BrowserRouter>
     </>
