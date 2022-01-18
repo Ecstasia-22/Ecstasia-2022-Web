@@ -2,7 +2,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 100%;
   margin: 0;
   background-size: cover;
   background-repeat: no-repeat;
@@ -12,5 +12,22 @@
   display: grid;
   grid-template-columns: repeat(4, auto);
   place-items: center;
-  padding-top: 4rem;
+  padding-top: 3rem;
+}
+
+@media screen and (max-width: 960px) {
+  .card {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    place-items: center;
+    padding-top: 3rem;
+  }
+}
+@media screen and (max-width: 650px) {
+  .card {
+    display: grid;
+    grid-template-columns: repeat(1, auto);
+    place-items: center;
+    padding-top: 3rem;
+  }
 }
