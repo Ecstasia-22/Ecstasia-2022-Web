@@ -3,7 +3,7 @@ import ScrollToTop from './ScrollToTop.js'
 import Navbar from './components/Navbar'
 import Home from './pages/Home'
 import Events from './pages/Events'
-
+import Music from './pages/Events/music'
 function App() {
   return (
     <>
@@ -13,6 +13,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/Events" element={<Events />} />
+          <Route path="/music" element={<Music/>} />
         </Routes>
       </BrowserRouter>
     </>
