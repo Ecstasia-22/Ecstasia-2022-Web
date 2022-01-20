@@ -1,0 +1,9 @@
+.coverImage {
+  position: relative;
+  width: 1700px;
+}
+
+.waterMark {
+  position: fixed;
+  z-index: -10000;
+}
