@@ -4,13 +4,9 @@ import Cover from '../../Assets/MusicPage/Cover.png'
 import Back from '../../Assets/MusicPage/Back.png'
 import Watermark from '../../Assets/MusicPage/Watermark.png'
 import MusicImg1 from '../../Assets/MusicPage/FuntakshariCard.png'
-import  {makeStyles} from "@material-ui/core/styles"
+import { makeStyles } from '@material-ui/core/styles'
 import { Container, Grid, Typography } from '@mui/material'
-const useStyles = makeStyles({
-  
-
-})
-
+const useStyles = makeStyles({})
 
 export default function Music() {
   // const class=useStyles()
@@ -70,4 +66,3 @@ export default function Music() {
     </>
   )
 }
-
