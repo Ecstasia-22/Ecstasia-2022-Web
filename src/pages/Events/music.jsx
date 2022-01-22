@@ -3,7 +3,12 @@ import './music.css'
 import Cover from '../../Assets/MusicPage/Cover.png'
 import Back from '../../Assets/MusicPage/Back.png'
 import Watermark from '../../Assets/MusicPage/Watermark.png'
-import MusicImg1 from '../../Assets/MusicPage/FuntakshariCard.png'
+import Funtakshari from '../../Assets/MusicPage/FuntakshariCard.png'
+import MelodicFiesta from '../../Assets/MusicPage/MelodicFiestaCard.png'
+import PlugAndPlay from '../../Assets/MusicPage/PlugPlayCard.png'
+import SangeetTantra from '../../Assets/MusicPage/SangeetTantraCard.png'
+import WesternSerenity from '../../Assets/MusicPage/WesternSerenityCard.png'
+import Copyright from '../../Assets/MusicPage/Copyright.png'
 import { makeStyles } from '@material-ui/core/styles'
 import { Container, Grid, Typography } from '@mui/material'
 const useStyles = makeStyles({})
@@ -34,32 +39,32 @@ export default function Music() {
       <br />
 
       <Container>
-        <Grid container spacing={1.3} className="gridimages">
+        <Grid container spacing={1.185} className="gridimages">
           <Grid item>
-            <img src={MusicImg1} alt="funtakshari" />
+            <img src={Funtakshari} alt="funtakshari" />
           </Grid>
           <Grid item>
-            <img src={MusicImg1} alt="funtakshari" />
+            <img src={MelodicFiesta} alt="MelodicFiesta" />
           </Grid>
           <Grid item>
-            <img src={MusicImg1} alt="funtakshari" />
+            <img src={PlugAndPlay} alt="PlugAndPlay" />
           </Grid>
           <Grid item>
-            <img src={MusicImg1} alt="funtakshari" />
+            <img src={SangeetTantra} alt="SangeetTantra" />
           </Grid>
           <Grid item>
-            <img src={MusicImg1} alt="funtakshari" />
-          </Grid>
-          <Grid item>
-            <img src={MusicImg1} alt="funtakshari" />
+            <img src={WesternSerenity} alt="WesternSerenity" />
           </Grid>
         </Grid>
       </Container>
-
+      <br />
+      <br />
+      <br />
+      <br />
       <Container>
         <Grid align="center">
           <footer>
-            <Typography>© Copyright ECSTASIA 2022 - All Rights Reserved</Typography>
+            <img src={Copyright} alt="Copyright" />
           </footer>
         </Grid>
       </Container>

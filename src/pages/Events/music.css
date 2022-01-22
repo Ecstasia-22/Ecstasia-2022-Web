@@ -7,3 +7,12 @@
   position: fixed;
   z-index: -10000;
 }
+.musictypo {
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 63px;
+  text-align: center;
+  letter-spacing: 0.025em;
+}
