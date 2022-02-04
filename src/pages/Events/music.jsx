@@ -29,7 +29,7 @@ export default function Music() {
           <Grid item>
             <Typography className="musicTypo">
               <img src={Back} alt="backspace image" />
-              Music Events
+              <span className="mscfont">Music Events</span>
             </Typography>
           </Grid>
         </Grid>
