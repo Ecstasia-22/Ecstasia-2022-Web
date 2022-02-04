@@ -13,7 +13,8 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/Events" element={<Events />} />
-          <Route path="/music" element={<Music />} />
+          {/**The :eventListing take the parameter from url dynamically */}
+          <Route path="/events/:eventListing" element={<Music />} />
         </Routes>
       </BrowserRouter>
     </>

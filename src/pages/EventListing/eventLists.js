@@ -5,10 +5,12 @@ import melodicFiesta from '../../Assets/MusicPage/MelodicFiestaCard.png'
 import plugAndPlay from '../../Assets/MusicPage/PlugPlayCard.png'
 import sangeetTantra from '../../Assets/MusicPage/SangeetTantraCard.png'
 import westernSerenity from '../../Assets/MusicPage/WesternSerenityCard.png'
+
 export const eventLists = [
     {
         id: 1,
         name: 'Music Events',
+        category: 'music',
         cover: musicCover,
         waterMark: musicWatermark,
         events: [
