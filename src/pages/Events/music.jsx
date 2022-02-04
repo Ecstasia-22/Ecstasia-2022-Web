@@ -55,6 +55,12 @@ export default function Music() {
           <Grid item>
             <img src={WesternSerenity} alt="WesternSerenity" />
           </Grid>
+          <Grid item>
+            <div className="checkout">Check out our other events</div>
+            <div className="finearts">Fine Arts</div>
+            <div className="dance">Dance</div>
+            <div className="literature">Literature</div>
+          </Grid>
         </Grid>
       </Container>
       <br />

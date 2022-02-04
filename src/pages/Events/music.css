@@ -24,6 +24,120 @@
   line-height: 63px;
   letter-spacing: 0.025em;
   text-align: center;
+  
 
 
+}
+.checkout{
+  position: static;
+  width: 376.83px;
+  height: 30px;
+  left: 0px;
+  top: 0px;
+
+  font-family: IBM Plex Mono;
+  font-style: normal;
+  font-weight:bold;
+  font-size: 23px;
+  line-height: 30px;
+  /* identical to box height */
+
+  text-align: center;
+  letter-spacing: 0.02em;
+
+  color: #121013;
+
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 50px 0px;
+}
+.finearts{
+  /* font */
+  position: absolute;
+  width: 220.59px;
+  height: 53.57px;
+  left: 78px;
+  top: 81.12px;
+
+  font-family: Neue Helvetica;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 48px;
+  text-align: center;
+  letter-spacing: 0.025em;
+
+  color: #F8B147;
+
+  /* box */
+  position: relative;
+  width: 376.83px;
+  height: 55.8px;
+  left: 0px;
+  top: 20px;
+
+  border: 4px solid #F8B147;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+.dance{
+  /* font */
+  position: absolute;
+  width: 240.53px;
+  height: 53.57px;
+  left: 68px;
+  top: 186.92px;
+
+  font-family: Neue Helvetica;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 48px;
+  text-align: center;
+  letter-spacing: 0.025em;
+
+  color: #F78A2D;
+
+  /* box */
+  position: relative;
+  width: 376.83px;
+  height: 55.8px;
+  left: 0px;
+  top: 50px;
+
+  border: 4px solid #F78A2D;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+.literature{
+  /* font */
+  position: absolute;
+  width: 230.61px;
+  height: 53.57px;
+  left: 73px;
+  top: 292.6px;
+
+  font-family: Neue Helvetica;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 48px;
+  text-align: center;
+  letter-spacing: 0.025em;
+  color: #960796;
+
+  /* box */
+  position: relative;
+  width: 376.83px;
+  height: 55.8px;
+  left: 0px;
+  top: 80px;
+
+  border: 4px solid #960796;
+  box-sizing: border-box;
+  border-radius: 10px;
 }
