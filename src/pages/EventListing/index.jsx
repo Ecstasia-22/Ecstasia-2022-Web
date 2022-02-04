@@ -16,7 +16,11 @@ import { Link } from 'react-router-dom'
 export default function Music() {
   return (
     <>
-      <div alt="cover" className="coverImage" style={{background: `url(${Cover})`}}></div>
+      <div
+        alt="cover"
+        className="coverImage"
+        style={{ background: `url(${Cover})` }}
+      ></div>
       <br />
       <br />
       <br />
@@ -31,7 +35,7 @@ export default function Music() {
             </Link>
           </Grid>{' '}
           <Typography variant="h5">
-           <strong className='musicTypo'>Music Events </strong>
+            <strong className="musicTypo">Music Events </strong>
           </Typography>
         </Grid>
       </Container>
