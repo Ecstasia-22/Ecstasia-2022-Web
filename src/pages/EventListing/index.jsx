@@ -1,4 +1,4 @@
-import { Link , useParams} from 'react-router-dom'
+import { Link, useParams } from 'react-router-dom'
 
 import './style.css'
 import { Container, Grid, Typography } from '@mui/material'
@@ -6,7 +6,6 @@ import Back from '../../Assets/MusicPage/Back.png'
 
 import Footer from '../../components/Footer/index.jsx'
 import { eventLists } from './eventLists.js'
-
 
 export default function EventListing() {
   const params = useParams()
