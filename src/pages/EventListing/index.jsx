@@ -1,4 +1,4 @@
-import './music.css'
+import './style.css'
 
 import Cover from '../../Assets/MusicPage/Cover.png'
 import Back from '../../Assets/MusicPage/Back.png'
@@ -8,16 +8,15 @@ import MelodicFiesta from '../../Assets/MusicPage/MelodicFiestaCard.png'
 import PlugAndPlay from '../../Assets/MusicPage/PlugPlayCard.png'
 import SangeetTantra from '../../Assets/MusicPage/SangeetTantraCard.png'
 import WesternSerenity from '../../Assets/MusicPage/WesternSerenityCard.png'
-import Copyright from '../../Assets/MusicPage/Copyright.png'
-import { makeStyles } from '@material-ui/core/styles'
+
 import { Container, Grid, Typography } from '@mui/material'
-const useStyles = makeStyles({})
+import Footer from '../../components/Footer/index.jsx'
+import { Link } from 'react-router-dom'
 
 export default function Music() {
-  // const class=useStyles()
   return (
     <>
-      <img src={Cover} alt="cover image" className="coverImage" />
+      <div alt="cover" className="coverImage" style={{background: `url(${Cover})`}}></div>
       <br />
       <br />
       <br />
@@ -25,13 +24,15 @@ export default function Music() {
       <img src={Watermark} alt="watermark" className="waterMark" />
 
       <Container>
-        <Grid direction="row">
-          <Grid item>
-            <Typography className="musicTypo">
-              <img src={Back} alt="backspace image" />
-              Music Events
-            </Typography>
-          </Grid>
+        <Grid container>
+          <Grid item xs={1}>
+            <Link to={'/events'}>
+              <img src={Back} alt="Go Back" />
+            </Link>
+          </Grid>{' '}
+          <Typography variant="h5">
+           <strong className='musicTypo'>Music Events </strong>
+          </Typography>
         </Grid>
       </Container>
       <br />
@@ -39,7 +40,7 @@ export default function Music() {
       <br />
 
       <Container>
-        <Grid container spacing={1.185} className="gridimages">
+        <Grid container spacing={1} className="gridimages">
           <Grid item>
             <img src={Funtakshari} alt="funtakshari" />
           </Grid>
@@ -61,13 +62,7 @@ export default function Music() {
       <br />
       <br />
       <br />
-      <Container>
-        <Grid align="center">
-          <footer>
-            <img src={Copyright} alt="Copyright" />
-          </footer>
-        </Grid>
-      </Container>
+      <Footer />
     </>
   )
 }

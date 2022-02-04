@@ -1,18 +1,18 @@
 .coverImage {
-  position: relative;
-  width: 1700px;
+  height: 35vh;
+  width: 100%;
 }
 
 .waterMark {
   position: fixed;
   z-index: -10000;
+  width: 90vw;
 }
-.musictypo {
+.musicTypo {
   font-family: Helvetica;
   font-style: normal;
   font-weight: bold;
   font-size: 48px;
-  line-height: 63px;
-  text-align: center;
+  line-height: 30px;
   letter-spacing: 0.025em;
 }

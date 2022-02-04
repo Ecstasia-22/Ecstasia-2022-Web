@@ -3,7 +3,7 @@ import ScrollToTop from './ScrollToTop.js'
 import Navbar from './components/Navbar'
 import Home from './pages/Home'
 import Events from './pages/Events'
-import Music from './pages/Events/music'
+import Music from './pages/EventListing'
 function App() {
   return (
     <>

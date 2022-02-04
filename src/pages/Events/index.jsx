@@ -9,6 +9,7 @@ import Literature from '../../Assets/Literature.png'
 import Music from '../../Assets/Music.png'
 import Photography from '../../Assets/Photography.png'
 import { Link } from 'react-router-dom'
+
 function Events() {
   return (
     <>
