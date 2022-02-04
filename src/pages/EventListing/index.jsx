@@ -1,13 +1,14 @@
+import { Link , useParams} from 'react-router-dom'
+
 import './style.css'
-
-import Back from '../../Assets/MusicPage/Back.png'
 import { Container, Grid, Typography } from '@mui/material'
-import Footer from '../../components/Footer/index.jsx'
-import { Link } from 'react-router-dom'
-import { eventLists } from './eventLists.js'
-import { useParams } from 'react-router-dom'
+import Back from '../../Assets/MusicPage/Back.png'
 
-export default function Music() {
+import Footer from '../../components/Footer/index.jsx'
+import { eventLists } from './eventLists.js'
+
+
+export default function EventListing() {
   const params = useParams()
   let eventDetails
   const eventDetailsArray = eventLists.filter(predicate => predicate.category === params.eventListing)
