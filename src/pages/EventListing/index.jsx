@@ -2,7 +2,6 @@ import { Link, useParams } from 'react-router-dom'
 
 import './style.css'
 import { Container, Grid, Typography, IconButton } from '@mui/material'
-import Back from '../../Assets/MusicPage/Back.png'
 import ArrowBackIcon from '@mui/icons-material/ArrowBack'
 
 import Footer from '../../components/Footer/index.jsx'

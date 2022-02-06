@@ -15,16 +15,30 @@ function Events() {
     <>
       <div className="background" style={{ backgroundImage: `url(${EventsBG})` }}>
         <div className="card">
-          <img src={Dance} alt="Dance" />
+          <Link to="/events/dance">
+            <img src={Dance} alt="Dance" />
+          </Link>
           <Link to="/events/music">
             <img src={Music} alt="Music" />
           </Link>
-          <img src={Drama} alt="Drama" />
-          <img src={Photography} alt="Photography" />
-          <img src={Literature} alt="Literature" />
-          <img src={Games} alt="Games" />
-          <img src={FineArts} alt="FineArts" />
-          <img src={Informals} alt="Informals" />
+          <Link to="/events/drama">
+            <img src={Drama} alt="Drama" />
+          </Link>
+          <Link to="/events/photography">
+            <img src={Photography} alt="photography" />
+          </Link>
+          <Link to="/events/literature">
+            <img src={Literature} alt="Literature" />
+          </Link>
+          <Link to="/events/games">
+            <img src={Games} alt="Games" />
+          </Link>
+          <Link to="/events/finearts">
+            <img src={FineArts} alt="FineArts" />
+          </Link>
+          <Link to="/events/informals">
+            <img src={Informals} alt="informals" />
+          </Link>
         </div>
       </div>
     </>
