@@ -1,8 +1,9 @@
 import { Link, useParams } from 'react-router-dom'
 
 import './style.css'
-import { Container, Grid, Typography } from '@mui/material'
+import { Container, Grid, Typography, IconButton } from '@mui/material'
 import Back from '../../Assets/MusicPage/Back.png'
+import ArrowBackIcon from '@mui/icons-material/ArrowBack'
 
 import Footer from '../../components/Footer/index.jsx'
 import { eventLists } from './eventLists.js'
@@ -37,14 +38,18 @@ export default function EventListing() {
 
         <Container>
           <Grid container>
-            <Grid item xs={1}>
+            <Grid item>
               <Link to={'/events'}>
-                <img src={Back} alt="Go Back" />
+                <IconButton>
+                  <ArrowBackIcon sx={{ fontSize: 60 }} fontSize="large" />
+                </IconButton>
               </Link>
-            </Grid>{' '}
-            <Typography variant="h5">
-              <strong className="musicTypo">{eventDetails.name}</strong>
-            </Typography>
+            </Grid>
+            <Grid item>
+              <Typography variant="h5">
+                <strong className="musicTypo">{eventDetails.name}</strong>
+              </Typography>
+            </Grid>
           </Grid>
         </Container>
         <br />
