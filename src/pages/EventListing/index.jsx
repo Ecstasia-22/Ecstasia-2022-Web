@@ -40,7 +40,11 @@ export default function EventListing() {
             <Grid item>
               <Link to={'/events'}>
                 <IconButton>
-                  <ArrowBackIcon sx={{ fontSize: 60 }} fontSize="large" />
+                  <ArrowBackIcon
+                    sx={{ fontSize: 60 }}
+                    fontSize="large"
+                    style={{ color: '#121013' }}
+                  />
                 </IconButton>
               </Link>
             </Grid>
