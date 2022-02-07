@@ -6,7 +6,7 @@
 .waterMark {
   position: fixed;
   z-index: -10000;
-  width: 90vw;
+  width: 95vw;
 }
 .musicTypo {
   font-family: Helvetica;
