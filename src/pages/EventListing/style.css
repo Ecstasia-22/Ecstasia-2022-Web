@@ -9,6 +9,8 @@
   width: 95vw;
 }
 .musicTypo {
+  display: flex;
+  margin-top: 23px;
   font-family: Helvetica;
   font-style: normal;
   font-weight: bold;
