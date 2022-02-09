@@ -6,6 +6,13 @@ import plugAndPlay from '../../Assets/MusicPage/PlugPlayCard.png'
 import sangeetTantra from '../../Assets/MusicPage/SangeetTantraCard.png'
 import westernSerenity from '../../Assets/MusicPage/WesternSerenityCard.png'
 
+import danceCover from '../../Assets/DancePage/BackgroundDance.png'
+import faceOff from '../../Assets/DancePage/FaceOFF.png'
+import fusionFantasea from '../../Assets/DancePage/FusionFantasea.png'
+import nott from '../../Assets/DancePage/NoTT.png'
+import rhythmicDuo from '../../Assets/DancePage/RhythmicDuo.png'
+import stepUp from '../../Assets/DancePage/StepUP.png'
+
 export const eventLists = [
   {
     id: 1,
@@ -54,42 +61,42 @@ export const eventLists = [
   {
     id: 2,
     name: 'Dance Events',
-    cover: musicCover,
+    cover: danceCover,
     waterMark: musicWatermark,
     events: [
       {
         id: 1,
         name: 'Rhythmic Duo',
         description: 'Duet Dance',
-        image: Funtakshari,
+        image: rhythmicDuo,
         hoveredImage: musicCover //replace this field with the hover image of the event
       },
       {
         id: 2,
         name: 'Fusion Fantasea',
         description: 'Western or Bollywood Group Dance',
-        image: melodicFiesta,
+        image: fusionFantasea,
         hoveredImage: musicCover //replace this field with the hover image of the event
       },
       {
         id: 3,
         name: 'Face OFF',
         description: 'Solo Dance Face-off',
-        image: plugAndPlay,
+        image: faceOff,
         hoveredImage: musicCover //replace this field with the hover image of the event
       },
       {
         id: 4,
         name: 'Step UP',
         description: 'Western Group Dance',
-        image: sangeetTantra,
+        image: stepUp,
         hoveredImage: musicCover //replace this field with the hover image of the event
       },
       {
         id: 5,
         name: 'Nrityar o Tale Tale',
         description: 'Eastern or Semiclassical Group Dance',
-        image: westernSerenity,
+        image: nott,
         hoveredImage: musicCover //replace this field with the hover image of the event
       }
     ]
