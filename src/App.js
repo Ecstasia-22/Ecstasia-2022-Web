@@ -12,7 +12,7 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/Events" element={<Events />} />
+          <Route path="/events" element={<Events />} />
           {/**The :eventListing take the parameter from url dynamically */}
           <Route path="/events/:eventListing" element={<EventListing />} />
         </Routes>

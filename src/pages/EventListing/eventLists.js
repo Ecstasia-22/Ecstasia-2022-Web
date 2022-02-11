@@ -115,6 +115,7 @@ export const eventLists = [
     name: 'Dance Events',
     cover: danceCover,
     waterMark: danceWatermark,
+    category: 'dance',
     events: [
       {
         id: 1,
@@ -157,6 +158,7 @@ export const eventLists = [
     id: 3,
     name: 'Drama Events',
     cover: dramaCover,
+    category: 'drama',
     waterMark: dramaWatermark,
     events: [
       {
@@ -193,6 +195,7 @@ export const eventLists = [
     id: 4,
     name: 'Photography Events',
     cover: photogCover,
+    category: 'photography',
     waterMark: photoWatermark,
     events: [
       {
@@ -235,6 +238,7 @@ export const eventLists = [
   {
     id: 5,
     name: 'Literature Events',
+    category: 'literature',
     cover: litCover,
     waterMark: litWatermark,
     events: [
@@ -271,6 +275,7 @@ export const eventLists = [
   {
     id: 6,
     name: 'Sports Events',
+    category: 'games',
     cover: sportsCover,
     waterMark: sportsWatermark,
     events: [
@@ -321,6 +326,7 @@ export const eventLists = [
   {
     id: 7,
     name: 'Fine Arts Events',
+    category: 'finearts',
     cover: artsCover,
     waterMark: artsWatermark,
     events: [
@@ -357,6 +363,7 @@ export const eventLists = [
   {
     id: 8,
     name: 'Informal Events',
+    category: 'informals',
     cover: informalCover,
     waterMark: musicWatermark,
     events: [
