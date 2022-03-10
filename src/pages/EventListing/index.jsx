@@ -6,8 +6,23 @@ import ArrowBackIcon from '@mui/icons-material/ArrowBack'
 
 import Footer from '../../components/Footer/index.jsx'
 import { eventLists } from './eventLists.js'
+import { makeStyles } from '@mui/styles'
+
+const useStyles = makeStyles({
+  mysicTypo1: {
+    display: 'flex',
+    marginTop: 23,
+    fontFamily: 'Helvetica',
+    fontStyle: 'normal',
+    fontWeight: 'bold',
+    fontSize: 48,
+    lineHeight: 30,
+    letterSpacing: 0.025
+  }
+})
 
 export default function EventListing() {
+  const classes = useStyles()
   const params = useParams()
   let eventDetails
   const eventDetailsArray = eventLists.filter(
@@ -68,6 +83,28 @@ export default function EventListing() {
                 </Grid>
               )
             })}
+            <Grid className="buttonEvents">
+              <Typography className={classes.mysicTypo1}>
+                <strong className="musicTypo1">Check out our other events</strong>
+              </Typography>
+              <div className="btnEvent">
+                <button className="btn1 " id="fineArts">
+                  <a href="#" id="text1">
+                    Fine Arts
+                  </a>
+                </button>
+                <button className="btn1" id="dance">
+                  <a href="#" id="text2">
+                    Dance
+                  </a>
+                </button>
+                <button className="btn1" id="literature">
+                  <a href="#" id="text3">
+                    Literature
+                  </a>
+                </button>
+              </div>
+            </Grid>
           </Grid>
         </Container>
         <br />
