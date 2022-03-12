@@ -30,6 +30,8 @@
   font-size: 23px;
   line-height: 30px;
   /* identical to box height */
+  margin: auto;
+  padding-left: 5.7px;
 
   text-align: center;
   letter-spacing: 0.02em;
@@ -69,13 +71,18 @@
 .btnEvent {
   display: flex;
   flex-direction: column;
+  padding-left: 8.7px;
 }
 #fineArts {
   border: 4px solid #f8b147;
+  margin-top: 50px;
+  padding-left: 2px;
 }
 #dance {
   border: 4px solid #f78a2d;
+  margin-top: 50px;
 }
 #literature {
   border: 4px solid #960796;
+  margin-top: 50px;
 }
