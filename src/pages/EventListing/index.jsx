@@ -42,7 +42,7 @@ export default function EventListing() {
         <div
           alt="cover"
           className="coverImage"
-          style={{ background: `url(${eventDetails.cover})` }}
+          style={{ background: `url(${eventDetails.cover})` , backgroundPosition: 'center',   backgroundSize: "cover", backgroundRepeat: "no-repeat"}}
         ></div>
         <br />
         <br />
@@ -83,27 +83,23 @@ export default function EventListing() {
                 </Grid>
               )
             })}
+            {/*Other Events*/}
             <Grid className="buttonEvents">
               <Typography className={classes.mysicTypo1}>
                 <strong className="musicTypo1">Check out our other events</strong>
               </Typography>
-              <div className="btnEvent">
-                <button className="btn1 " id="fineArts">
-                  <a href="#" id="text1">
-                    Fine Arts
-                  </a>
-                </button>
-                <button className="btn1" id="dance">
-                  <a href="#" id="text2">
-                    Dance
-                  </a>
-                </button>
-                <button className="btn1" id="literature">
-                  <a href="#" id="text3">
-                    Literature
-                  </a>
-                </button>
-              </div>
+
+              {eventDetails.others.map((item, index) => {
+                return (
+                  <div key={index}>
+                    <button className="btn1" style={{border: `4px solid ${item.color}`}}>
+                      <Link to={`/events/${item.link}`} style={{color: item.color}}>
+                        {item.eventName}
+                      </Link>
+                    </button>
+                  </div>
+                )
+              })}
             </Grid>
           </Grid>
         </Container>
