@@ -109,22 +109,21 @@ export const eventLists = [
         hoveredImage: musicCover //replace this field with the hover image of the event
       }
     ],
-    others:[
+    others: [
       {
-        color: "#F8B147",
-        eventName: "Fine arts",
-        link: "finearts"
+        color: '#F8B147',
+        eventName: 'Fine arts',
+        link: 'finearts'
       },
       {
-        color: "#F78A2D",
-        eventName: "Dance",
-        link: "dance"
+        color: '#F78A2D',
+        eventName: 'Dance',
+        link: 'dance'
       },
       {
-        color: "#960796",
-        eventName: "Literature",
+        color: '#960796',
+        eventName: 'Literature',
         link: 'literature'
-
       }
     ]
   },

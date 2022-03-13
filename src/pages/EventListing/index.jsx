@@ -42,7 +42,12 @@ export default function EventListing() {
         <div
           alt="cover"
           className="coverImage"
-          style={{ background: `url(${eventDetails.cover})` , backgroundPosition: 'center',   backgroundSize: "cover", backgroundRepeat: "no-repeat"}}
+          style={{
+            background: `url(${eventDetails.cover})`,
+            backgroundPosition: 'center',
+            backgroundSize: 'cover',
+            backgroundRepeat: 'no-repeat'
+          }}
         ></div>
         <br />
         <br />
@@ -92,8 +97,11 @@ export default function EventListing() {
               {eventDetails.others.map((item, index) => {
                 return (
                   <div key={index}>
-                    <button className="btn1" style={{border: `4px solid ${item.color}`}}>
-                      <Link to={`/events/${item.link}`} style={{color: item.color}}>
+                    <button
+                      className="btn1"
+                      style={{ border: `4px solid ${item.color}` }}
+                    >
+                      <Link to={`/events/${item.link}`} style={{ color: item.color }}>
                         {item.eventName}
                       </Link>
                     </button>
