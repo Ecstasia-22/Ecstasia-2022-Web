@@ -172,19 +172,19 @@ export const eventLists = [
     ],
     others: [
       {
-        color: '#F8B147',
-        eventName: 'Fine arts',
-        link: 'finearts'
+        color: '#61B5A9',
+        eventName: 'Sports',
+        link: 'sports'
       },
       {
-        color: '#F78A2D',
-        eventName: 'Dance',
-        link: 'dance'
+        color: '#A498E2',
+        eventName: 'Drama',
+        link: 'drama'
       },
       {
-        color: '#960796',
-        eventName: 'Literature',
-        link: 'literature'
+        color: '#D24CF1',
+        eventName: 'Music',
+        link: 'music'
       }
     ]
   },
@@ -226,19 +226,19 @@ export const eventLists = [
     ],
     others: [
       {
-        color: '#F8B147',
-        eventName: 'Fine arts',
-        link: 'finearts'
-      },
-      {
-        color: '#F78A2D',
-        eventName: 'Dance',
-        link: 'dance'
-      },
-      {
         color: '#960796',
         eventName: 'Literature',
         link: 'literature'
+      },
+      {
+        color: '#5E3E13',
+        eventName: 'Photography',
+        link: 'photography'
+      },
+      {
+        color: '#FC34B0',
+        eventName: 'Informals',
+        link: 'informals'
       }
     ]
   },
@@ -292,14 +292,14 @@ export const eventLists = [
         link: 'finearts'
       },
       {
-        color: '#F78A2D',
-        eventName: 'Dance',
-        link: 'dance'
-      },
-      {
         color: '#960796',
         eventName: 'Literature',
         link: 'literature'
+      },
+      {
+        color: '#A498E2',
+        eventName: 'Drama',
+        link: 'drama'
       }
     ]
   },
@@ -346,14 +346,14 @@ export const eventLists = [
         link: 'finearts'
       },
       {
-        color: '#F78A2D',
-        eventName: 'Dance',
-        link: 'dance'
+        color: '#A498E2',
+        eventName: 'Drama',
+        link: 'drama'
       },
       {
-        color: '#960796',
-        eventName: 'Literature',
-        link: 'literature'
+        color: '#D24CF1',
+        eventName: 'Music',
+        link: 'music'
       }
     ]
   },
@@ -409,19 +409,14 @@ export const eventLists = [
     ],
     others: [
       {
-        color: '#F8B147',
-        eventName: 'Fine arts',
-        link: 'finearts'
+        color: '#FC34B0',
+        eventName: 'Informals',
+        link: 'informals'
       },
       {
         color: '#F78A2D',
         eventName: 'Dance',
         link: 'dance'
-      },
-      {
-        color: '#960796',
-        eventName: 'Literature',
-        link: 'literature'
       }
     ]
   },
@@ -463,14 +458,14 @@ export const eventLists = [
     ],
     others: [
       {
-        color: '#F8B147',
-        eventName: 'Fine arts',
-        link: 'finearts'
-      },
-      {
         color: '#F78A2D',
         eventName: 'Dance',
         link: 'dance'
+      },
+      {
+        color: '#D24CF1',
+        eventName: 'Music',
+        link: 'music'
       },
       {
         color: '#960796',
