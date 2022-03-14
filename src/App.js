@@ -4,6 +4,7 @@ import Navbar from './components/Navbar'
 import Home from './pages/Home'
 import Events from './pages/Events'
 import EventListing from './pages/EventListing'
+import AboutUs from './pages/AboutUs'
 function App() {
   return (
     <>
@@ -13,6 +14,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/events" element={<Events />} />
+          <Route path="/aboutus" element={<AboutUs />} />
           {/**The :eventListing take the parameter from url dynamically */}
           <Route path="/events/:eventListing" element={<EventListing />} />
         </Routes>

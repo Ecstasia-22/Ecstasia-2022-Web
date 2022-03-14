@@ -10,7 +10,6 @@ import westernSerenity from '../../Assets/MusicPage/WesternSerenityCard.png'
 //Dance Images Import
 import danceCover from '../../Assets/DancePage/BackgroundDance.png'
 import danceWatermark from '../../Assets/DancePage/Watermark.png'
-import faceOff from '../../Assets/DancePage/FaceOFF.png'
 import fusionFantasea from '../../Assets/DancePage/FusionFantasea.png'
 import nott from '../../Assets/DancePage/NoTT.png'
 import rhythmicDuo from '../../Assets/DancePage/RhythmicDuo.png'
@@ -46,7 +45,6 @@ import sportsCover from '../../Assets/SportsPage/Cover.png'
 import sportsWatermark from '../../Assets/SportsPage/Watermark.png'
 import Badminton from '../../Assets/SportsPage/Badminton.png'
 import Basketball from '../../Assets/SportsPage/Basketball.png'
-import Billiards from '../../Assets/SportsPage/Billiards.png'
 import Chess from '../../Assets/SportsPage/Chess.png'
 import Futsal from '../../Assets/SportsPage/Futsal.png'
 import tableTennis from '../../Assets/SportsPage/TableTennis.png'
@@ -55,7 +53,6 @@ import tableTennis from '../../Assets/SportsPage/TableTennis.png'
 import artsCover from '../../Assets/FineArtsPage/Cover.png'
 import artsWatermark from '../../Assets/FineArtsPage/Watermark.png'
 import teeShades from '../../Assets/FineArtsPage/TeeShades.png'
-import Muzzog from '../../Assets/FineArtsPage/Muzzog.png'
 import Rangolic from '../../Assets/FineArtsPage/Rangolic.png'
 import Doodle from '../../Assets/FineArtsPage/Doodle.png'
 
@@ -150,20 +147,13 @@ export const eventLists = [
       },
       {
         id: 3,
-        name: 'Face OFF',
-        description: 'Solo Dance Face-off',
-        image: faceOff,
-        hoveredImage: musicCover //replace this field with the hover image of the event
-      },
-      {
-        id: 4,
         name: 'Step UP',
         description: 'Western Group Dance',
         image: stepUp,
         hoveredImage: musicCover //replace this field with the hover image of the event
       },
       {
-        id: 5,
+        id: 4,
         name: 'Nrityar o Tale Tale',
         description: 'Eastern or Semiclassical Group Dance',
         image: nott,
@@ -380,20 +370,13 @@ export const eventLists = [
       },
       {
         id: 3,
-        name: 'Cue Marvel',
-        description: 'Billiards Contest',
-        image: Billiards,
-        hoveredImage: musicCover //replace this field with the hover image of the event
-      },
-      {
-        id: 4,
         name: 'Brainstrorm',
         description: 'Chess Contest',
         image: Chess,
         hoveredImage: musicCover //replace this field with the hover image of the event
       },
       {
-        id: 5,
+        id: 4,
         name: 'Futsal',
         description: 'Futsal Contest',
         image: Futsal,
@@ -436,20 +419,13 @@ export const eventLists = [
       },
       {
         id: 2,
-        name: 'Maskopedia',
-        description: 'Mask Painting Contest',
-        image: Muzzog,
-        hoveredImage: musicCover //replace this field with the hover image of the event
-      },
-      {
-        id: 3,
         name: 'Color de Carousal',
         description: 'Rangoli Making Contest',
         image: Rangolic,
         hoveredImage: musicCover //replace this field with the hover image of the event
       },
       {
-        id: 4,
+        id: 3,
         name: 'Do a Doodle ',
         description: 'Doodle Making Contest',
         image: Doodle,
