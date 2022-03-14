@@ -169,6 +169,23 @@ export const eventLists = [
         image: nott,
         hoveredImage: musicCover //replace this field with the hover image of the event
       }
+    ],
+    others: [
+      {
+        color: '#F8B147',
+        eventName: 'Fine arts',
+        link: 'finearts'
+      },
+      {
+        color: '#F78A2D',
+        eventName: 'Dance',
+        link: 'dance'
+      },
+      {
+        color: '#960796',
+        eventName: 'Literature',
+        link: 'literature'
+      }
     ]
   },
   {
@@ -205,6 +222,23 @@ export const eventLists = [
         description: 'Monologue Contest',
         image: Swabalambi,
         hoveredImage: musicCover //replace this field with the hover image of the event
+      }
+    ],
+    others: [
+      {
+        color: '#F8B147',
+        eventName: 'Fine arts',
+        link: 'finearts'
+      },
+      {
+        color: '#F78A2D',
+        eventName: 'Dance',
+        link: 'dance'
+      },
+      {
+        color: '#960796',
+        eventName: 'Literature',
+        link: 'literature'
       }
     ]
   },
@@ -250,6 +284,23 @@ export const eventLists = [
         image: Selcoholic,
         hoveredImage: musicCover //replace this field with the hover image of the event
       }
+    ],
+    others: [
+      {
+        color: '#F8B147',
+        eventName: 'Fine arts',
+        link: 'finearts'
+      },
+      {
+        color: '#F78A2D',
+        eventName: 'Dance',
+        link: 'dance'
+      },
+      {
+        color: '#960796',
+        eventName: 'Literature',
+        link: 'literature'
+      }
     ]
   },
   {
@@ -286,6 +337,23 @@ export const eventLists = [
         description: 'Online Poetry Contest ',
         image: WordyMuse,
         hoveredImage: musicCover //replace this field with the hover image of the event
+      }
+    ],
+    others: [
+      {
+        color: '#F8B147',
+        eventName: 'Fine arts',
+        link: 'finearts'
+      },
+      {
+        color: '#F78A2D',
+        eventName: 'Dance',
+        link: 'dance'
+      },
+      {
+        color: '#960796',
+        eventName: 'Literature',
+        link: 'literature'
       }
     ]
   },
@@ -338,6 +406,23 @@ export const eventLists = [
         image: tableTennis,
         hoveredImage: musicCover //replace this field with the hover image of the event
       }
+    ],
+    others: [
+      {
+        color: '#F8B147',
+        eventName: 'Fine arts',
+        link: 'finearts'
+      },
+      {
+        color: '#F78A2D',
+        eventName: 'Dance',
+        link: 'dance'
+      },
+      {
+        color: '#960796',
+        eventName: 'Literature',
+        link: 'literature'
+      }
     ]
   },
   {
@@ -375,6 +460,23 @@ export const eventLists = [
         image: Doodle,
         hoveredImage: musicCover //replace this field with the hover image of the event
       }
+    ],
+    others: [
+      {
+        color: '#F8B147',
+        eventName: 'Fine arts',
+        link: 'finearts'
+      },
+      {
+        color: '#F78A2D',
+        eventName: 'Dance',
+        link: 'dance'
+      },
+      {
+        color: '#960796',
+        eventName: 'Literature',
+        link: 'literature'
+      }
     ]
   },
   {
@@ -411,6 +513,23 @@ export const eventLists = [
         description: 'Tresasure Hunt',
         image: treasureHunt,
         hoveredImage: musicCover //replace this field with the hover image of the event
+      }
+    ],
+    others: [
+      {
+        color: '#F8B147',
+        eventName: 'Fine arts',
+        link: 'finearts'
+      },
+      {
+        color: '#F78A2D',
+        eventName: 'Dance',
+        link: 'dance'
+      },
+      {
+        color: '#960796',
+        eventName: 'Literature',
+        link: 'literature'
       }
     ]
   }
