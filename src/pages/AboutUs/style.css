@@ -1,0 +1,66 @@
+.headerUem {
+  background-color: #c4c4c4;
+  padding-top: 75px;
+  font-family: Neue Helvetica;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 450;
+  line-height: 63px;
+  letter-spacing: 0.05em;
+  text-align: center;
+}
+.aboutUem {
+  background-color: #c4c4c4;
+  padding-top: 25px;
+  padding-left: 35px;
+  padding-bottom: 25px;
+  justify-content: center;
+  align-items: center;
+}
+.aboutUem2 {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+.text {
+  justify-content: center;
+  align-items: center;
+  font-family: Sharp Sans;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 55px;
+  letter-spacing: -0.02em;
+  text-align: justified;
+  padding-right: 25px;
+}
+.headerEcstasia {
+  padding-top: 75px;
+  font-family: IBM Plex Mono;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 62px;
+  letter-spacing: 0.05em;
+  text-align: center;
+}
+.aboutEcstasia {
+  background-color: white;
+  padding-top: 25px;
+  padding-left: 35px;
+  padding-bottom: 25px;
+  justify-content: center;
+  align-items: center;
+}
+.aboutEcstasia2 {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+.text2 {
+  font-family: Sharp Sans;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 55px;
+  letter-spacing: -0.02em;
+  text-align: justified;
+}
