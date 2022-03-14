@@ -173,8 +173,8 @@ export const eventLists = [
     others: [
       {
         color: '#61B5A9',
-        eventName: 'Sports',
-        link: 'sports'
+        eventName: 'Games',
+        link: 'games'
       },
       {
         color: '#A498E2',
