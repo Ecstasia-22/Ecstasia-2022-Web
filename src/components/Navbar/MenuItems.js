@@ -33,10 +33,10 @@ export const MenuItems = [
     title: 'Contact Us',
     url: '#',
     cName: 'nav-links'
-  },
-  {
-    title: 'News Feed',
-    url: '#',
-    cName: 'nav-links'
   }
+  // {
+  //   title: 'News Feed',
+  //   url: '#',
+  //   cName: 'nav-links'
+  // }
 ]
