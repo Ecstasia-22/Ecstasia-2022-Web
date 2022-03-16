@@ -11,16 +11,16 @@ const Navbar = () => {
   }
 
   return (
-    <nav className="NavbarItems">
-      <div className="ecsLogo">{/* <img src="logo.png" alt="" /> */}</div>
-      <div className="menu-icon" onClick={handleClick}>
-        <i className={clicked ? 'fas fa-times' : 'fas fa-bars'}></i>
+    <nav classNameName="NavbarItems">
+      <div classNameName="ecsLogo">{/* <img src="logo.png" alt="" /> */}</div>
+      <div classNameName="menu-icon" onClick={handleClick}>
+        <i classNameName={clicked ? 'fas fa-times' : 'fas fa-bars'}></i>
       </div>
-      <ul className={clicked ? 'nav-menu active' : 'nav-menu'}>
+      <ul classNameName={clicked ? 'nav-menu active' : 'nav-menu'}>
         {MenuItems.map((item, index) => {
           return (
             <li key={index}>
-              <Link className={item.cName} to={item.url}>
+              <Link classNameName={item.cName} to={item.url}>
                 {item.title}
               </Link>
             </li>

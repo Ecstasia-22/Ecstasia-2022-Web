@@ -7,7 +7,7 @@ function Footer() {
     <div>
       <Container>
         <Typography align="center">
-          <footer className="footerStyle">
+          <footer classNameName="footerStyle">
             © Copyright ECSTASIA 2022 - All Rights Reserved
           </footer>
         </Typography>

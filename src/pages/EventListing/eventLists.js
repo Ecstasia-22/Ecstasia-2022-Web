@@ -155,7 +155,7 @@ export const eventLists = [
       {
         id: 4,
         name: 'Nrityar o Tale Tale',
-        description: 'Eastern or Semiclassical Group Dance',
+        description: 'Eastern or SemiclassNameical Group Dance',
         image: nott,
         hoveredImage: musicCover //replace this field with the hover image of the event
       }

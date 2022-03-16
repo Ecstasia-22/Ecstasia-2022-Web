@@ -22,7 +22,7 @@ const useStyles = makeStyles({
 })
 
 export default function EventListing() {
-  const classes = useStyles()
+  const classNamees = useStyles()
   const params = useParams()
   let eventDetails
   const eventDetailsArray = eventLists.filter(
@@ -41,7 +41,7 @@ export default function EventListing() {
       <>
         <div
           alt="cover"
-          className="coverImage"
+          classNameName="coverImage"
           style={{
             background: `url(${eventDetails.cover})`,
             backgroundPosition: 'center',
@@ -53,7 +53,7 @@ export default function EventListing() {
         <br />
         <br />
 
-        <img src={eventDetails.waterMark} alt="watermark" className="waterMark" />
+        <img src={eventDetails.waterMark} alt="watermark" classNameName="waterMark" />
 
         <Container>
           <Grid container>
@@ -70,7 +70,7 @@ export default function EventListing() {
             </Grid>
             <Grid item>
               <Typography variant="h5">
-                <strong className="musicTypo">{eventDetails.name}</strong>
+                <strong classNameName="musicTypo">{eventDetails.name}</strong>
               </Typography>
             </Grid>
           </Grid>
@@ -80,7 +80,7 @@ export default function EventListing() {
         <br />
 
         <Container>
-          <Grid container spacing={1} className="gridimages">
+          <Grid container spacing={1} classNameName="gridimages">
             {eventDetails.events.map((event, index) => {
               return (
                 <Link to={`/events/${event.category}`}>
@@ -91,16 +91,16 @@ export default function EventListing() {
               )
             })}
             {/*Other Events*/}
-            <Grid className="buttonEvents">
-              <Typography className={classes.mysicTypo1}>
-                <strong className="musicTypo1">Check out our other events</strong>
+            <Grid classNameName="buttonEvents">
+              <Typography classNameName={classNamees.mysicTypo1}>
+                <strong classNameName="musicTypo1">Check out our other events</strong>
               </Typography>
 
               {eventDetails.others.map((item, index) => {
                 return (
                   <div key={index}>
                     <button
-                      className="btn1"
+                      classNameName="btn1"
                       style={{ border: `4px solid ${item.color}` }}
                     >
                       <Link to={`/events/${item.link}`} style={{ color: item.color }}>
