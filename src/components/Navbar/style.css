@@ -94,8 +94,10 @@
     z-index: 1;
   }
   .nav-links {
+    font-family:'Neue Helvetica' ;
     text-align: center;
-    font-size: large;
+    font-size:22px ;
+    line-height: 25px;
     width: 100%;
     display: table;
   }
