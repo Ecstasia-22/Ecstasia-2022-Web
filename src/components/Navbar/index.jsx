@@ -12,6 +12,9 @@ const Navbar = () => {
 
   return (
     <nav className="NavbarItems">
+      <div className="ecsLogo">
+        {/* <img src="logo.png" alt="" /> */}
+      </div>
       <div className="menu-icon" onClick={handleClick}>
         <i className={clicked ? 'fas fa-times' : 'fas fa-bars'}></i>
       </div>
