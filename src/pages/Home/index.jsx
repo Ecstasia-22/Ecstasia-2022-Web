@@ -8,8 +8,8 @@ import './home.css'
 function Home() {
   return (
     <>
-        <Hero />
-        <div className="home">
+      <Hero />
+      <div className="home">
         <SocialIcons />
         <About />
         <Gallery />
