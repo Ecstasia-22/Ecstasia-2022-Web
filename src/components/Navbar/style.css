@@ -1,5 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+}
 
+.ecsLogo{
+  height: 64px;
+    width: 219.06665px;
+    left: 53.466796875px;
+    /* top: 10px; */
+    margin: 12px 61px;
+    border-radius: 0px;
+    background-image: url(logo.png);
+    background-repeat: no-repeat;
+}
 .NavbarItems {
   display: flex;
   height: 90px;
@@ -14,27 +28,30 @@
 }
 .nav-menu {
   display: flex;
-  justify-content: space-between;
+  justify-content:flex-end;
   align-items: center;
   list-style: none;
   text-align: center;
-
+  margin: 0;
+  padding: 0;
   width: 1366px;
   height: 91px;
 }
 .nav-links {
   color: #121013;
   text-decoration: none;
-  padding: 1.8rem 1rem;
-  letter-spacing: 0.05em;
-  font-family: 'IBM Plex Mono';
-  font-weight: bold;
-  font-size: 25px;
-  line-height: 35px;
+  padding: 2.26rem 1rem;
+  /* letter-spacing: 0.06em; */
+  font-family:'Neue Helvetica';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 42px;
   text-align: center;
+  letter-spacing: 0.1em;
 }
 .nav-links:hover {
-  background-color: black;
+  background-color: #61B5A9;
   color: white;
   transition: all 0.2s ease-out;
 }
