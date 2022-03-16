@@ -4,5 +4,4 @@ import App from './App'
 
 import './Assets/fonts/urbanJungle.otf'
 
-
 ReactDOM.render(<App />, document.getElementById('root'))
