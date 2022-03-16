@@ -1,11 +1,11 @@
 @font-face {
-    font-family: urbanJungle;
-    src: url('../../../Assets/fonts/urbanJungle.otf');
+    font-family: "Urban Jungle";
+    src: url("../../../Assets/fonts/UrbanJungleDEMO.woff2")format("woff2");
 }
 .hero {
   height: 100vh;
   color: #fff;
-  font-family: urbanJungle !important;
+  font-family: "Urban Jungle" !important;
 }
 .hero_backgroundVideo {
   object-fit: cover;
