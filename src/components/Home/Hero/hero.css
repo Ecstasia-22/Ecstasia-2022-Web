@@ -34,6 +34,10 @@ font-size: 36px !important;
   }
 }
 
+.hero_arrow{
+margin-top: 50vh;
+}
+
 
 /*---- Util class----*/
 .spacing{
