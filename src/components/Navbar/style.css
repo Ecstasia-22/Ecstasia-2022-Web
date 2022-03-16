@@ -88,7 +88,7 @@
   }
   .nav-menu.active {
     background: white;
-    height: 912px;
+    height: 815px;
     left: 0;
     transition: all 0.5s ease;
     z-index: 1;
