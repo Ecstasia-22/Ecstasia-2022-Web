@@ -16,13 +16,15 @@ export default function Footer() {
           <Grid className="logoclass" item xs={2} sm={4} md={4}>
             <img src={ecstasiaLogo} alt="logo" />
           </Grid>
-          <Grid classname="typoTexts" item xs={2} sm={4} md={4}>
-            <Typography>For General Enquiries: </Typography>
-            <Typography>ecstasia.uemk@gmail.com</Typography>
-            <br />
-            <br />
-            <Typography>For Sponorship Enquiries:</Typography>
-            <Typography>sponsorship.ecstasia.uemk@gmail.com</Typography>
+          <Grid className="typoTexts" item xs={2} sm={4} md={4}>
+            <Typography className="center">
+              <Typography>For General Enquiries: </Typography>
+              <Typography>ecstasia.uemk@gmail.com</Typography>
+              <br />
+              <br />
+              <Typography>For Sponorship Enquiries:</Typography>
+              <Typography>sponsorship.ecstasia.uemk@gmail.com</Typography>
+            </Typography>
           </Grid>
 
           <Grid className="map" item xs={2} sm={4} md={4}>
