@@ -4,12 +4,14 @@ import Gallery from '../../components/Home/Gallery/index.jsx'
 import Hero from '../../components/Home/Hero/index.jsx'
 import './home.css'
 function Home() {
-  return <>
-  <Hero />
-  <About />
-  <Gallery />
-  <Footer />
-  </>
+  return (
+    <>
+      <Hero />
+      <About />
+      <Gallery />
+      <Footer />
+    </>
+  )
 }
 
 export default Home

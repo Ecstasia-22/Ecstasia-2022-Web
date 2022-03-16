@@ -35,4 +35,5 @@ export default function Footer() {
       </Box>
     </>
   )
+  return <div>Footer</div>
 }

@@ -4,6 +4,7 @@ import './aboutUs.css'
 import ecstasiaLogo from './Logo.png'
 
 export default function About() {
+<<<<<<< HEAD
   return (
     <Box
       sx={{
@@ -29,4 +30,7 @@ export default function About() {
       </Grid>
     </Box>
   )
+=======
+  return <div>About</div>
+>>>>>>> 6bb46d72c920c3386c8109cbc72941a0e8febe80
 }
