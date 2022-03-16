@@ -1,0 +1,8 @@
+.sticky-social{
+    position:fixed;
+    top:50vh;
+    left:-40px;
+    padding:0px;
+    margin:0px;
+    color: azure;
+  }
