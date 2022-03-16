@@ -5,38 +5,28 @@ export const MenuItems = [
     cName: 'nav-links'
   },
   {
+    title: 'About Us',
+    url: '/AboutUs',
+    cName: 'nav-links'
+  },
+  {
     title: 'Events',
     url: '/Events',
     cName: 'nav-links'
   },
   {
     title: 'Gallery',
-    url: '#',
+    url: '/gallery',
     cName: 'nav-links'
   },
   {
     title: 'Partners',
-    url: '#',
+    url: '/patners',
     cName: 'nav-links'
   },
   {
-    title: 'Register',
-    url: '#',
-    cName: 'nav-links'
-  },
-  {
-    title: 'About Us',
-    url: '/AboutUs',
-    cName: 'nav-links'
-  },
-  {
-    title: 'Contact Us',
-    url: '#',
+    title: 'Team',
+    url: '/team',
     cName: 'nav-links'
   }
-  // {
-  //   title: 'News Feed',
-  //   url: '#',
-  //   cName: 'nav-links'
-  // }
 ]

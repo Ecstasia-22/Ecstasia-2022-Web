@@ -1,3 +1,4 @@
+import { Container } from '@mui/material'
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import { MenuItems } from './MenuItems'
@@ -20,7 +21,7 @@ const Navbar = () => {
         {MenuItems.map((item, index) => {
           return (
             <li key={index}>
-              <Link className={item.cName} to={item.url}>
+              <Link className={item.cName} to={item.url} onClick={((e) => handleClick(e))}>
                 {item.title}
               </Link>
             </li>
