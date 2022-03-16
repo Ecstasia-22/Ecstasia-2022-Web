@@ -3,13 +3,13 @@
     src: url("../../../Assets/fonts/UrbanJungleDEMO.woff2")format("woff2");
 }
 .hero {
-  height: 100vh;
+  height: 90vh;
   color: #fff;
   font-family: "Urban Jungle" !important;
 }
 .hero_backgroundVideo {
   object-fit: cover;
-  height: 90vh;
+  height: 95vh;
   width: 100%;
   position: absolute;
   top: 0;

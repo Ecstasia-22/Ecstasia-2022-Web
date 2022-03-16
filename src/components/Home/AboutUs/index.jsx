@@ -5,6 +5,7 @@ import ecstasiaLogo from './Logo.png'
 
 export default function About() {
   return (
+    <div className='about'>
     <Container maxWidth="xl">
       <Grid container>
         <Grid item md={4} className="logoClass">
@@ -14,6 +15,7 @@ export default function About() {
           <Typography variant="h4" align="center">
             <b>About Us</b>
           </Typography>
+          <br/>
           <Typography variant="h6">
             ECSTASIA is a land of celebration of talents. It is a cultural fest where
             artists and players gather around to share their expertise with everyone.
@@ -29,5 +31,6 @@ export default function About() {
         </Grid>
       </Grid>
     </Container>
+    </div>
   )
 }

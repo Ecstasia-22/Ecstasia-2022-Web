@@ -4,14 +4,12 @@ import Gallery from '../../components/Home/Gallery/index.jsx'
 import Hero from '../../components/Home/Hero/index.jsx'
 import SocialIcons from '../../components/SocialIcons/index.jsx'
 
-import { Grid } from '@mui/material'
-
 import './home.css'
 function Home() {
   return (
     <>
-      <div className="home">
         <Hero />
+        <div className="home">
         <SocialIcons />
         <About />
         <Gallery />
