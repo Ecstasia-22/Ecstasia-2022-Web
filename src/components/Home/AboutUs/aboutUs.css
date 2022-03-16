@@ -1,3 +1,7 @@
-.aboutUs {
-  background-image: url('');
+.logoClass {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 310px;
+  height: 310px;
 }

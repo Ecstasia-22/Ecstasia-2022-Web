@@ -5,3 +5,8 @@
 hr {
   color: black;
 }
+.typotexts {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

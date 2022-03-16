@@ -41,7 +41,7 @@ export default function EventListing() {
       <>
         <div
           alt="cover"
-          classNameName="coverImage"
+          className="coverImage"
           style={{
             background: `url(${eventDetails.cover})`,
             backgroundPosition: 'center',
@@ -53,7 +53,7 @@ export default function EventListing() {
         <br />
         <br />
 
-        <img src={eventDetails.waterMark} alt="watermark" classNameName="waterMark" />
+        <img src={eventDetails.waterMark} alt="watermark" className="waterMark" />
 
         <Container>
           <Grid container>
@@ -70,7 +70,7 @@ export default function EventListing() {
             </Grid>
             <Grid item>
               <Typography variant="h5">
-                <strong classNameName="musicTypo">{eventDetails.name}</strong>
+                <strong className="musicTypo">{eventDetails.name}</strong>
               </Typography>
             </Grid>
           </Grid>
@@ -80,7 +80,7 @@ export default function EventListing() {
         <br />
 
         <Container>
-          <Grid container spacing={1} classNameName="gridimages">
+          <Grid container spacing={1} className="gridimages">
             {eventDetails.events.map((event, index) => {
               return (
                 <Link to={`/events/${event.category}`}>
@@ -91,16 +91,16 @@ export default function EventListing() {
               )
             })}
             {/*Other Events*/}
-            <Grid classNameName="buttonEvents">
-              <Typography classNameName={classNamees.mysicTypo1}>
-                <strong classNameName="musicTypo1">Check out our other events</strong>
+            <Grid className="buttonEvents">
+              <Typography className={classNamees.mysicTypo1}>
+                <strong className="musicTypo1">Check out our other events</strong>
               </Typography>
 
               {eventDetails.others.map((item, index) => {
                 return (
                   <div key={index}>
                     <button
-                      classNameName="btn1"
+                      className="btn1"
                       style={{ border: `4px solid ${item.color}` }}
                     >
                       <Link to={`/events/${item.link}`} style={{ color: item.color }}>

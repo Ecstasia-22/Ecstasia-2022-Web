@@ -13,8 +13,8 @@ import { Link } from 'react-router-dom'
 function Events() {
   return (
     <>
-      <div classNameName="background" style={{ backgroundImage: `url(${EventsBG})` }}>
-        <div classNameName="card">
+      <div className="background" style={{ backgroundImage: `url(${EventsBG})` }}>
+        <div className="card">
           <Link to="/events/dance">
             <img src={Dance} alt="Dance" />
           </Link>

@@ -1,3 +1,4 @@
+import { Container } from '@mui/material'
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import { MenuItems } from './MenuItems'
@@ -11,16 +12,16 @@ const Navbar = () => {
   }
 
   return (
-    <nav classNameName="NavbarItems">
-      <div classNameName="ecsLogo">{/* <img src="logo.png" alt="" /> */}</div>
-      <div classNameName="menu-icon" onClick={handleClick}>
-        <i classNameName={clicked ? 'fas fa-times' : 'fas fa-bars'}></i>
+    <nav className="NavbarItems">
+      <div className="ecsLogo">{/* <img src="logo.png" alt="" /> */}</div>
+      <div className="menu-icon" onClick={handleClick}>
+        <i className={clicked ? 'fas fa-times' : 'fas fa-bars'}></i>
       </div>
-      <ul classNameName={clicked ? 'nav-menu active' : 'nav-menu'}>
+      <ul className={clicked ? 'navbar_menu active' : 'navbar_menu'}>
         {MenuItems.map((item, index) => {
           return (
             <li key={index}>
-              <Link classNameName={item.cName} to={item.url}>
+              <Link className={item.cName} to={item.url} onClick={(e) => handleClick(e)}>
                 {item.title}
               </Link>
             </li>
