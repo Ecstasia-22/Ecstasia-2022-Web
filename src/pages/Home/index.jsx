@@ -10,21 +10,13 @@ import './home.css'
 function Home() {
   return (
     <>
-<<<<<<< HEAD
-      <Grid className="home">
+      <div className="home">
         <Hero />
         <SocialIcons />
         <About />
         <Gallery />
         <Footer />
-      </Grid>
-=======
-      <Hero />
-      <SocialIcons />
-      <About />
-      <Gallery />
-      <Footer />
->>>>>>> eb8ac0d7bd342af6874558b5e989b2d4d928bf9b
+      </div>
     </>
   )
 }
