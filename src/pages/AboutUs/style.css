@@ -2,7 +2,7 @@
   background-color: #c4c4c4;
   padding-top: 75px;
   font-family: Neue Helvetica;
-  font-size: 48px;
+  font-size: 36px;
   font-style: normal;
   font-weight: 450;
   line-height: 63px;
@@ -21,11 +21,17 @@
   display: grid;
   grid-template-columns: 1fr 2fr;
 }
+.uemLogo {
+  max-height: 300px;
+}
+.ecstasiaLogo {
+  max-height: 400px;
+}
 .text {
   justify-content: center;
   align-items: center;
   font-family: Sharp Sans;
-  font-size: 36px;
+  font-size: 25px;
   font-style: normal;
   font-weight: 500;
   line-height: 55px;
@@ -36,7 +42,7 @@
 .headerEcstasia {
   padding-top: 75px;
   font-family: IBM Plex Mono;
-  font-size: 48px;
+  font-size: 36px;
   font-style: normal;
   font-weight: 700;
   line-height: 62px;
@@ -57,10 +63,29 @@
 }
 .text2 {
   font-family: Sharp Sans;
-  font-size: 45px;
+  font-size: 25px;
   font-style: normal;
   font-weight: 500;
   line-height: 55px;
   letter-spacing: -0.02em;
   text-align: justified;
+}
+@media screen and (max-width: 960px) {
+  .aboutUem {
+    padding-right: 15px;
+  }
+  .aboutUem2 {
+    display: flex;
+    flex-direction: column;
+  }
+  .aboutEcstasia2 {
+    display: flex;
+    flex-direction: column;
+  }
+  .uemLogo {
+    max-width: fit-content;
+  }
+  .ecstasiaLogo {
+    max-width: fit-content;
+  }
 }

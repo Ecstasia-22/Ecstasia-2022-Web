@@ -83,9 +83,11 @@ export default function EventListing() {
           <Grid container spacing={1} className="gridimages">
             {eventDetails.events.map((event, index) => {
               return (
-                <Grid item xs={12} md={4} lg={4} key={index}>
-                  <img src={event.image} alt="funtakshari" />
-                </Grid>
+                <Link to={`/events/${event.category}`}>
+                  <Grid item xs={12} md={4} lg={4} key={index}>
+                    <img src={event.image} alt="funtakshari" />
+                  </Grid>
+                </Link>
               )
             })}
             {/*Other Events*/}
