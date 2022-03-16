@@ -1,6 +1,6 @@
 @font-face {
-    font-family: urbanJungle;
-    src: url('../../../Assets/fonts/urbanJungle.otf');
+  font-family: urbanJungle;
+  src: url('../../../Assets/fonts/urbanJungle.otf');
 }
 .hero {
   height: 100vh;
@@ -15,32 +15,31 @@
   top: 0;
   left: 0;
   z-index: -1;
-  margin-top: 90px;
+  /* margin-top: 90px; */
 }
 
-.hero_h1{
-font-size: 48px !important;
-font-weight: 600;
+.hero_h1 {
+  font-size: 48px !important;
+  font-weight: 600;
 }
-.hero_h2{
-font-size: 36px !important;
+.hero_h2 {
+  font-size: 36px !important;
 }
 @media screen and (max-width: 960px) {
-  .hero_h1{
+  .hero_h1 {
     font-size: 40px !important;
   }
-  .hero_h2{
+  .hero_h2 {
     font-size: 28px !important;
   }
 }
 
-.hero_arrow{
-margin-top: 50vh;
+.hero_arrow {
+  margin-top: 50vh;
 }
 
-
 /*---- Util class----*/
-.spacing{
-    padding: 1rem;
-    margin: 2rem auto;
+.spacing {
+  padding: 1rem;
+  margin: 2rem auto;
 }
