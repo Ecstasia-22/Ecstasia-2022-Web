@@ -1,8 +1,13 @@
 .sticky-social{
     position:fixed;
-    top:50vh;
-    left:-40px;
+    top:45vh;
+    left:-30px;
     padding:0px;
-    margin:0px;
+    margin:0px 1rem;
     color: azure;
+  }
+
+  .icons{
+      display: flex;
+      flex-direction: column;
   }
