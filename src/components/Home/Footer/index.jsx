@@ -12,7 +12,7 @@ import Map from '../../Map'
 export default function Footer() {
   return (
     <>
-      <Container maxWidth="xl">
+      <Container maxWidth="xl" id="footerMain">
         <Box className="footerMain" sx={{ flexGrow: 1 }}>
           <Grid container spacing={{ xs: 2, md: 3 }} columns={{ xs: 4, sm: 8, md: 12 }}>
             <Grid className="logoclass" item xs={2} sm={4} md={4}>

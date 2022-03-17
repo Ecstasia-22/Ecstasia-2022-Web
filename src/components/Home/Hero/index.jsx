@@ -1,8 +1,11 @@
-import { Container, Typography } from '@mui/material'
+import { Container, Typography, Link } from '@mui/material'
 import React from 'react'
 import './hero.css'
 import BgVideo from '../../../Assets/Home/hero.mp4'
 import Arrow from '../../../Assets/Home/arrow.svg'
+import Footer from '../Footer'
+
+import './hero'
 
 export default function Hero() {
   return (
@@ -16,7 +19,10 @@ export default function Hero() {
           <h2 className="hero_h2">ANNUAL CULTURAL FESTIVAL OF UEM KOLKATA</h2>
         </div>
         <Typography align="center">
-          <img src={Arrow} alt="arrow" className="hero_arrow" />
+          <Link to href="#footerMain" smooth={true} duration={500} delay={1000}>
+            {' '}
+            <img src={Arrow} alt="arrow" className="hero_arrow " />
+          </Link>
         </Typography>
       </Container>
     </div>
