@@ -1,11 +1,7 @@
 .logoClass {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 310px;
-  height: 310px;
+margin: 0.2rem auto;
 }
-
 .about{
   padding: 3rem;
+  font-weight: 400;
 }

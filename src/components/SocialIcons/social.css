@@ -1,13 +1,18 @@
-.sticky-social{
-    position:fixed;
-    top:45vh;
-    left:-30px;
-    padding:0px;
-    margin:0px 1rem;
-    color: azure;
-  }
+.sticky-social {
+  position: fixed;
+  top: 45vh;
+  left: -20px;
+  padding: 0px;
+  margin: 0px 1rem;
+}
 
-  .icons{
-      display: flex;
-      flex-direction: column;
+.icons {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 960px) {
+  .sticky-social {
+    display: none;
   }
+}
