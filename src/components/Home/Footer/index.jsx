@@ -13,34 +13,28 @@ export default function Footer() {
   return (
     <>
       <Container maxWidth="xl" id="footerMain">
-        <Box className="footerMain" sx={{ flexGrow: 1 }}>
-          <Grid container spacing={{ xs: 2, md: 3 }} columns={{ xs: 4, sm: 8, md: 12 }}>
-            <Grid className="logoclass" item xs={2} sm={4} md={4}>
+        <Container className="footerMain">
+          <Grid container>
+            <Grid item className="logoclass" xs={12} md={3}>
               <img className="logoImg2" src={ecstasiaLogo} alt="logo" />
             </Grid>
-            <Grid className="typoTexts" item xs={2} sm={4} md={4}>
-              <Typography className="center">
-                <Typography>
-                  {' '}
-                  <b>For General Enquiries:</b>{' '}
-                </Typography>
-                <Typography>ecstasia.uemk@gmail.com</Typography>
+            <Grid item xs={12} md={4}>
+              <div className="typotexts">
+                <b>For General Enquiries:</b>{' '}
+                <p>ecstasia.uemk@gmail.com</p>
                 <br />
                 <br />
-                <Typography>
-                  {' '}
-                  <b>For Sponorship Enquiries:</b>{' '}
-                </Typography>
-                <Typography>sponsorship.ecstasia.uemk@gmail.com</Typography>
-              </Typography>
+                <b>For Sponorship Enquiries:</b>{' '}
+                <p>sponsorship.ecstasia.uemk@gmail.com</p>
+              </div>
             </Grid>
-
-            <Grid className="map" item xs={2} sm={4} md={4}>
-              <Map></Map>
+            <Grid item md={1}></Grid>
+            <Grid className="map" item xs={12} md={4}>
+              <Map />
             </Grid>
             <br />
           </Grid>
-        </Box>
+        </Container>
         <Grid className="copyRight">
           <hr
             style={{

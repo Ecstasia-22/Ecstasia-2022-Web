@@ -25,10 +25,10 @@ export default function About() {
               drama, dance, literacy events, fine arts, photography and even online
               competitions. It is the celebration of uniqueness. <br />
               <br />
-              <p>
+
                 Join us on the 4th edition of Ecstasia, March 2022, organized by UEM
                 Kolkata. Let us all gather and make this a significant moment of our life.
-              </p>
+
             </Typography>
           </Grid>
         </Grid>
