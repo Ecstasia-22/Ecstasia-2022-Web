@@ -1,35 +1,40 @@
 import React from 'react'
 import './gallery.scss'
+import './gallery'
+
+import { Container } from '@mui/material'
 
 export default function Gallery() {
   return (
-    <div>
-      <div class="container">
-        <div>
-          <div class="content">
-            <h2>Jane Doe</h2>
-            <span>UI UX Designer</span>
+    <Container>
+      <div>
+        <div class="options">
+          <div class="option active">
+            <div class="shadow"></div>
+            <div class="label">label</div>
+          </div>
+          <div class="option">
+            <div class="shadow"></div>
+            <div class="label">label</div>
+          </div>
+          <div class="option">
+            <div class="shadow"></div>
+            <div class="label">label</div>
+          </div>
+          <div class="option">
+            <div class="shadow"></div>
+            <div class="label">label</div>
+          </div>
+          <div class="option">
+            <div class="shadow"></div>
+            <div class="label">label</div>
           </div>
         </div>
-        <div>
-          <div class="content">
-            <h2>Alex Smith</h2>
-            <span>CEO Expert</span>
-          </div>
-        </div>
-        <div>
-          <div class="content">
-            <h2>Emily New</h2>
-            <span>Web Designer</span>
-          </div>
-        </div>
-        <div>
-          <div class="content">
-            <h2>Lisa Boley</h2>
-            <span>Marketing Coordinator</span>
-          </div>
-        </div>
+
+        <a href="http://victorofvalencia-blog.tumblr.com" target="_blank" class="credit">
+          Photos from Victor of Valencia on tumblr
+        </a>
       </div>
-    </div>
+    </Container>
   )
 }

@@ -1,75 +1,123 @@
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap');
+$optionDefaultColours: #ed5565, #fc6e51, #ffce54, #2ecc71, #5d9cec, #ac92ec;
 
-.container {
-  width: 100%;
+// body {
+//   display: flex;
+//   flex-direction: row;
+//   justify-content: center;
+//   align-items: center;
+//   overflow: hidden;
+//   height: 100vh;
+
+//   font-family: 'Roboto', sans-serif;
+//   transition: 0.25s;
+
+.credit {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+
+  color: inherit;
+}
+.options {
   display: flex;
-  justify-content: center;
-  height: 500px;
-  gap: 10px;
+  flex-direction: row;
+  align-items: stretch;
+  overflow: hidden;
 
-  > div {
-    flex: 0 0 120px;
-    border-radius: 0.5rem;
-    transition: 0.5s ease-in-out;
-    cursor: pointer;
-    box-shadow: 1px 5px 15px #1e0e3e;
+  min-width: 600px;
+  max-width: 900px;
+  width: calc(100% - 100px);
+
+  height: 400px;
+
+  @for $i from 1 through 4 {
+    //  @media screen and (max-width:798px - $i*80) {
+    //     min-width:600px - $i*80;
+    //     .option:nth-child(#{6-$i}) {
+    //        display:none;
+    //     }
+    //  }
+  }
+
+  .option {
     position: relative;
     overflow: hidden;
 
-    &:nth-of-type(1) {
-      background: url('https://images.pexels.com/photos/1845208/pexels-photo-1845208.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260')
-        no-repeat 50% / cover;
-    }
-    &:nth-of-type(2) {
-      background: url('https://images.pexels.com/photos/36469/woman-person-flowers-wreaths.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260')
-        no-repeat 50% / cover;
-    }
-    &:nth-of-type(3) {
-      background: url('https://images.pexels.com/photos/1468379/pexels-photo-1468379.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260')
-        no-repeat 50% / cover;
-    }
-    &:nth-of-type(4) {
-      background: url('https://images.pexels.com/photos/247322/pexels-photo-247322.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260')
-        no-repeat 50% / cover;
-    }
+    min-width: 60px;
+    margin: 10px;
+    //border:0px solid --defaultColor;
 
-    .content {
-      font-size: 1.5rem;
-      color: #fff;
-      display: flex;
-      align-items: center;
-      padding: 15px;
-      opacity: 0;
-      flex-direction: column;
-      height: 100%;
-      justify-content: flex-end;
-      background: rgb(2, 2, 46);
-      background: linear-gradient(
-        0deg,
-        rgba(2, 2, 46, 0.6755077030812324) 0%,
-        rgba(255, 255, 255, 0) 100%
-      );
-      transform: translate(100%);
-      transition: opacity 0.5s ease-in-out, transform 0.5s 0.2s;
-      visibility: hidden;
+    background: var(--optionBackground, var(--defaultBackground, #e6e9ed));
+    background-size: auto 120%;
+    background-position: center;
 
-      span {
-        display: block;
-        margin-top: 5px;
-        font-size: 1.2rem;
+    cursor: pointer;
+
+    transition: 0.5s cubic-bezier(0.05, 0.61, 0.41, 0.95);
+
+    @for $i from 1 through length($optionDefaultColours) {
+      &:nth-child(#{$i}) {
+        --defaultBackground: #{nth($optionDefaultColours, $i)};
       }
     }
+    &.active {
+      flex-grow: 10000;
+      transform: scale(1);
 
-    &:hover {
-      flex: 0 0 250px;
-      box-shadow: 1px 3px 15px #7645d8;
-      transform: translate(-30px);
+      max-width: 600px;
+      margin: 0px;
+      border-radius: 40px;
+
+      background-size: auto 100%;
+      .shadow {
+        box-shadow: inset 0 -120px 120px -120px black, inset 0 -120px 120px -100px black;
+      }
+      .label {
+        bottom: 20px;
+        left: 20px;
+        .info > div {
+          left: 0px;
+          opacity: 1;
+        }
+      }
+      /*&:active {
+               transform:scale(0.9);
+            }*/
     }
+    &:not(.active) {
+      flex-grow: 1;
 
-    &:hover .content {
-      opacity: 1;
-      transform: translatey(0%);
-      visibility: visible;
+      border-radius: 30px;
+      .shadow {
+        bottom: -40px;
+        box-shadow: inset 0 -120px 0px -120px black, inset 0 -120px 0px -100px black;
+      }
+      .label {
+        bottom: 10px;
+        left: 10px;
+        .info > div {
+          left: 20px;
+          opacity: 0;
+        }
+      }
+    }
+    .shadow {
+      position: absolute;
+      bottom: 0px;
+      left: 0px;
+      right: 0px;
+
+      height: 120px;
+
+      transition: 0.5s cubic-bezier(0.05, 0.61, 0.41, 0.95);
+    }
+    .label {
+      display: flex;
+      position: absolute;
+      right: 0px;
+
+      height: 40px;
+      transition: 0.5s cubic-bezier(0.05, 0.61, 0.41, 0.95);
     }
   }
 }
