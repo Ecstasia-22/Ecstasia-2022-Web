@@ -8,14 +8,14 @@ export default function About() {
     <div className="about">
       <Container maxWidth="xl">
         <Grid container>
-          <Grid item md={4} xs={12} >
-          <Typography align="center">
-            <img src={ecstasiaLogo} className="logoClass" alt="logo" />
+          <Grid item md={4} xs={12}>
+            <Typography align="center">
+              <img src={ecstasiaLogo} className="logoClass" alt="logo" />
             </Typography>
           </Grid>
           <Grid item md={8} xs={12} className="contentClass">
             <Typography variant="h4" align="center">
-              <b style={{fontWeight: '800'}}>About Us</b>
+              <b style={{ fontWeight: '800' }}>About Us</b>
             </Typography>
             <br />
             <Typography variant="h6" align="left">
