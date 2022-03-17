@@ -1,4 +1,4 @@
-import { Grid, Box, Item, Typography, Container } from '@mui/material'
+import { Grid, Typography, Container } from '@mui/material'
 import React from 'react'
 import './aboutUs.css'
 import ecstasiaLogo from './Logo.png'

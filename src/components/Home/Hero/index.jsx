@@ -3,8 +3,6 @@ import React from 'react'
 import './hero.css'
 import BgVideo from '../../../Assets/Home/hero.mp4'
 import Arrow from '../../../Assets/Home/arrow.svg'
-import Footer from '../Footer'
-
 import './hero'
 
 export default function Hero() {

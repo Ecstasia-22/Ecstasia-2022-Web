@@ -1,12 +1,10 @@
 import React from 'react'
-import Box from '@mui/material/Box'
 import Grid from '@mui/material/Grid'
 import { Typography, Container } from '@mui/material'
 
 import './footer.css'
 
 import ecstasiaLogo from './Logo.png'
-import map from './map.png'
 import Map from '../../Map'
 
 export default function Footer() {
