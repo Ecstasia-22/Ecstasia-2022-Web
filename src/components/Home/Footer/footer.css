@@ -10,3 +10,41 @@ hr {
   align-items: center;
   justify-content: center;
 }
+.center {
+  padding-top: 48px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  /* identical to box height, or 156% */
+
+  letter-spacing: 0.005em;
+
+  color: #121013;
+}
+.logoImg2 {
+  height: 200px;
+  width: 200px;
+  margin: 30px;
+  display: flex;
+  align-items: flex-end;
+}
+.copyRight {
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+.copyrightText {
+  padding-top: 30px;
+  font-family: 'Neue Helvetica';
+  font-style: normal;
+  font-weight: 550;
+  font-size: 80px;
+  /* line-height: 30px; */
+  /* identical to box height, or 167% */
+
+  text-align: center;
+  letter-spacing: 0.005em;
+
+  color: #121013;
+
+  /* Inside auto layout */
+}
