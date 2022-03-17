@@ -1,0 +1,15 @@
+.sectionGallery {
+  background: linear-gradient(0deg, rgba(18, 16, 19, 0.7), rgba(18, 16, 19, 0.7)),
+    url(./sectionGallery.jpg);
+
+  height: 680px;
+}
+.textG {
+  color: azure;
+  padding: 40px;
+}
+.containerGallery {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

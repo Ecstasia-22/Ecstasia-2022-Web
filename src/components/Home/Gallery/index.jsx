@@ -1,13 +1,19 @@
 import React from 'react'
 import './gallery.scss'
+import './galleryImage.css'
 import './gallery'
 
-import { Container } from '@mui/material'
+import { Container, Grid, Typography, Button } from '@mui/material'
 
 export default function Gallery() {
   return (
-    <Container>
-      <div>
+    <Grid className="sectionGallery">
+      <Grid>
+        <Typography className="textG" variant="h4" align="center">
+          <b> Gallery</b>
+        </Typography>
+      </Grid>
+      <Grid container direction="row" justifyContent="center" alignItems="center">
         <div class="options">
           <div class="option active">
             <div class="shadow"></div>
@@ -30,11 +36,10 @@ export default function Gallery() {
             <div class="label">label</div>
           </div>
         </div>
-
-        <a href="http://victorofvalencia-blog.tumblr.com" target="_blank" class="credit">
-          Photos from Victor of Valencia on tumblr
-        </a>
-      </div>
-    </Container>
+      </Grid>
+      <Grid align="center" style={{ padding: '40px' }}>
+        <Button align="center">See More</Button>
+      </Grid>
+    </Grid>
   )
 }
