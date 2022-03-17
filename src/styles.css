@@ -1,0 +1,7 @@
+@font-face {
+    font-family: Neue Helvetica;
+    src: url('./Assets/fonts/Helvetica\ Neue\ LT\ 45\ Light.ttf') format('truetype');
+  }
+  *, html, body, #root {
+    font-family: Neue Helvetica;
+  }

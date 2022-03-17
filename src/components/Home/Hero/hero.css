@@ -1,11 +1,11 @@
 @font-face {
-    font-family: "Urban Jungle";
-    src: url("../../../Assets/fonts/UrbanJungleDEMO.woff2")format("woff2");
+  font-family: 'Urban Jungle';
+  src: url('../../../Assets/fonts/UrbanJungleDEMO.woff2') format('woff2');
 }
 .hero {
   height: 90vh;
   color: #fff;
-  font-family: "Urban Jungle" !important;
+  font-family: 'Urban Jungle' !important;
 }
 .hero_backgroundVideo {
   object-fit: cover;
@@ -16,31 +16,62 @@
   left: 0;
   z-index: -1;
   margin-top: 90px;
+  filter: brightness(80%)
 }
 
-.hero_h1{
-font-size: 48px !important;
-font-weight: 600;
+.hero_h1 {
+  font-family: Urban Jungle !important;
+  font-size: 45px !important;
+  letter-spacing: 1rem;
+  font-weight: 600;
+  line-height: 6rem;
 }
-.hero_h2{
-font-size: 36px !important;
+.hero_h2 {
+  font-family: Urban Jungle !important;
+  letter-spacing: 0.6rem;
+  font-size: 36px !important;
 }
 @media screen and (max-width: 960px) {
-  .hero_h1{
-    font-size: 40px !important;
+
+  .hero_backgroundVideo {
+    object-fit: cover;
+    height: 95vh;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    margin-top: 90px;
+    filter: brightness(60%)
   }
-  .hero_h2{
-    font-size: 28px !important;
+
+  .hero_h1 {
+    font-size: 35px !important;
+    letter-spacing: 1.6rem;
+    font-weight: 300;
+    line-height: 2.2rem;
+    margin-bottom: 2rem;
+  }
+  .hero_h2 {
+    font-size: 30px !important;
+    letter-spacing: 1.6rem;
+    font-weight: 300;
+    line-height: 2.2rem;
+  }
+
+  .hero_arrow {
+    margin-top: 15vh !important;
+
   }
 }
 
-.hero_arrow{
-margin-top: 50vh;
+.hero_arrow {
+  margin-top: 50vh;
 }
 
 
 /*---- Util class----*/
-.spacing{
-    padding: 1rem;
-    margin: 2rem auto;
+.spacing {
+  padding: 1rem;
+  margin: 2rem auto;
 }
