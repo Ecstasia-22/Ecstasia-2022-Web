@@ -20,11 +20,11 @@ export default function Footer() {
             </Grid>
             <Grid item xs={12} md={4}>
               <div className="typotexts">
-                <b>For General Enquiries:</b>{' '}
+                <b>For General Enquiries:</b>
                 <p>ecstasia.uemk@gmail.com</p>
                 <br />
                 <br />
-                <b>For Sponorship Enquiries:</b>{' '}
+                <b>For Sponorship Enquiries:</b>
                 <p>sponsorship.ecstasia.uemk@gmail.com</p>
               </div>
             </Grid>

@@ -1,6 +1,6 @@
 .footerMain {
   padding-top: 80px;
-  padding-bottom: 80px;
+  padding-bottom: 10px;
   font-family: 'Neue Helvetica', Helvetica, Arial, sans-serif !important;
 }
 hr {
@@ -11,12 +11,14 @@ hr {
 }
 
 .typotexts > p {
+  font-weight: 500;
   font-size: 18px;
 }
 
 .typotexts > b{
 font-size: 20px;
-font-weight: 600;
+font-weight: 900 !important;
+margin-bottom: 1.5rem !important;
 }
 .center {
   padding-top: 48px;
@@ -40,15 +42,9 @@ font-weight: 600;
 .copyrightText {
   padding-top: 30px;
   font-style: normal;
-  font-weight: 550;
+  font-weight: 900;
   font-size: 80px;
-  /* line-height: 30px; */
-  /* identical to box height, or 167% */
-
   text-align: center;
   letter-spacing: 0.005em;
-
-  color: #121013;
-
-  /* Inside auto layout */
+  color: #000;
 }
