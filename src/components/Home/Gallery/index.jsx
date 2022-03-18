@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import './sectionGallery.css'
 import { Typography } from '@mui/material'
+import { Link } from 'react-router-dom'
 
 
 const images = [
@@ -53,6 +54,12 @@ export default function Gallery() {
           ))}
         </div>
       </Typography >
+
+      <Typography align="center">
+        <Link to={"/gallery"} >
+          <button className='sectionGallery_btn'> View More </button>
+        </Link>
+      </Typography>
     </div>
   )
 }
