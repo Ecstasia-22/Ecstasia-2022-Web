@@ -5,7 +5,10 @@ export const singleEvent = [
         title: 'Music',
         subtitle: 'https://i.ibb.co/0zZxXxL/cover.jpg',
         desc: 'https://i.ibb.co/0zZxXxL/watermark.png',
-        rules: 'https://i.ibb.co/0zZxXxL/watermark.png',
+        rules: [{
+            id: 1,
+            rule: 'The event will be conducted in English.',
+        }],
         coOrdinators: [
             {
                 name: 'Saurabh',

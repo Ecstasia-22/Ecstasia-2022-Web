@@ -262,14 +262,6 @@ export const eventLists = [
       },
       {
         id: 2,
-        name: 'Film Flights',
-        link: 'FilmFlights',
-        description: 'Online Short Flim Making Contest',
-        image: filmFights,
-        hoveredImage: musicCover //replace this field with the hover image of the event
-      },
-      {
-        id: 3,
         name: 'Reel o Meter',
         link: 'ReelOMeter',
         description: 'Online Reel Making Contest',
@@ -277,7 +269,7 @@ export const eventLists = [
         hoveredImage: musicCover //replace this field with the hover image of the event
       },
       {
-        id: 4,
+        id: 3,
         name: 'Perfect Shutter',
         link: 'PerfectShutter',
         description: 'Online Photography Contest',
@@ -285,7 +277,7 @@ export const eventLists = [
         hoveredImage: musicCover //replace this field with the hover image of the event
       },
       {
-        id: 5,
+        id: 4,
         name: 'Artsy Lens',
         link: 'ArtsyLens',
         description: 'Online Selfie Contest',
@@ -328,14 +320,6 @@ export const eventLists = [
       },
       {
         id: 2,
-        name: 'Grey Cells',
-        link: 'GreyCells',
-        description: 'Online Inter-school General Quiz Contest',
-        image: greyCells,
-        hoveredImage: musicCover //replace this field with the hover image of the event
-      },
-      {
-        id: 3,
         name: 'Knownsense',
         link: 'KnownSense',
         description: 'Online Inter-college General Quiz Contest',
@@ -343,7 +327,7 @@ export const eventLists = [
         hoveredImage: musicCover //replace this field with the hover image of the event
       },
       {
-        id: 4,
+        id: 3,
         name: 'Wordy Muse',
         link: 'WordyMuse',
         description: 'Online Poetry Contest ',
@@ -409,7 +393,7 @@ export const eventLists = [
         hoveredImage: musicCover //replace this field with the hover image of the event
       },
       {
-        id: 6,
+        id: 5,
         name: 'Whiff Whaff',
         link: 'WhiffWhaff',
         description: 'Table Tennis Contests',
@@ -497,8 +481,8 @@ export const eventLists = [
       },
       {
         id: 2,
-        name: 'Humour Us',
-        link: 'HumourUs',
+        name: 'Comedietta',
+        link: 'Comedietta',
         description: 'Open Mic Contest',
         image: humourUs,
         hoveredImage: musicCover //replace this field with the hover image of the event

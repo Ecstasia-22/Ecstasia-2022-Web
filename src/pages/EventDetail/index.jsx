@@ -6,19 +6,19 @@ import dance1 from './taleTale.png'
 
 function EventDetail() {
   return (
-    <>
+    <div className='eventDetails'>
       {/* heading */}
-      <Grid>
+      <div>
         <Typography>
           {' '}
-          <Link>
+          <Link >
             {' '}
             <ArrowBackIcon className="arrowBack" sx={{ fontSize: 70 }} />
           </Link>
           <p className="headingText">Nrityer O Tale Tale </p>{' '}
         </Typography>
         <p className="sub">inter school and college classical Group Dance Contest</p>
-      </Grid>
+      </div>
 
       <Grid container rowSpacing={0}>
         {/* Image grid */}
@@ -90,7 +90,7 @@ function EventDetail() {
           </Container>
         </Grid>
       </Grid>
-    </>
+    </div>
   )
 }
 

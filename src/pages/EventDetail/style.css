@@ -1,3 +1,6 @@
+.eventDetails{
+  overflow: hidden !important;
+}
 #dance1 {
   width: 583px;
   height: 920px;
