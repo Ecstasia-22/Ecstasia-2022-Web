@@ -586,7 +586,7 @@ export const singleEvent = [
     ],
     coverImage: 'https://i.ibb.co/0zZxXxL/cover.jpg',
     coverColor: '#121013',
-    regLink: 'https://forms.gle/eXLqh5ptTAkwUjRg9'
+    regLink: 'https://forms.gle/eXLqh5ptTAkwUjRg9 '
   }
 
 
