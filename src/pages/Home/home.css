@@ -1,8 +1,8 @@
 .home {
-  position: relative;
+  position: absolute;
   background: linear-gradient(0deg, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)),
     url("../../Assets/homeBG.jpg");
-  z-index: -1;
+  z-index: -999;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
