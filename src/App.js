@@ -16,10 +16,25 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/events" element={<Events />} />
-          <Route path="/aboutus" element={<><SocialIcons/><AboutUs /></>} />
+          <Route
+            path="/aboutus"
+            element={
+              <>
+                <SocialIcons />
+                <AboutUs />
+              </>
+            }
+          />
           {/**The :eventListing take the parameter from url dynamically */}
           <Route path="/events/:eventListing" element={<EventListing />} />
-          <Route path="/gallery" element={<><SocialIcons/> <GalleryPage /></>} />
+          <Route
+            path="/gallery"
+            element={
+              <>
+                <SocialIcons /> <GalleryPage />
+              </>
+            }
+          />
         </Routes>
       </BrowserRouter>
     </>
