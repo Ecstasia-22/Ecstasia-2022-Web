@@ -6,12 +6,12 @@ import dance1 from './taleTale.png'
 
 function EventDetail() {
   return (
-    <div className='eventDetails'>
+    <div className="eventDetails">
       {/* heading */}
       <div>
         <Typography>
           {' '}
-          <Link >
+          <Link>
             {' '}
             <ArrowBackIcon className="arrowBack" sx={{ fontSize: 70 }} />
           </Link>
