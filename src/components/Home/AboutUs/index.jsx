@@ -15,7 +15,7 @@ export default function About() {
           </Grid>
           <Grid item md={8} xs={12} className="contentClass">
             <Typography variant="h4" align="center">
-              <b style={{ fontWeight: '800' }}>About Us</b>
+              <b style={{ fontWeight: '1000', letterSpacing: '5px' }}>About Us</b>
             </Typography>
             <br />
             <Typography variant="h6" align="left">
