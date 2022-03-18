@@ -59,7 +59,7 @@ export default function EventListing() {
         <Container>
           <Grid container>
             <Grid item>
-              <Link to={'/events'}>
+              <Link to={`/events`}>
                 <IconButton>
                   <ArrowBackIcon
                     sx={{ fontSize: 60 }}
@@ -84,7 +84,7 @@ export default function EventListing() {
           <Grid container spacing={1} className="gridimages">
             {eventDetails.events.map((event, index) => {
               return (
-                <Link to={`/events/${event.category}`}>
+                <Link to={`/events/${params.eventListing}/${event.link}`}>
                   <Grid item xs={12} md={4} lg={4} key={index}>
                     <img src={event.image} alt="funtakshari" />
                   </Grid>
@@ -119,7 +119,6 @@ export default function EventListing() {
         <br />
         <br />
         <Footer />
-        <EventDetail />
       </>
     )
   }

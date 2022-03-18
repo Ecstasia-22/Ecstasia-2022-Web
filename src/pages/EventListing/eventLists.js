@@ -73,6 +73,7 @@ export const eventLists = [
       {
         id: 1,
         name: 'Funtakshari',
+        link: 'FuntaKshari',
         description: 'Antaksari',
         image: Funtakshari,
         hoveredImage: musicCover //replace this field with the hover image of the event
@@ -80,6 +81,7 @@ export const eventLists = [
       {
         id: 2,
         name: 'Melodic Fiesta',
+        link: 'MelodicFiesta',
         description: 'Battle of rock and fusion band',
         image: melodicFiesta,
         hoveredImage: musicCover //replace this field with the hover image of the event
@@ -87,6 +89,7 @@ export const eventLists = [
       {
         id: 3,
         name: 'Plug and Play',
+        link: 'PlugAndPlay',
         description: 'Instrumental Music contest',
         image: plugAndPlay,
         hoveredImage: musicCover //replace this field with the hover image of the event
@@ -94,6 +97,7 @@ export const eventLists = [
       {
         id: 4,
         name: 'Sangeet Tantra',
+        link: 'SangeetTantra',
         description: 'Eastern Solo Singing Contest',
         image: sangeetTantra,
         hoveredImage: musicCover //replace this field with the hover image of the event
@@ -101,6 +105,7 @@ export const eventLists = [
       {
         id: 5,
         name: 'Western Serenity',
+        link: 'WesternSerenity',
         description: 'Antaksari',
         image: westernSerenity,
         hoveredImage: musicCover //replace this field with the hover image of the event
@@ -134,6 +139,7 @@ export const eventLists = [
       {
         id: 1,
         name: 'Rhythmic Duo',
+        link: 'RhythmicDuo',
         description: 'Duet Dance',
         image: rhythmicDuo,
         hoveredImage: musicCover //replace this field with the hover image of the event
@@ -141,6 +147,7 @@ export const eventLists = [
       {
         id: 2,
         name: 'Fusion Fantasea',
+        link: 'FusionDance',
         description: 'Western or Bollywood Group Dance',
         image: fusionFantasea,
         hoveredImage: musicCover //replace this field with the hover image of the event
@@ -148,6 +155,7 @@ export const eventLists = [
       {
         id: 3,
         name: 'Step UP',
+        link: 'StepUp',
         description: 'Western Group Dance',
         image: stepUp,
         hoveredImage: musicCover //replace this field with the hover image of the event
@@ -155,6 +163,7 @@ export const eventLists = [
       {
         id: 4,
         name: 'Nrityar o Tale Tale',
+        link: 'NrityarOTaleTale',
         description: 'Eastern or Semiclassical Group Dance',
         image: nott,
         hoveredImage: musicCover //replace this field with the hover image of the event
@@ -188,6 +197,7 @@ export const eventLists = [
       {
         id: 1,
         name: 'Pather Dabi',
+        link: 'PatherDabi',
         description: 'Street Duet Dance',
         image: patherDabi,
         hoveredImage: musicCover //replace this field with the hover image of the event
@@ -195,6 +205,7 @@ export const eventLists = [
       {
         id: 2,
         name: 'Rang o Mancha',
+        link: 'RangOMancha',
         description: 'Stage Play Contest',
         image: RoM,
         hoveredImage: musicCover //replace this field with the hover image of the event
@@ -202,6 +213,7 @@ export const eventLists = [
       {
         id: 3,
         name: 'Ad Spoof',
+        link: 'AdSpoof',
         description: 'Ad spoof Contest',
         image: adSpoof,
         hoveredImage: musicCover //replace this field with the hover image of the event
@@ -209,6 +221,7 @@ export const eventLists = [
       {
         id: 4,
         name: 'Swabalambi',
+        link: 'Swabalambi',
         description: 'Monologue Contest',
         image: Swabalambi,
         hoveredImage: musicCover //replace this field with the hover image of the event
@@ -242,6 +255,7 @@ export const eventLists = [
       {
         id: 1,
         name: 'Dare to Dubb',
+        link: 'DareToDubb',
         description: 'Online Dubbing Contest ',
         image: DtD,
         hoveredImage: musicCover //replace this field with the hover image of the event
@@ -249,6 +263,7 @@ export const eventLists = [
       {
         id: 2,
         name: 'Film Flights',
+        link: 'FilmFlights',
         description: 'Online Short Flim Making Contest',
         image: filmFights,
         hoveredImage: musicCover //replace this field with the hover image of the event
@@ -256,6 +271,7 @@ export const eventLists = [
       {
         id: 3,
         name: 'Reel o Meter',
+        link: 'ReelOMeter',
         description: 'Online Reel Making Contest',
         image: reelsContest,
         hoveredImage: musicCover //replace this field with the hover image of the event
@@ -263,6 +279,7 @@ export const eventLists = [
       {
         id: 4,
         name: 'Perfect Shutter',
+        link: 'PerfectShutter',
         description: 'Online Photography Contest',
         image: perfectShutter,
         hoveredImage: musicCover //replace this field with the hover image of the event
@@ -270,6 +287,7 @@ export const eventLists = [
       {
         id: 5,
         name: 'Artsy Lens',
+        link: 'ArtsyLens',
         description: 'Online Selfie Contest',
         image: Selcoholic,
         hoveredImage: musicCover //replace this field with the hover image of the event
@@ -303,6 +321,7 @@ export const eventLists = [
       {
         id: 1,
         name: 'Wizword',
+        link: 'Wizword',
         description: 'Online Creative Writing Contest',
         image: Wizword,
         hoveredImage: musicCover //replace this field with the hover image of the event
@@ -310,6 +329,7 @@ export const eventLists = [
       {
         id: 2,
         name: 'Grey Cells',
+        link: 'GreyCells',
         description: 'Online Inter-school General Quiz Contest',
         image: greyCells,
         hoveredImage: musicCover //replace this field with the hover image of the event
@@ -317,6 +337,7 @@ export const eventLists = [
       {
         id: 3,
         name: 'Knownsense',
+        link: 'KnownSense',
         description: 'Online Inter-college General Quiz Contest',
         image: Knownsense,
         hoveredImage: musicCover //replace this field with the hover image of the event
@@ -324,6 +345,7 @@ export const eventLists = [
       {
         id: 4,
         name: 'Wordy Muse',
+        link: 'WordyMuse',
         description: 'Online Poetry Contest ',
         image: WordyMuse,
         hoveredImage: musicCover //replace this field with the hover image of the event
@@ -357,6 +379,7 @@ export const eventLists = [
       {
         id: 1,
         name: 'Shuttle Hustle',
+        link: 'ShuttleHustle',
         description: 'Badminton Contest',
         image: Badminton,
         hoveredImage: musicCover //replace this field with the hover image of the event
@@ -364,6 +387,7 @@ export const eventLists = [
       {
         id: 2,
         name: 'Hotshots',
+        link: 'Hotshots',
         description: 'Basketball contest',
         image: Basketball,
         hoveredImage: musicCover //replace this field with the hover image of the event
@@ -371,6 +395,7 @@ export const eventLists = [
       {
         id: 3,
         name: 'Brainstrorm',
+        link: 'Brainstorm',
         description: 'Chess Contest',
         image: Chess,
         hoveredImage: musicCover //replace this field with the hover image of the event
@@ -378,6 +403,7 @@ export const eventLists = [
       {
         id: 4,
         name: 'Futsal',
+        link: 'Futsal',
         description: 'Futsal Contest',
         image: Futsal,
         hoveredImage: musicCover //replace this field with the hover image of the event
@@ -385,6 +411,7 @@ export const eventLists = [
       {
         id: 6,
         name: 'Whiff Whaff',
+        link: 'WhiffWhaff',
         description: 'Table Tennis Contests',
         image: tableTennis,
         hoveredImage: musicCover //replace this field with the hover image of the event
@@ -413,6 +440,7 @@ export const eventLists = [
       {
         id: 1,
         name: 'Tee Shades',
+        link: 'TeeShades',
         description: 'T-Shirt Painting Contest',
         image: teeShades,
         hoveredImage: musicCover //replace this field with the hover image of the event
@@ -420,6 +448,7 @@ export const eventLists = [
       {
         id: 2,
         name: 'Color de Carousal',
+        link: 'ColorDeCarousal',
         description: 'Rangoli Making Contest',
         image: Rangolic,
         hoveredImage: musicCover //replace this field with the hover image of the event
@@ -427,6 +456,7 @@ export const eventLists = [
       {
         id: 3,
         name: 'Do a Doodle ',
+        link: 'DoADoodle',
         description: 'Doodle Making Contest',
         image: Doodle,
         hoveredImage: musicCover //replace this field with the hover image of the event
@@ -460,6 +490,7 @@ export const eventLists = [
       {
         id: 1,
         name: '60 Seconds to Fame',
+        link: '60SecondsToFame',
         description: '',
         image: Fame,
         hoveredImage: musicCover //replace this field with the hover image of the event
@@ -467,6 +498,7 @@ export const eventLists = [
       {
         id: 2,
         name: 'Humour Us',
+        link: 'HumourUs',
         description: 'Open Mic Contest',
         image: humourUs,
         hoveredImage: musicCover //replace this field with the hover image of the event
@@ -474,6 +506,7 @@ export const eventLists = [
       {
         id: 3,
         name: 'The-Meme-R',
+        link: 'TheMemeR',
         description: 'Online meme making Contest',
         image: Memer,
         hoveredImage: musicCover //replace this field with the hover image of the event
@@ -481,6 +514,7 @@ export const eventLists = [
       {
         id: 4,
         name: 'El Dorado',
+        link: 'ElDorado',
         description: 'Tresasure Hunt',
         image: treasureHunt,
         hoveredImage: musicCover //replace this field with the hover image of the event
