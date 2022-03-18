@@ -7,24 +7,28 @@ import dance1 from './taleTale.png'
 function EventDetail() {
   const navigate = useNavigate()
   return (
-    <div className='eventDetails'>
+    <div className="eventDetails">
       {/* heading */}
       <div>
         <Typography>
           <ArrowBackIcon onClick={() => navigate(-1)} className="arrowBack" />
           <p className="headingText">Nrityer O Tale Tale </p>{' '}
         </Typography>
-        <p className="subHeading">inter school and college classical Group Dance Contest</p>
+        <p className="subHeading">
+          inter school and college classical Group Dance Contest
+        </p>
       </div>
 
       <Grid container>
         {/* Image grid */}
         <Grid item xs={5} className="picDetail">
           <img src={dance1} id="leftImage" alt="leftImage" />
-          <a href="" >
-          <button className="registerButton" style={{color: '#FF7158'}}>Register</button>
+          <a href="">
+            <button className="registerButton" style={{ color: '#FF7158' }}>
+              Register
+            </button>
           </a>
-          <button className='blurButton'>3 and 8 Members per Team</button>
+          <button className="blurButton">3 and 8 Members per Team</button>
         </Grid>
         {/* Text grid */}
         <Grid item xs={7} style={{ backgroundColor: '#FF7158' }}>
