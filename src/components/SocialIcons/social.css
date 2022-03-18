@@ -4,6 +4,7 @@
   left: -20px;
   padding: 0px;
   margin: 0px 1rem;
+  z-index: 999;
 }
 
 .icons {
