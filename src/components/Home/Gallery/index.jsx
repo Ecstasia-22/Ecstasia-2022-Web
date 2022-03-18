@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import './sectionGallery.css'
+import { Typography } from '@mui/material'
 
-import { Typography, Button } from '@mui/material'
 
 const images = [
   "https://66.media.tumblr.com/6fb397d822f4f9f4596dff2085b18f2e/tumblr_nzsvb4p6xS1qho82wo1_1280.jpg",
