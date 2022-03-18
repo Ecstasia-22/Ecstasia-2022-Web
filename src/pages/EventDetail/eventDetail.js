@@ -1,8 +1,8 @@
 export const singleEvent = [
     {
         id: 1,
-        params: '',
-        title: 'Music',
+        params: 'NrityarOTaleTale',
+        title: 'Nrityer O Tale Tale',
         subtitle: 'https://i.ibb.co/0zZxXxL/cover.jpg',
         desc: 'https://i.ibb.co/0zZxXxL/watermark.png',
         rules: [{
@@ -20,3 +20,5 @@ export const singleEvent = [
         regLink: 'https://www.google.com/',
     }
 ]
+
+
