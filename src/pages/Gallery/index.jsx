@@ -1,6 +1,7 @@
 import React from 'react'
 import { Container, Grid, Typography, IconButton } from '@mui/material'
 import './gallery.css'
+import Footer from '../../components/Home/Footer'
 
 function GalleryPage() {
   return (
@@ -71,6 +72,20 @@ function GalleryPage() {
           />
         </Grid>
       </Grid>
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+
+      <Footer />
     </Container>
   )
 }
