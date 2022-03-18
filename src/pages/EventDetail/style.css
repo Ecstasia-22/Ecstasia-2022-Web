@@ -1,0 +1,63 @@
+#dance1 {
+  width: 583px;
+  height: 920px;
+  left: 0px;
+  top: 80px;
+}
+.headingText {
+  position: absolute;
+  width: 925px;
+  height: 63px;
+  left: 540px;
+  top: 150px;
+
+  font-family: 'Neue Helvetica';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 60px;
+  letter-spacing: 14px;
+
+  color: #ffffff;
+}
+.sub {
+  position: absolute;
+  width: 985px;
+  height: 31px;
+  left: 540px;
+  top: 210px;
+
+  font-family: 'Neue Helvetica';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 31px;
+  /* identical to box height */
+
+  letter-spacing: 4.8px;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+.rules {
+  color: azure;
+  width: 717px;
+  height: 492px;
+  padding-top: 200px;
+  padding-right: 90px;
+  padding-left: 50px;
+}
+.ruleText {
+  padding: 3px;
+  font-family: 'Neue Helvetica';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 150%;
+  /* or 24px */
+
+  text-align: justify;
+  letter-spacing: 2px;
+
+  color: #ffffff;
+}

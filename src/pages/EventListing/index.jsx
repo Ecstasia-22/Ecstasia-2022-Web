@@ -7,6 +7,7 @@ import ArrowBackIcon from '@mui/icons-material/ArrowBack'
 import Footer from '../../components/Footer/index.jsx'
 import { eventLists } from './eventLists.js'
 import { makeStyles } from '@mui/styles'
+import EventDetail from '../EventDetail'
 
 const useStyles = makeStyles({
   mysicTypo1: {
@@ -118,6 +119,7 @@ export default function EventListing() {
         <br />
         <br />
         <Footer />
+        <EventDetail />
       </>
     )
   }
