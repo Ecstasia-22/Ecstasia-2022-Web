@@ -69,16 +69,16 @@ function EventDetail() {
               </Typography>
               <br />
 
-              <Grid container>
-                <Grid item xs={3}>
+              <Grid container >
+                <Grid item md={4}>
                   <p className="nameCo">Smaranika</p>
                   <p className="eventNum">9679447127</p>
                 </Grid>
-                <Grid item xs={3}>
+                <Grid item md={4}>
                   <p className="nameCo">Upasana </p>
                   <p className="eventNum">8902228206</p>
                 </Grid>
-                <Grid item xs={3}>
+                <Grid item md={4}>
                   <p className="nameCo">Purba </p>
                   <p className="eventNum">758639506</p>
                 </Grid>
