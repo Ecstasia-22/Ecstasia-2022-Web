@@ -17,10 +17,7 @@ export default function Hero() {
           <h2 className="hero_h2">ANNUAL CULTURAL FESTIVAL OF UEM KOLKATA</h2>
         </div>
         <Typography align="center">
-          <Link to href="#footerMain" smooth={true} duration={500} delay={1000}>
-            {' '}
-            <img src={Arrow} alt="arrow" className="hero_arrow " />
-          </Link>
+            <img src={Arrow} alt="arrow"  className="hero_arrow" />
         </Typography>
       </Container>
     </div>

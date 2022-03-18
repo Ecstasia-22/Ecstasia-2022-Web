@@ -1,14 +1,15 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,800);
-body {
-  background: linear-gradient(0deg, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)),
-    url(./galleryBg.png);
+ .gallery_page{
+  background: linear-gradient( rgba(255, 255, 255, 0.616), rgba(255, 255, 255, 0.616)),
+  url(./galleryBg.png) !important;
+  background-image:  url(./galleryBg.png);
 }
-img {
-  width: 90%;
+.gallery_img {
+  width: 100%;
   margin-left: 20px;
   overflow: hidden;
 }
-.imgHover img {
+.imgHover {
   transform-origin: 0 0;
   transition: transform 0.25s, visibility 0.25s ease-in;
 }
