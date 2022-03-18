@@ -566,7 +566,7 @@ export const singleEvent = [
     coOrdinators: [
       {
         id: 1,
-        name: 'If you are facing issues or any problems please contact them.'
+        name: 'If you  are facing issues or any problems please contact them.'
       },
       {
         id: 2,
