@@ -1,37 +1,38 @@
 import './style.css'
 import { Container, Grid, Typography, Link } from '@mui/material'
 import ArrowBackIcon from '@mui/icons-material/ArrowBack'
-
+import { useNavigate } from 'react-router-dom'
 import dance1 from './taleTale.png'
 
 function EventDetail() {
+  const navigate = useNavigate()
   return (
     <div className="eventDetails">
       {/* heading */}
       <div>
         <Typography>
-          {' '}
-          <Link>
-            {' '}
-            <ArrowBackIcon className="arrowBack" sx={{ fontSize: 70 }} />
-          </Link>
+          <ArrowBackIcon onClick={() => navigate(-1)} className="arrowBack" />
           <p className="headingText">Nrityer O Tale Tale </p>{' '}
         </Typography>
-        <p className="sub">inter school and college classical Group Dance Contest</p>
+        <p className="subHeading">
+          inter school and college classical Group Dance Contest
+        </p>
       </div>
 
-      <Grid container rowSpacing={0}>
+      <Grid container>
         {/* Image grid */}
-        <Grid item xs={4} className="picDetail" style={{ backgroundColor: 'red' }}>
-          <img src={dance1} id="dance1" alt="imagee" />
-          <a href="#" className="registerButton">
-            Register
+        <Grid item xs={5} className="picDetail">
+          <img src={dance1} id="leftImage" alt="leftImage" />
+          <a href="">
+            <button className="registerButton" style={{ color: '#FF7158' }}>
+              Register
+            </button>
           </a>
-          <a href="blurButton">3 and 8 Members per Team</a>
+          <button className="blurButton">3 and 8 Members per Team</button>
         </Grid>
         {/* Text grid */}
-        <Grid item xs={8} style={{ backgroundColor: '#FF7158' }}>
-          <Container className="rules">
+        <Grid item xs={7} style={{ backgroundColor: '#FF7158' }}>
+          <Container maxWidth="xl" className="rules">
             <Typography>
               <p className="ruleText">
                 1.No one will be allowed to participate without registration.{' '}
@@ -72,7 +73,7 @@ function EventDetail() {
               </Typography>
               <br />
 
-              <Grid container rowSpacing={1}>
+              <Grid container>
                 <Grid item xs={3}>
                   <p className="nameCo">Smaranika</p>
                   <p className="eventNum">9679447127</p>
