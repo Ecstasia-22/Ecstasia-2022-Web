@@ -4,6 +4,36 @@
   left: 0px;
   top: 80px;
 }
+.arrowBack {
+  position: absolute;
+
+  left: 466px;
+  top: 146px;
+  color: #ffffff;
+}
+.registerButton {
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12px;
+
+  position: absolute;
+  width: 155px;
+  height: 48px;
+  left: 0px;
+  top: 940px;
+
+  background: #ffffff;
+  backdrop-filter: blur(50px);
+
+  border-radius: 4px;
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 30px;
+  text-decoration: none;
+}
 .headingText {
   position: absolute;
   width: 925px;
@@ -19,6 +49,18 @@
   letter-spacing: 14px;
 
   color: #ffffff;
+}
+.blurButton {
+  position: absolute;
+  width: 298px;
+  height: 48px;
+  left: 185px;
+  top: 0px;
+
+  background: rgba(255, 255, 255, 0.125);
+  backdrop-filter: blur(70px);
+  border-radius: 4px;
+  margin: 0px 30px;
 }
 .sub {
   position: absolute;
@@ -60,4 +102,69 @@
   letter-spacing: 2px;
 
   color: #ffffff;
+}
+.nameCo {
+  width: 134px;
+  height: 24px;
+  left: 0px;
+  top: 0px;
+
+  font-family: 'Neue Helvetica';
+  font-style: normal;
+  font-weight: 450;
+  font-size: 16px;
+  line-height: 150%;
+  /* identical to box height, or 24px */
+
+  text-align: justify;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+.eventNum {
+  width: 181px;
+  height: 45px;
+  left: 0px;
+  top: 32px;
+
+  font-family: 'Neue Helvetica';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 150%;
+  /* identical to box height, or 45px */
+
+  text-align: justify;
+  letter-spacing: 0.05em;
+
+  color: #ffffff;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 8px 0px;
+}
+.nameEvent {
+  font-family: 'Neue Helvetica';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 150%;
+  /* identical to box height, or 36px */
+
+  text-align: justify;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 8px 0px;
 }

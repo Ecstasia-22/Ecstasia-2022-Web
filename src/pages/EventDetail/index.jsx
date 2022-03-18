@@ -1,5 +1,6 @@
 import './style.css'
-import { Container, Grid, Typography } from '@mui/material'
+import { Container, Grid, Typography, Link } from '@mui/material'
+import ArrowBackIcon from '@mui/icons-material/ArrowBack'
 
 import dance1 from './taleTale.png'
 
@@ -10,6 +11,10 @@ function EventDetail() {
       <Grid>
         <Typography>
           {' '}
+          <Link>
+            {' '}
+            <ArrowBackIcon className="arrowBack" sx={{ fontSize: 70 }} />
+          </Link>
           <p className="headingText">Nrityer O Tale Tale </p>{' '}
         </Typography>
         <p className="sub">inter school and college classical Group Dance Contest</p>
@@ -19,6 +24,10 @@ function EventDetail() {
         {/* Image grid */}
         <Grid item xs={4} className="picDetail" style={{ backgroundColor: 'red' }}>
           <img src={dance1} id="dance1" alt="imagee" />
+          <a href="#" className="registerButton">
+            Register
+          </a>
+          <a href="blurButton">3 and 8 Members per Team</a>
         </Grid>
         {/* Text grid */}
         <Grid item xs={8} style={{ backgroundColor: '#FF7158' }}>
@@ -58,19 +67,23 @@ function EventDetail() {
               </p>
               <br />
               <br />
-              <Typography variant="h4">Event co-ordinators</Typography>
+              <Typography>
+                <p className="nameEvent">Event co-ordinators</p>
+              </Typography>
               <br />
 
               <Grid container rowSpacing={1}>
                 <Grid item xs={3}>
-                  Smaranika
-                  <p>9679447127</p>
+                  <p className="nameCo">Smaranika</p>
+                  <p className="eventNum">9679447127</p>
                 </Grid>
                 <Grid item xs={3}>
-                  Upasana <p>8902228206</p>
+                  <p className="nameCo">Upasana </p>
+                  <p className="eventNum">8902228206</p>
                 </Grid>
                 <Grid item xs={3}>
-                  Purba <p>758639506</p>
+                  <p className="nameCo">Purba </p>
+                  <p className="eventNum">758639506</p>
                 </Grid>
               </Grid>
             </Typography>
