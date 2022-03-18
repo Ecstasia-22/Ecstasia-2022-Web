@@ -5,6 +5,7 @@ import Home from './pages/Home'
 import Events from './pages/Events'
 import EventListing from './pages/EventListing'
 import AboutUs from './pages/AboutUs'
+import GalleryPage from './pages/Gallery/index.jsx'
 function App() {
   return (
     <>
@@ -17,6 +18,7 @@ function App() {
           <Route path="/aboutus" element={<AboutUs />} />
           {/**The :eventListing take the parameter from url dynamically */}
           <Route path="/events/:eventListing" element={<EventListing />} />
+          <Route path="/gallery" element={<GalleryPage />} />
         </Routes>
       </BrowserRouter>
     </>
