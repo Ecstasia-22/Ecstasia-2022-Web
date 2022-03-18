@@ -1,89 +1,98 @@
-.eventDetails{
+.eventDetails {
   overflow: hidden !important;
 }
-#dance1 {
-  width: 583px;
-  height: 920px;
-  left: 0px;
-  top: 80px;
-}
+
 .arrowBack {
   position: absolute;
-
-  left: 466px;
-  top: 146px;
+  left: 330px;
+  top: 155px;
   color: #ffffff;
+  font-size: 45px !important;
+  cursor: pointer;
 }
-.registerButton {
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  padding: 12px;
 
-  position: absolute;
-  width: 155px;
-  height: 48px;
-  left: 0px;
-  top: 940px;
-
-  background: #ffffff;
-  backdrop-filter: blur(50px);
-
-  border-radius: 4px;
-
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-  margin: 0px 30px;
-  text-decoration: none;
-}
 .headingText {
   position: absolute;
   width: 925px;
   height: 63px;
-  left: 540px;
+  left: 400px;
   top: 150px;
-
   font-family: 'Neue Helvetica';
   font-style: normal;
   font-weight: 700;
   font-size: 48px;
   line-height: 60px;
   letter-spacing: 14px;
-
   color: #ffffff;
+}
+.subHeading {
+  position: absolute;
+  width: 985px;
+  height: 31px;
+  left: 335px;
+  top: 210px;
+  font-family: 'Neue Helvetica';
+  font-style: normal;
+  font-weight: 1000;
+  font-size: 21px;
+  line-height: 31px;
+  letter-spacing: 4.8px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+#leftImage {
+  width: 100%;
+  height: 100%;
+}
+button {
+  outline: none;
+  border: none;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+}
+.registerButton {
+  padding: 12px;
+  width: 150px;
+  height: 48px;
+  background: #ffffff;
+  backdrop-filter: blur(50px);
+  position: absolute;
+  left: 20px;
+  bottom: 0;
+  color: rgb(255, 102, 0);
+  border-radius: 4px;
 }
 .blurButton {
   position: absolute;
   width: 298px;
   height: 48px;
   left: 185px;
-  top: 0px;
-
+  bottom: 0;
+  color: #ffffff;
   background: rgba(255, 255, 255, 0.125);
   backdrop-filter: blur(70px);
   border-radius: 4px;
-  margin: 0px 30px;
 }
-.sub {
-  position: absolute;
-  width: 985px;
-  height: 31px;
-  left: 540px;
-  top: 210px;
-
-  font-family: 'Neue Helvetica';
-  font-style: normal;
-  font-weight: 800;
-  font-size: 20px;
-  line-height: 31px;
-  /* identical to box height */
-
-  letter-spacing: 4.8px;
-  text-transform: uppercase;
-
-  color: #ffffff;
+@media screen and (max-width: 960px) {
+  .arrowBack {
+    left: 0px;
+    top: 0px;
+  }
+  .headingText {
+    left: 0px;
+    font-size: 20px !important;
+    width: 100%;
+  }
 }
+
 .rules {
   color: azure;
   width: 717px;
