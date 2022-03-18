@@ -49,22 +49,7 @@ function GalleryPage() {
       <br />
 
       <Grid container rowSpacing={1}>
-        <Grid item xs={4}>
-          {' '}
-          <img
-            className="imgHover"
-            src="http://c1.staticflickr.com/9/8450/8026519634_f33f3724ea_b.jpg"
-          />
-        </Grid>
-        <Grid item xs={4}>
-          {' '}
-          <img
-            className="img-hover-zoom--colorize"
-            src="http://c1.staticflickr.com/9/8450/8026519634_f33f3724ea_b.jpg"
-          />
-        </Grid>
-
-        <Grid item xs={4}>
+        <Grid item xs={12}>
           {' '}
           <img
             className="imgHover"
