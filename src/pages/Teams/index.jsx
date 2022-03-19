@@ -13,7 +13,7 @@ import './team.css'
 let teamArray = [
   {
     TeamName: 'Core',
-    TeamMembers: [
+    TeamMember: [
       {
         id: 1,
         Name: 'Name of the person',
@@ -24,7 +24,7 @@ let teamArray = [
     ]
   },
   {
-    TeamMembers: 'Website team member',
+    TeamName: 'Website team member',
     TeamMember: [
       {
         id: 1,
@@ -87,22 +87,31 @@ let teamArray = [
 ]
 
 export default function Teams() {
+  console.log(teamArray.TeamMember)
   return (
     <Container>
       <h1>Web Team</h1>
-      <Grid class="container">
-        <Grid class="card card0">
-          <Grid class="border">
-            <h2>Al Pacino</h2>
-            <Grid class="icons">
-              <i class="fa fa-instagram" aria-hidden="true"></i>
-              <i class="fa fa-dribbble" aria-hidden="true"></i>
-              <i class="fa fa-twitter" aria-hidden="true"></i>
-              <i class="fa fa-facebook" aria-hidden="true"></i>
+
+      {teamArray.map((i) => {
+        return (
+          <>
+            <Grid class="container">
+              <Grid class="card card0">
+                <Grid class="border">
+                  <h2>{i.TeamName}</h2>
+                  <Grid class="icons">
+                    <i class="fa fa-instagram" aria-hidden="true"></i>
+                    <i class="fa fa-dribbble" aria-hidden="true"></i>
+                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                    <i class="fa fa-facebook" aria-hidden="true"></i>
+                  </Grid>
+                </Grid>
+              </Grid>
             </Grid>
-          </Grid>
-        </Grid>
-        {/* <Grid class="card card1">
+          </>
+        )
+      })}
+      {/* <Grid class="card card1">
           <Grid class="border">
             <h2>Ben Stiller</h2>
             <Grid class="icons">
@@ -146,7 +155,6 @@ export default function Teams() {
             </Grid>
           </Grid>
         </Grid> */}
-      </Grid>
     </Container>
   )
 }
