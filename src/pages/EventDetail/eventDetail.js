@@ -38,6 +38,11 @@ import TeeShades from '../../Assets/IndEvents/FineArts/TeeShades.png'
 import Rangoli from '../../Assets/IndEvents/FineArts/Rangoli.png'
 import DoADoodle from '../../Assets/IndEvents/FineArts/DoADoodle.png'
 
+//Informals Images import
+import Fame from '../../Assets/IndEvents/Informals/Fame.png'
+import HumourUs from '../../Assets/IndEvents/Informals/HumourUs.png'
+import MemeR from '../../Assets/IndEvents/Informals/MemeR.png'
+import ElDorado from '../../Assets/IndEvents/Informals/ElDorado.png'
 export const singleEvent = [
   {
     id: 1,
@@ -1567,5 +1572,232 @@ export const singleEvent = [
     coverImage: DoADoodle,
     coverColor: '#121013',
     regLink: 'https://forms.gle/2zP6fP8Bmud8tNYy5'
+  },
+  {
+    id: 25,
+    params: '60SecondsToFame',
+    title: '60 Seconds To Fame',
+    subtitle: '',
+    desc: `"Fame" the word suggests a positive persona and that is what we need up on stage for the time period of 60 seconds. Ecstasia’22 wants the names in for the 60 secs to fame and believes to witness a band of different talents in all. This is a solo event.`,
+    rules: [
+      {
+        id: 1,
+        rule: 'No one will be allowed to participate without registration.'
+      },
+      {
+        id: 2,
+        rule: `Only individual participation is allowed in this event.`
+      },
+      {
+        id: 3,
+        rule: `Crowds need to be entertained within 60 seconds by performing anything like dance, singing, meme, acting, comedy, etc.`
+      },
+      {
+        id: 4,
+        rule: `Inappropriate language or symbols will not be tolerated.`
+      },
+      {
+        id: 5,
+        rule: 'Props to be used need to be carried by the participants.'
+      },
+      {
+        id: 6,
+        rule: 'Judges will be the last ones to make decisions.'
+      }
+    ],
+    coOrdinators: [
+      {
+        id: 1,
+        name: 'Upasana Sharma',
+        number: '8902228206'
+      },
+      {
+        id: 2,
+        name: 'Partha Pratim Das',
+        number: '9007763957'
+      }
+    ],
+    coverImage: Fame,
+    coverColor: '#121013',
+    regLink: 'https://forms.gle/FKjs9v3qTDva6is29'
+  },
+  {
+    id: 26,
+    params: 'Comedietta',
+    title: 'Comedietta',
+    subtitle: 'Open Mic Contest',
+    desc: `Haha...that's the sound of laughter. Stand-up comedians have it in them,  they can make people laugh out loud. If you have a comedian in you, Ecstasia'22 is here with their open mic event to set the stage with giggles and laughter.`,
+    rules: [
+      {
+        id: 1,
+        rule: 'Registration for this event is mandatory for participation. Participants can register by going to the website or through the Google-Form provided.'
+      },
+      {
+        id: 2,
+        rule: `Time limit for a sketch is 6 minutes. Exceeding the time limit will lead to negative marking.`
+      },
+      {
+        id: 3,
+        rule: `Content, fluency, spontaneity, presentation, sense of humor are the arenas of evaluation.`
+      },
+      {
+        id: 4,
+        rule: `Participants are not encouraged to voice obscene remarks on political and religious matters.`
+      },
+      {
+        id: 5,
+        rule: 'Plagiarised content will not be allowed. If found, the participant will be disqualified immediately.'
+      },
+      {
+        id: 6,
+        rule: 'Use of inappropriate or any obscenities will not be entertained.'
+      },
+      {
+        id: 7,
+        rule: `Judges' will take the final decision.`
+      }
+    ],
+    coOrdinators: [
+      {
+        id: 1,
+        name: 'Simran Singh',
+        number: '8240216760'
+      },
+      {
+        id: 2,
+        name: 'Siddhant Kumar',
+        number: '9674080029'
+      }
+    ],
+    coverImage: HumourUs,
+    coverColor: '#121013',
+    regLink: 'https://forms.gle/6YdiSs15AbqUXfmd6'
+  },
+  {
+    id: 27,
+    params: 'TheMemeR',
+    title: 'The Meme-R',
+    subtitle: 'Online meme making Contest',
+    desc: `Do you think meme making is just a hobby? Well, it is not a mere hobby it is an expression of your creative and humorous mind. Ecstasia 22 is providing the platform to express your humor with memes.This is a solo event.`,
+    rules: [
+      {
+        id: 1,
+        rule: 'Filling up the event form will only be considered for the event.'
+      },
+      {
+        id: 2,
+        rule: `Meme template can be of participant's choice.`
+      },
+      {
+        id: 3,
+        rule: `Only after completing the initial selection, the selected memes will be uploaded on the ECSTASIA official Facebook page. On the basis of likes and reacts, winners will be announced.`
+      },
+      {
+        id: 4,
+        rule: `One participant can only apply once.`
+      },
+      {
+        id: 5,
+        rule: 'Meme should be uploaded as image file in the registration form and 1 Mb is the maximum size allowed.'
+      },
+      {
+        id: 6,
+        rule: 'Use of any watermark or tag in the final image is strictly prohibited.'
+      },
+      {
+        id: 7,
+        rule: `Plagarised content will be rejected immediately. Use of obscenities will not be entertained.`
+      },
+      {
+        id: 8,
+        rule: 'The final image should be submitted within 25th March, 2022, 8:00 A.M'
+      },
+      {
+        id: 9,
+        rule: `Note: 
+        1. THERE WILL BE NO REGISTRATION FEE FOR THIS EVENT.
+        2. In order to be considered as a valid point on the meme, the reactor must also like Ecstasia's Facebook Page.
+        3. Judgement will be based on humor, templates, engagement in posts.`
+      }
+    ],
+    coOrdinators: [
+      {
+        id: 1,
+        name: 'Simran Singh',
+        number: '8240216760'
+      },
+      {
+        id: 2,
+        name: 'Siddhant Kumar',
+        number: '9674080029'
+      }
+    ],
+    coverImage: MemeR,
+    coverColor: '#121013',
+    regLink: 'https://forms.gle/JFHNRfRxPRscv2hG9'
+  },
+  {
+    id: 28,
+    params: 'ElDorado',
+    title: 'El Dorado',
+    subtitle: 'Tresasure Hunt',
+    desc: `Do you get excited after seeing detective movies and want to be one like them? Ecstasia'22 is the ideal place to show talent by participating in El Dorado.`,
+    rules: [
+      {
+        id: 1,
+        rule: 'Entry is restricted without registration.'
+      },
+      {
+        id: 2,
+        rule: `Minimum of 4 members is required.`
+      },
+      {
+        id: 3,
+        rule: `Electronic gadgets are not permitted to be used.`
+      },
+      {
+        id: 4,
+        rule: `Without proper college id cards participants will not be allowed.`
+      },
+      {
+        id: 5,
+        rule: 'Participants should be particular about their entry time.'
+      },
+      {
+        id: 6,
+        rule: 'Each participant will be provided with the 1st clue to begin along with a map of the college route.'
+      },
+      {
+        id: 7,
+        rule: `Teamwork is highly accepted by the participants.`
+      },
+      {
+        id: 8,
+        rule: '"Clue booklet" will be given to every participant which will contain every clue.'
+      },
+      {
+        id: 9,
+        rule: `Disqualification will result from any of the following:
+        a. Damaging any property
+        b. Interfering with other teams or their members in any way
+        c. Copying from other teams.
+        d. Stealing from other teams.`
+      }
+    ],
+    coOrdinators: [
+      {
+        id: 1,
+        name: 'Soumita Basak',
+        number: '8910139243	'
+      },
+      {
+        id: 2,
+        name: 'Aryan Gupta',
+        number: '7908713743'
+      }
+    ],
+    coverImage: ElDorado,
+    coverColor: '#121013',
+    regLink: 'https://forms.gle/TwewxhdXL5ZRuZKx8'
   }
 ]
