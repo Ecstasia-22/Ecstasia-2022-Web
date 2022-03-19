@@ -90,7 +90,6 @@ export default function Teams() {
   return (
     <Container>
       {teamArray.map((item, index) => {
-
         return (
           <>
             <h1>{item.TeamName}</h1>
@@ -118,10 +117,6 @@ export default function Teams() {
           </>
         )
       })}
-
-
-
-
 
       {/* <Grid class="card card1">
           <Grid class="border">
@@ -167,6 +162,6 @@ export default function Teams() {
             </Grid>
           </Grid>
         </Grid> */}
-    </Container >
+    </Container>
   )
 }
