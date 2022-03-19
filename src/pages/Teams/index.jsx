@@ -193,8 +193,9 @@ export default function Teams() {
               {item.TeamMember.map((i) => {
                 return (
                   <>
-                    <Grid item md={3} xs={12} lg={3} class="teams_container">
+                    <Grid rowSpacing={10} md={3} xs={12} lg={3} class="teams_container">
                       <Grid
+                        item
                         class=" card1 team_card"
                         style={{
                           background: `url(${i.pic}) center center no-repeat`,
