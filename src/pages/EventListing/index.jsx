@@ -7,6 +7,7 @@ import ArrowBackIcon from '@mui/icons-material/ArrowBack'
 import Footer from '../../components/Footer/index.jsx'
 import { eventLists } from './eventLists.js'
 import { makeStyles } from '@mui/styles'
+import EventDetail from '../EventDetail'
 
 const useStyles = makeStyles({
   mysicTypo1: {
@@ -58,7 +59,7 @@ export default function EventListing() {
         <Container>
           <Grid container>
             <Grid item>
-              <Link to={'/events'}>
+              <Link to={`/events`}>
                 <IconButton>
                   <ArrowBackIcon
                     sx={{ fontSize: 60 }}
@@ -83,7 +84,7 @@ export default function EventListing() {
           <Grid container spacing={1} className="gridimages">
             {eventDetails.events.map((event, index) => {
               return (
-                <Link to={`/events/${event.category}`}>
+                <Link to={`/events/${params.eventListing}/${event.link}`}>
                   <Grid item xs={12} md={4} lg={4} key={index}>
                     <img src={event.image} alt="funtakshari" />
                   </Grid>
