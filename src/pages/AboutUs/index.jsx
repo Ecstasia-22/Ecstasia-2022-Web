@@ -32,7 +32,7 @@ const writeup = {
 function AboutUs() {
   return (
     <>
-      <section style={{ background: `${writeup.uem.background}`, padding: '3rem' }}>
+      <section style={{ background: `url(${writeup.uem.background})`, padding: '3rem' }}>
         <Container>
           <Grid container spacing={1}>
             <Grid item md={3}>
