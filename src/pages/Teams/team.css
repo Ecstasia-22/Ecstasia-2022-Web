@@ -1,0 +1,88 @@
+.teams_container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 auto;
+}
+.border {
+  height: 379px;
+  width: 300px;
+  background: transparent;
+  border-radius: 10px;
+  transition: border 2s;
+  position: relative;
+  /* filter: brightness(120%) !important; */
+}
+.border:hover {
+  border: 1px solid #fff;
+  background-color: rgba(0, 0, 0, 0.37);
+}
+.team_card {
+  height: 379px;
+  width: 300px;
+  background: #808080;
+  border-radius: 10px;
+  transition: background 0.8s;
+  overflow: hidden;
+  background: #000;
+  box-shadow: 0 70px 63px -60px #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.card1 {
+  background-size: 300px;
+}
+.card1:hover {
+  background-size: 600px;
+}
+
+.card1:hover {
+  opacity: 1;
+}
+
+.border h2 {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: #fff;
+  margin: 20px;
+  opacity: 0;
+  transition: opacity 1s;
+}
+.card1:hover h2 {
+  opacity: 1;
+}
+.border h2 {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: #fff;
+  margin: 20px;
+  opacity: 0;
+  transition: opacity 1s;
+}
+.border h3 {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: #fff;
+  margin: 20px;
+  opacity: 0;
+  transition: opacity 1s;
+}
+.card1:hover h3 {
+  opacity: 1;
+}
+.icons {
+  position: absolute;
+  fill: #fff;
+  color: #fff;
+  height: 130px;
+  top: 201px;
+  width: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  opacity: 0;
+}
+.card1:hover .icons:hover {
+  opacity: 1;
+}
