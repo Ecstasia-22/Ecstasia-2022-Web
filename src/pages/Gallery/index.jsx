@@ -50,33 +50,49 @@ function GalleryPage() {
               if (item.Id % 6 === 5 || item.Id % 6 === 4 || item.Id % 6 === 3) {
                 return (
                   <Grid item md={4}>
-                    <img
-                      className=" gallery_img gallery_img__short"
-                      src={`${item.image}`}
-                      alt={item.title}
-                    />
+                  <a className='a' href="">
+                  <figure>
+                  <img
+                  className="gallery_img gallery_img__short"
+                    src={`${item.image}`}
+                    alt={item.title}
+
+                  />
+                  <figcaption>{item.title}</figcaption>
+                  </figure>
+                  </a>
                   </Grid>)
               }
               if (item.Id % 6 === 2 || item.Id % 6 === 1) {
                 return (<Grid item md={6}>
                   {' '}
+                  <a className='a' href="">
+                  <figure>
                   <img
-                    className=" gallery_img gallery_img__short"
+                  className="gallery_img gallery_img__short"
                     src={`${item.image}`}
                     alt={item.title}
+
                   />
+                  <figcaption>{item.title}</figcaption>
+                  </figure>
+                  </a>
                 </Grid>)
               }
               if (item.Id % 6 === 0) {
                 return (<Grid item md={12} className="tooltip">
                   {' '}
+                  <a className='a' href="">
+                  <figure>
                   <img
-                  className="gallery_img"
+                  className="gallery_img gallery_img__long"
                     src={`${item.image}`}
                     alt={item.title}
 
                   />
-                  <span class="tooltiptext">Tooltip text</span>
+                  <figcaption>{item.title}</figcaption>
+                  </figure>
+                  </a>
                 </Grid>)
               }
 
