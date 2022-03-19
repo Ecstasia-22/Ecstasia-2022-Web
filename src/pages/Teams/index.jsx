@@ -23,7 +23,16 @@ let teamArray = [
   },
   {
     TeamMembers: 'Website team member',
-    TeamMember: [{ id: 1, Name: '', Designation: '', fb: '', insta: '' }]
+    TeamMember: [{ id: 1, Name: 'Aayush Chowdhury', Designation: 'Web Development Head', fb: '', insta: ' https://instagram.com/_.thehalfbloodprince._' },
+    {id: 2,Name:'Prasun Das' ,Designation:'Web Development Lead' ,fb:' https://www.facebook.com/profile.php?id=100006827868253' ,insta:' https://instagram.com/prasun_official_' },
+    {id: 3,Name:'Suvra Shaw' ,Designation:'Web Designer' ,fb:'www.facebook.com/suvrashaw' ,insta:'www.instagram.com/suvrashaw' },
+    {id: 4,Name:'Sweta Karar' ,Designation:'Web Developer' ,fb:'https://www.facebook.com/sweta.karar.73' ,insta:' https://instagram.com/cyra.jsx' },
+    {id: 5,Name:'Kaustav Roy' ,Designation:'Web Designer' ,fb:'https://www.facebook.com/kaustavr19' ,insta:'https://www.instagram.com/roy_k19' },
+    {id: 6,Name:'Rajarshi Ray' ,Designation:'Web Developer' ,fb:'https://www.facebook.com/rajarshi.roy.9480' ,insta:'https://www.instagram.com/skylord_raj90' },
+    {id: 7,Name:'Ayush Mazumdar' ,Designation:'Web Developer' ,fb:'https://www.facebook.com/ayushphillip.mazumdar' ,insta:'https://www.instagram.com/the_introverted_guy' },
+    {id: 8,Name:'Bihan Chakraborty' ,Designation:'Web Developer' ,fb:'https://www.facebook.com/bihan.chakraborty.9' ,insta:'https://www.instagram.com/bihanc001' }
+
+  ]
   }
 ]
 
