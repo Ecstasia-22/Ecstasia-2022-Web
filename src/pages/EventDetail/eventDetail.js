@@ -21,6 +21,11 @@ import RoM from '../../Assets/IndEvents/Photography/RoM.png'
 import perfectShutter from '../../Assets/IndEvents/Photography/PerfectShutter.png'
 import artsyLens from '../../Assets/IndEvents/Photography/ArtsyLens.png'
 
+//Literature Images import
+import Wizword from '../../Assets/IndEvents/Literature/Wizword.png'
+import Knownsense from '../../Assets/IndEvents/Literature/KnownSense.png'
+import wordyMuse from '../../Assets/IndEvents/Literature/WordyMuse.png'
+
 export const singleEvent = [
   {
     id: 1,
@@ -916,5 +921,199 @@ export const singleEvent = [
     coverImage: artsyLens,
     coverColor: '#121013',
     regLink: 'https://forms.gle/PXDcbiEomtEp9WR96'
+  },
+  {
+    id: 14,
+    params: 'Wizword',
+    title: 'Wizword',
+    subtitle: 'Online Creative Writing Contest',
+    desc: '"Writing is the painting of the voice." - Voltaire. At Ecstasia 22, pick up the pen and unleash the writer in you!This is a solo event.',
+    rules: [
+      {
+        id: 1,
+        rule: ' Participation in the event is not permitted without registration. Participants can register by going to the website or through the Google-Form provided.'
+      },
+      {
+        id: 2,
+        rule: 'Entries submitted after the last date of submission will not be considered.Last date 25th March , 2022, 8:00 A.M'
+      },
+      {
+        id: 3,
+        rule: 'Participants can submit only one writing.'
+      },
+      {
+        id: 4,
+        rule: 'The writings must not exceed 250 words.'
+      },
+      {
+        id: 5,
+        rule: 'Participants can submit their writings in English/ Bengali/ Hindi'
+      },
+      {
+        id: 6,
+        rule: `The writing must be on the theme, 'A World I want to be in.'`
+      },
+      {
+        id: 7,
+        rule: 'Submissions should be in (.pdf) format, and must not exceed 10 MB.'
+      },
+      {
+        id: 8,
+        rule: `'Judges' decision will be considered final.`
+      }
+    ],
+    coOrdinators: [
+      {
+        id: 1,
+        name: 'Muskan Rahaman',
+        number: '6290745017'
+      },
+      {
+        id: 2,
+        name: 'Amrita Kundu',
+        number: '8777739807'
+      }
+    ],
+    coverImage: Wizword,
+    coverColor: '#121013',
+    regLink: 'https://forms.gle/N7WTT2JcJD8cHe5W6'
+  },
+  {
+    id: 15,
+    params: 'Knownsense',
+    title: 'Knownsense',
+    subtitle: 'Online Inter-college General Quiz Contest',
+    desc: `A great quizzer in school life, but missing the beat in college? Always underrated in college, never got the exposure? A dominant group of quizzer buddies, ready to win over any hurdles in your path? Well, this is the right opportunity to rev up your gray cells.
+    Pragya-UEM Kolkata Quiz Club presents KNOWNSENSE , the General Inter-College Quiz, as a part of ECSTASIA 2020.This is a Group event.`,
+    rules: [
+      {
+        id: 1,
+        rule: '3 Member teams, no limits on Number of Teams per College.'
+      },
+      {
+        id: 2,
+        rule: 'Lone Wolves are allowed.'
+      },
+      {
+        id: 3,
+        rule: 'Cross College Teams are not allowed.'
+      },
+      {
+        id: 4,
+        rule: `Teams from only B.Tech or any other Bachelor's program are allowed, Passouts, Alumnus Or Post Grad students from an Institute are also not allowed.`
+      },
+      {
+        id: 5,
+        rule: 'Questions will be General.'
+      },
+      {
+        id: 6,
+        rule: `Violation of any In-Quiz rules will lead to disqualification.`
+      },
+      {
+        id: 7,
+        rule: 'Use of any Technology/Devices such as Mobile phones, calculators , tablets , etc (except what is given by the quizmaster) during the quiz is punishable and may lead to disqualification'
+      },
+      {
+        id: 8,
+        rule: `Quiz Masters have the final call in All matters.`
+      }
+    ],
+    coOrdinators: [
+      {
+        id: 1,
+        name: 'Suvra Shaw',
+        number: '7595925551'
+      },
+      {
+        id: 2,
+        name: 'Panchajanya Das',
+        number: '9110717957'
+      },
+      {
+        id: 3,
+        name: 'Prasun Das',
+        number: '7685044881'
+      }
+    ],
+    coverImage: Knownsense,
+    coverColor: '#121013',
+    regLink: 'https://forms.gle/5pq31KBaryiQv9eT8'
+  },
+  {
+    id: 16,
+    params: 'WordyMuse',
+    title: 'Wordy Muse',
+    subtitle: 'Poetry Contest',
+    desc: `Participate in the Recitation event of Ecstasia’22 and engage the audience with your rapt recitation
+    skills and your command over words.This is a solo event.`,
+    rules: [
+      {
+        id: 1,
+        rule: 'None will be allowed to participate without registration.'
+      },
+      {
+        id: 2,
+        rule: 'Participants must bring their respective background music if needed'
+      },
+      {
+        id: 3,
+        rule: `Time limit: 
+        Minimum :2mins.
+        Maximum :5mins.`
+      },
+      {
+        id: 4,
+        rule: `Every participant must bring their college id card with them, without an id card participants are not allowed to participate.`
+      },
+      {
+        id: 5,
+        rule: 'Judges decision will be the ultimate one.'
+      },
+      {
+        id: 6,
+        rule: `The participants will be judged on the basis of their voice modulation and expression. `
+      },
+      {
+        id: 7,
+        rule: 'You can choose any piece of writing in any language.'
+      },
+      {
+        id: 8,
+        rule: `Every participant should come in time.`
+      },
+      {
+        id: 9,
+        rule: `Every performance is time specific ,exceeding the time limit can cause  disqualification.`
+      },
+      {
+        id: 10,
+        rule: `Use of inappropriate words and specifying any political view is strictly prohibited.`
+      },
+      {
+        id: 11,
+        rule: `Any violation of the above rules will not be entertained.`
+      }
+    ],
+    coOrdinators: [
+      {
+        id: 1,
+        name: 'Muskan Rahaman',
+        number: '6290745017'
+      },
+      {
+        id: 2,
+        name: 'Amrita Kundu',
+        number: '8777739807'
+      },
+      {
+        id: 3,
+        name: 'Prasun Das',
+        number: '7685044881'
+      }
+    ],
+    coverImage: wordyMuse,
+    coverColor: '#121013',
+    regLink: 'https://forms.gle/f6DknEhMuiJHi6jX6'
   }
 ]
