@@ -5,8 +5,9 @@ import Home from './pages/Home'
 import Events from './pages/Events'
 import EventListing from './pages/EventListing'
 import AboutUs from './pages/AboutUs'
-import GalleryPage from './pages/Gallery/index.jsx'
-import SocialIcons from './components/SocialIcons/index.jsx'
+import GalleryPage from './pages/Gallery'
+import SocialIcons from './components/SocialIcons'
+import Teams from './pages/Teams'
 function App() {
   return (
     <>
@@ -32,6 +33,14 @@ function App() {
             element={
               <>
                 <SocialIcons /> <GalleryPage />
+              </>
+            }
+          />
+            <Route
+            path="/teams"
+            element={
+              <>
+                 <Teams />
               </>
             }
           />

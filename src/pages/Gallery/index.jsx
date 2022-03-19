@@ -1,3 +1,4 @@
+/* eslint-disable */
 import React from 'react'
 import { Container, Grid } from '@mui/material'
 import './gallery.css'
@@ -47,11 +48,13 @@ function GalleryPage() {
       <div className="gallery_page">
         <Container className="galleryPage">
           <Grid container spacing={1}>
-            {galleryArray.map((item, index) => {
+
+            {galleryArray.map((item) => {
+              //eslint-disable-next-line
               if (item.Id % 6 === 5 || item.Id % 6 === 4 || item.Id % 6 === 3) {
                 return (
                   <Grid item md={4}>
-                    <a className="a" href="">
+                    <a className="a" href="#">
                       <figure>
                         <img
                           className="gallery_img gallery_img__short"

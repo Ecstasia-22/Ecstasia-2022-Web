@@ -26,7 +26,7 @@ export const MenuItems = [
   },
   {
     title: 'Team',
-    url: '/team',
+    url: '/teams',
     cName: 'nav-links'
   }
 ]
