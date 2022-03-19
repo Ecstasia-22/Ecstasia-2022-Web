@@ -56,6 +56,7 @@ import teeShades from '../../Assets/FineArtsPage/TeeShades.png'
 import Rangolic from '../../Assets/FineArtsPage/Rangolic.png'
 import Doodle from '../../Assets/FineArtsPage/Doodle.png'
 
+//Informals Images Import
 import informalCover from '../../Assets/InformalsPage/Cover.png'
 import Fame from '../../Assets/InformalsPage/Fame.png'
 import humourUs from '../../Assets/InformalsPage/HumourUs.png'
@@ -106,7 +107,7 @@ export const eventLists = [
         id: 5,
         name: 'Western Serenity',
         link: 'WesternSerenity',
-        description: 'Antaksari',
+        description: 'Western Solo Singing Contest',
         image: westernSerenity,
         hoveredImage: musicCover //replace this field with the hover image of the event
       }
