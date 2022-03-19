@@ -87,30 +87,42 @@ let teamArray = [
 ]
 
 export default function Teams() {
-  console.log(teamArray.TeamMember)
   return (
     <Container>
-      <h1>Web Team</h1>
+      {teamArray.map((item, index) => {
 
-      {teamArray.map((i) => {
         return (
           <>
-            <Grid class="container">
-              <Grid class="card card0">
-                <Grid class="border">
-                  <h2>{i.TeamName}</h2>
-                  <Grid class="icons">
-                    <i class="fa fa-instagram" aria-hidden="true"></i>
-                    <i class="fa fa-dribbble" aria-hidden="true"></i>
-                    <i class="fa fa-twitter" aria-hidden="true"></i>
-                    <i class="fa fa-facebook" aria-hidden="true"></i>
-                  </Grid>
-                </Grid>
-              </Grid>
+            <h1>{item.TeamName}</h1>
+            <Grid container>
+              {item.TeamMember.map((i) => {
+                return (
+                  <>
+                    <Grid item md={3} xs={12} lg={3} class="teams_container">
+                      <Grid class="card card1">
+                        <Grid class="border">
+                          <h2>{i.Name}</h2>
+                          <Grid class="icons">
+                            <i class="fa fa-instagram" aria-hidden="true"></i>
+                            <i class="fa fa-dribbble" aria-hidden="true"></i>
+                            <i class="fa fa-twitter" aria-hidden="true"></i>
+                            <i class="fa fa-facebook" aria-hidden="true"></i>
+                          </Grid>
+                        </Grid>
+                      </Grid>
+                    </Grid>
+                  </>
+                )
+              })}
             </Grid>
           </>
         )
       })}
+
+
+
+
+
       {/* <Grid class="card card1">
           <Grid class="border">
             <h2>Ben Stiller</h2>
@@ -155,6 +167,6 @@ export default function Teams() {
             </Grid>
           </Grid>
         </Grid> */}
-    </Container>
+    </Container >
   )
 }
