@@ -8,6 +8,9 @@ import AboutUs from './pages/AboutUs'
 import GalleryPage from './pages/Gallery'
 import SocialIcons from './components/SocialIcons'
 import Teams from './pages/Teams'
+
+import EventDetail from './pages/EventDetail/index.jsx'
+
 function App() {
   return (
     <>
@@ -28,6 +31,9 @@ function App() {
           />
           {/**The :eventListing take the parameter from url dynamically */}
           <Route path="/events/:eventListing" element={<EventListing />} />
+
+          <Route path="/events/:eventListing/:eventDetail" element={<EventDetail />} />
+
           <Route
             path="/gallery"
             element={

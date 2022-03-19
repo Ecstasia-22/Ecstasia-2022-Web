@@ -1,0 +1,152 @@
+.eventDetails {
+  /* overflow: hidden !important; */
+  height: 100%;
+  position: relative;
+}
+
+.arrowBack {
+  color: #ffffff;
+  font-size: 45px !important;
+  cursor: pointer;
+}
+
+.headingText {
+  font-family: 'Neue Helvetica';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 60px;
+  letter-spacing: 14px;
+  color: #ffffff;
+  margin-left: 1rem;
+}
+.subHeading {
+  font-family: 'Neue Helvetica';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 21px;
+  line-height: 31px;
+  letter-spacing: 4.8px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+#leftImage {
+  position: absolute;
+  width: 100%;
+  z-index: 0;
+}
+button {
+  outline: none;
+  border: none;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+}
+.registerButton {
+  padding: 12px;
+  background: #ffffff;
+  backdrop-filter: blur(50px);
+  color: rgb(255, 102, 0);
+  border-radius: 4px;
+  z-index: 99;
+}
+.blurButton {
+  color: #ffffff;
+  background: rgba(255, 255, 255, 0.125);
+  backdrop-filter: blur(70px);
+  border-radius: 4px;
+  padding: 1rem;
+}
+@media screen and (max-width: 960px) {
+  .arrowBack {
+    left: 0px;
+    top: 0px;
+  }
+  .headingText {
+    left: 0px;
+    font-size: 20px !important;
+    width: 100%;
+  }
+}
+
+.rules {
+  color: azure;
+  width: 717px;
+  height: 492px;
+  padding-top: 200px;
+  padding-right: 90px;
+  padding-left: 50px;
+}
+.ruleText {
+  padding: 5px;
+  font-family: 'Neue Helvetica';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 150%;
+  /* or 24px */
+
+  text-align: justify;
+  letter-spacing: 2px;
+
+  color: #ffffff;
+}
+.nameCo {
+  font-family: 'Neue Helvetica';
+  font-style: normal;
+  font-weight: 450;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+.eventNum {
+  font-family: 'Neue Helvetica';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 150%;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+}
+.nameEvent {
+  font-family: 'Neue Helvetica';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 150%;
+  /* identical to box height, or 36px */
+
+  text-align: justify;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+@media (max-width: 900px) {
+  .nameEvent,
+  .rules,
+  .ruleText,
+  .nameCo,
+  .eventNum,.headingText {
+    letter-spacing: normal;
+  }
+  .headingText {
+    margin: 0;
+  }
+}
