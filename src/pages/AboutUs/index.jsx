@@ -5,7 +5,6 @@ import ecstasiaLogo from '../../Assets/ecstasiaLogo.jpg'
 import { Container, Grid, Paper, Typography } from '@mui/material'
 import Footer from '../../components/Home/Footer'
 
-
 const writeup = {
   uem: {
     image: uemLogo,
@@ -27,61 +26,96 @@ const writeup = {
   }
 }
 
-
 function AboutUs() {
   return (
     <>
-      <section style={{ background: `${writeup.uem.background}`, padding: '3rem' }}  >
+      <section style={{ background: `${writeup.uem.background}`, padding: '3rem' }}>
         <Container>
           <Grid container spacing={1}>
-            <Grid item md={3}><br /><br /> <img className='about_uemLogo' src={uemLogo} alt="uem  transparent logo" /></Grid>
+            <Grid item md={3}>
+              <br />
+              <br />{' '}
+              <img className="about_uemLogo" src={uemLogo} alt="uem  transparent logo" />
+            </Grid>
             <Grid item md={8}>
-              <Paper elevation={0} className='about_hero'>
-                <Typography variant='h4' className='about_title'><b>{writeup.uem.title}</b></Typography>
+              <Paper elevation={0} className="about_hero">
+                <Typography variant="h4" className="about_title">
+                  <b>{writeup.uem.title}</b>
+                </Typography>
                 <br />
-                <Typography variant='subtitle2' className='about_desc'>{writeup.uem.desc}</Typography>
+                <Typography variant="subtitle2" className="about_desc">
+                  {writeup.uem.desc}
+                </Typography>
               </Paper>
             </Grid>
           </Grid>
         </Container>
       </section>
 
-<div className='home'>
-      <section style={{ padding: '3rem' }}  >
-        <Container>
-          <Grid container spacing={1}>
-
-            <Grid item md={8}>
-              <div className='about_hero'>
-                <Typography variant='h4' className='about_title'><b>{writeup.ecstasia.title}</b></Typography>
-                <br /><br />
-                <Typography variant='subtitle2' className='about_desc'>{writeup.ecstasia.desc}</Typography>
-              </div>
-            </Grid>
-            <Grid item md={3}><br /><br /> <img className='about_uemLogo' src={writeup.ecstasia.image} alt="uem  transparent logo" /></Grid>
-          </Grid>
-        </Container>
-      </section>
-
-
-      <section style={{ background: `url(${writeup.theme.background})`, padding: '3rem', color: '#fff' }}  >
-        <Container>
-          <Grid container spacing={1}>
-            <Grid item md={3}><br /><br />
-              {/**------------------------------------------- Change to yt video -------------------------------------------------------- */}
-              <img className='about_uemLogo' src={uemLogo} alt="uem  transparent logo" /></Grid>
-            <Grid item md={8}>
-              <div className='about_hero'>
-                <Typography variant='h4' className='about_title'><b>{writeup.theme.title}</b></Typography>
+      <div className="home">
+        <section style={{ padding: '3rem' }}>
+          <Container>
+            <Grid container spacing={1}>
+              <Grid item md={8}>
+                <div className="about_hero">
+                  <Typography variant="h4" className="about_title">
+                    <b>{writeup.ecstasia.title}</b>
+                  </Typography>
+                  <br />
+                  <br />
+                  <Typography variant="subtitle2" className="about_desc">
+                    {writeup.ecstasia.desc}
+                  </Typography>
+                </div>
+              </Grid>
+              <Grid item md={3}>
                 <br />
-                <Typography variant='subtitle2' className='about_desc'>{writeup.theme.desc}</Typography>
-              </div>
+                <br />{' '}
+                <img
+                  className="about_uemLogo"
+                  src={writeup.ecstasia.image}
+                  alt="uem  transparent logo"
+                />
+              </Grid>
             </Grid>
-          </Grid>
-        </Container>
-      </section>
-<Footer/>
-</div>
+          </Container>
+        </section>
+
+        <section
+          style={{
+            background: `url(${writeup.theme.background})`,
+            padding: '3rem',
+            color: '#fff'
+          }}
+        >
+          <Container>
+            <Grid container spacing={1}>
+              <Grid item md={3}>
+                <br />
+                <br />
+                {/**------------------------------------------- Change to yt video -------------------------------------------------------- */}
+                <img
+                  className="about_uemLogo"
+                  src={uemLogo}
+                  alt="uem  transparent logo"
+                />
+              </Grid>
+              <Grid item md={8}>
+                <div className="about_hero">
+                  <Typography variant="h4" className="about_title">
+                    <b>{writeup.theme.title}</b>
+                  </Typography>
+                  <br />
+                  <Typography variant="subtitle2" className="about_desc">
+                    {writeup.theme.desc}
+                  </Typography>
+                </div>
+              </Grid>
+            </Grid>
+          </Container>
+        </section>
+        <Footer />
+      </div>
     </>
   )
 }
