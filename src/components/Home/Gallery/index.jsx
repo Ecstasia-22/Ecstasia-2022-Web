@@ -24,8 +24,7 @@ const Card = ({ image, active, ...rest }) => {
           <i className="fas fa-walking" />
         </div>
         <div className="info">
-          <div className="main">Blonkisoaz</div>
-          <div className="sub">Omuke trughte a otufta</div>
+          <div className="main">Ecstasia Events</div>
         </div>
       </div>
     </div>
