@@ -39,7 +39,12 @@ function EventDetail() {
         </div>
         <Grid container style={{ height: window.innerWidth >= 900 ? HEIGHT : '100%' }}>
           <Grid item xs={12} md={5} style={{ position: 'relative', height: HEIGHT }}>
-            <img src={event.coverImage} style={{ height: HEIGHT }} id="leftImage" alt="leftImage" />
+            <img
+              src={event.coverImage}
+              style={{ height: HEIGHT }}
+              id="leftImage"
+              alt="leftImage"
+            />
             <div
               style={{
                 display: 'flex',
@@ -92,7 +97,7 @@ function EventDetail() {
             style={{
               position: 'relative',
               height: HEIGHT,
-             // overflow: 'auto',
+              // overflow: 'auto',
               color: 'white',
               background: event.coverColor
             }}
@@ -114,8 +119,12 @@ function EventDetail() {
               <div style={{ display: 'flex', flexWrap: 'wrap', marginTop: '0.7rem' }}>
                 {event.coOrdinators.map((c) => (
                   <div style={{ marginRight: '1rem' }}>
-                    <p variant="subtitle2" className='nameCo'>{c.name}</p>
-                    <p variant="subtitle2" className='eventNum'>{c.number}</p>
+                    <p variant="subtitle2" className="nameCo">
+                      {c.name}
+                    </p>
+                    <p variant="subtitle2" className="eventNum">
+                      {c.number}
+                    </p>
                   </div>
                 ))}
               </div>
