@@ -77,7 +77,7 @@
 .card2:hover .fa {
   opacity: 1;
 }
-h2 {
+.border h2 {
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   color: #fff;
   margin: 20px;
@@ -93,7 +93,7 @@ h2 {
   fill: #fff;
   color: #fff;
   height: 130px;
-  top: 226px;
+  top: 201px;
   width: 50px;
   display: flex;
   flex-direction: column;

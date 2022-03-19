@@ -12,32 +12,32 @@ import img6 from './e6.jpg'
 const galleryArray = [
   {
     image: img,
-    title: 'Image 1',
+    title: 'Dance Event',
     Id: 1
   },
   {
     image: img2,
-    title: 'Image 2',
+    title: 'DJ Nights',
     Id: 2
   },
   {
     image: img3,
-    title: 'Image 3',
+    title: 'Award Ceremony',
     Id: 3
   },
   {
     image: img4,
-    title: 'Image 4',
+    title: 'DJ Night',
     Id: 4
   },
   {
     image: img5,
-    title: 'Image 5',
+    title: 'Group Dance Event',
     Id: 5
   },
   {
     image: img6,
-    title: 'Image 6',
+    title: 'Music Event',
     Id: 6
   }
 ]

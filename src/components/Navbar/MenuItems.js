@@ -19,11 +19,12 @@ export const MenuItems = [
     url: '/gallery',
     cName: 'nav-links'
   },
-  {
+/*  {
     title: 'Partners',
     url: '/patners',
     cName: 'nav-links'
   },
+*/
   {
     title: 'Team',
     url: '/teams',

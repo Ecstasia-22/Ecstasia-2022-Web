@@ -30,6 +30,8 @@
   font-family: Urban Jungle !important;
   letter-spacing: 0.6rem;
   font-size: 36px !important;
+  font-weight: 600;
+  line-height: 6rem;
 }
 @media screen and (max-width: 960px) {
 
@@ -66,7 +68,7 @@
 }
 
 .hero_arrow {
-  margin-top: 50vh;
+  margin-top: 35vh;
 }
 
 
