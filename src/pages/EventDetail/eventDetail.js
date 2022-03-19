@@ -49,7 +49,7 @@ export const singleEvent = [
       {
         id: 11,
         rule: '11.Any violation of the above rules will not be entertained.'
-      },
+      }
     ],
     coOrdinators: [
       {
@@ -70,7 +70,6 @@ export const singleEvent = [
         id: 4,
         name: 'NOTE: Every participant has to register on the event day with the central registration fees of 100/-. '
       }
-
     ],
     coverImage: 'https://i.ibb.co/0zZxXxL/cover.jpg',
     coverColor: '#121013',
@@ -126,7 +125,7 @@ export const singleEvent = [
       {
         id: 11,
         rule: '11.Any violation of the above rules will not be entertained.'
-      },
+      }
     ],
     coOrdinators: [
       {
@@ -147,7 +146,6 @@ export const singleEvent = [
         id: 4,
         name: 'NOTE: Every participant has to register on the event day with the central registration fees of 100/-. '
       }
-
     ],
     coverImage: 'https://i.ibb.co/0zZxXxL/cover.jpg',
     coverColor: '#121013',
@@ -203,7 +201,7 @@ export const singleEvent = [
       {
         id: 11,
         rule: '11.Any violation of the above rules will not be entertained.'
-      },
+      }
     ],
     coOrdinators: [
       {
@@ -224,7 +222,6 @@ export const singleEvent = [
         id: 4,
         name: 'NOTE: Every participant has to register on the event day with the central registration fees of 100/-. '
       }
-
     ],
     coverImage: 'https://i.ibb.co/0zZxXxL/cover.jpg',
     coverColor: '#121013',
@@ -280,7 +277,7 @@ export const singleEvent = [
       {
         id: 11,
         rule: '11.Any violation of the above rules will not be entertained.'
-      },
+      }
     ],
     coOrdinators: [
       {
@@ -301,7 +298,6 @@ export const singleEvent = [
         id: 4,
         name: 'NOTE: Every participant has to register on the event day with the central registration fees of 100/-. '
       }
-
     ],
     coverImage: 'https://i.ibb.co/0zZxXxL/cover.jpg',
     coverColor: '#121013',
@@ -346,7 +342,6 @@ export const singleEvent = [
         id: 4,
         name: 'NOTE: Every participant has to register on the event day with the central registration fees of 100/-. '
       }
-
     ],
     coverImage: 'https://i.ibb.co/0zZxXxL/cover.jpg',
     coverColor: '#121013',
@@ -391,7 +386,6 @@ export const singleEvent = [
         id: 4,
         name: 'NOTE: Every participant has to register on the event day with the central registration fees of 100/-. '
       }
-
     ],
     coverImage: 'https://i.ibb.co/0zZxXxL/cover.jpg',
     coverColor: '#121013',
@@ -439,7 +433,7 @@ export const singleEvent = [
       {
         id: 9,
         rule: 'All band members must arrive at least 30 minutes before the performance to check in with the coordinators.'
-      },
+      }
     ],
     coOrdinators: [
       {
@@ -460,7 +454,6 @@ export const singleEvent = [
         id: 4,
         name: 'NOTE: Every participant has to register on the event day with the central registration fees of 100/-. '
       }
-
     ],
     coverImage: 'https://i.ibb.co/0zZxXxL/cover.jpg',
     coverColor: '#121013',
@@ -517,7 +510,6 @@ export const singleEvent = [
         id: 4,
         name: 'NOTE: Every participant has to register on the event day with the central registration fees of 100/-. '
       }
-
     ],
     coverImage: 'https://i.ibb.co/0zZxXxL/cover.jpg',
     coverColor: '#121013',
@@ -582,13 +574,9 @@ export const singleEvent = [
         id: 4,
         name: 'NOTE: Every participant has to register on the event day with the central registration fees of 100/-. '
       }
-
     ],
     coverImage: 'https://i.ibb.co/0zZxXxL/cover.jpg',
     coverColor: '#121013',
     regLink: 'https://forms.gle/eXLqh5ptTAkwUjRg9 '
   }
-
-
-  
 ]
