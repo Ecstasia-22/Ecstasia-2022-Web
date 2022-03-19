@@ -1,22 +1,16 @@
 .eventDetails {
-  overflow: hidden !important;
+  /* overflow: hidden !important; */
+  height: 100%;
+  position: relative;
 }
 
 .arrowBack {
-  position: absolute;
-  left: 330px;
-  top: 155px;
   color: #ffffff;
   font-size: 45px !important;
   cursor: pointer;
 }
 
 .headingText {
-  position: absolute;
-  width: 925px;
-  height: 63px;
-  left: 400px;
-  top: 150px;
   font-family: 'Neue Helvetica';
   font-style: normal;
   font-weight: 700;
@@ -24,16 +18,12 @@
   line-height: 60px;
   letter-spacing: 14px;
   color: #ffffff;
+  margin-left: 1rem;
 }
 .subHeading {
-  position: absolute;
-  width: 985px;
-  height: 31px;
-  left: 335px;
-  top: 210px;
   font-family: 'Neue Helvetica';
   font-style: normal;
-  font-weight: 1000;
+  font-weight: 600;
   font-size: 21px;
   line-height: 31px;
   letter-spacing: 4.8px;
@@ -41,8 +31,9 @@
   color: #ffffff;
 }
 #leftImage {
+  position: absolute;
   width: 100%;
-  height: 100%;
+  z-index: 0;
 }
 button {
   outline: none;
@@ -60,26 +51,18 @@ button {
 }
 .registerButton {
   padding: 12px;
-  width: 150px;
-  height: 48px;
   background: #ffffff;
   backdrop-filter: blur(50px);
-  position: absolute;
-  left: 20px;
-  bottom: 0;
   color: rgb(255, 102, 0);
   border-radius: 4px;
+  z-index: 99;
 }
 .blurButton {
-  position: absolute;
-  width: 298px;
-  height: 48px;
-  left: 185px;
-  bottom: 0;
   color: #ffffff;
   background: rgba(255, 255, 255, 0.125);
   backdrop-filter: blur(70px);
   border-radius: 4px;
+  padding: 1rem;
 }
 @media screen and (max-width: 960px) {
   .arrowBack {
@@ -102,7 +85,7 @@ button {
   padding-left: 50px;
 }
 .ruleText {
-  padding: 3px;
+  padding: 5px;
   font-family: 'Neue Helvetica';
   font-style: normal;
   font-weight: 500;
@@ -116,48 +99,24 @@ button {
   color: #ffffff;
 }
 .nameCo {
-  width: 134px;
-  height: 24px;
-  left: 0px;
-  top: 0px;
-
   font-family: 'Neue Helvetica';
   font-style: normal;
   font-weight: 450;
   font-size: 16px;
   line-height: 150%;
-  /* identical to box height, or 24px */
-
-  text-align: justify;
   letter-spacing: 0.3em;
   text-transform: uppercase;
 
   color: #ffffff;
 }
 .eventNum {
-  width: 181px;
-  height: 45px;
-  left: 0px;
-  top: 32px;
-
   font-family: 'Neue Helvetica';
   font-style: normal;
   font-weight: 700;
-  font-size: 30px;
+  font-size: 20px;
   line-height: 150%;
-  /* identical to box height, or 45px */
-
-  text-align: justify;
   letter-spacing: 0.05em;
-
   color: #ffffff;
-
-  /* Inside auto layout */
-
-  flex: none;
-  order: 1;
-  flex-grow: 0;
-  margin: 8px 0px;
 }
 .nameEvent {
   font-family: 'Neue Helvetica';
@@ -178,5 +137,16 @@ button {
   flex: none;
   order: 0;
   flex-grow: 0;
-  margin: 8px 0px;
+}
+@media (max-width: 900px) {
+  .nameEvent,
+  .rules,
+  .ruleText,
+  .nameCo,
+  .eventNum,.headingText {
+    letter-spacing: normal;
+  }
+  .headingText {
+    margin: 0;
+  }
 }
