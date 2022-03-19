@@ -1,3 +1,16 @@
+.about_uemLogo{
+  width: 100%;
+  padding: 1rem;
+}
+.about_hero{
+  padding: 1.5rem ;
+   margin: 1rem;
+}
+.about_title{
+  font-size: 3rem;
+  font-weight: bold;
+}
+
 .headerUem {
   background-color: #c4c4c4;
   padding-top: 75px;
