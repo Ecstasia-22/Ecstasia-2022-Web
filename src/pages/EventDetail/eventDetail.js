@@ -15,6 +15,12 @@ import westernSerenity from '../../Assets/IndEvents/Music/WesternSerenity.png'
 import adSpoof from '../../Assets/IndEvents/Drama/AdSpoof.png'
 import Swabalambi from '../../Assets/IndEvents/Drama/Swabalambi.png'
 
+//Photography Images import
+import dareToDub from '../../Assets/IndEvents/Photography/DaretoDub.png'
+import RoM from '../../Assets/IndEvents/Photography/RoM.png'
+import perfectShutter from '../../Assets/IndEvents/Photography/PerfectShutter.png'
+import artsyLens from '../../Assets/IndEvents/Photography/ArtsyLens.png'
+
 export const singleEvent = [
   {
     id: 1,
@@ -665,5 +671,250 @@ export const singleEvent = [
     coverImage: Swabalambi,
     coverColor: '#121013',
     regLink: 'https://forms.gle/UsQ2bP8eA8WxGe34A'
+  },
+  {
+    id: 11,
+    params: 'DareToDubb',
+    title: 'Dare To Dubb',
+    subtitle: 'Online Dubbing Contest',
+    desc: 'Ecstasia’22 presents to you the Dubbing contest where you will be evaluated for your Dubbing skills.',
+    rules: [
+      {
+        id: 1,
+        rule: 'Participation in the event is not permitted without registration. Participants can register by going to the website or through the Google-Form provided.'
+      },
+      {
+        id: 2,
+        rule: 'Last date of submission of your content is 25th March 2022, 8:00 A.M'
+      },
+      {
+        id: 3,
+        rule: 'Participants can dub a song, a movie dialogue, a monologue, etc.'
+      },
+      {
+        id: 4,
+        rule: 'Discrimination or any kind of indecency must not be promoted.'
+      },
+      {
+        id: 5,
+        rule: 'Usage of foul words is strictly prohibited.'
+      },
+      {
+        id: 6,
+        rule: 'Participants are not encouraged to voice obscene remarks on political and religious matters.'
+      },
+      {
+        id: 7,
+        rule: 'Decision of the judges will be final'
+      },
+      {
+        id: 8,
+        rule: 'Upload your videos in your drive and share the drive link in the registration form.'
+      }
+    ],
+    coOrdinators: [
+      {
+        id: 1,
+        name: 'Somava Nath',
+        number: '8981085053'
+      },
+      {
+        id: 2,
+        name: 'Siddhant Kumar',
+        number: '9674080029'
+      }
+    ],
+    coverImage: dareToDub,
+    coverColor: '#121013',
+    regLink: 'https://forms.gle/ttjf4abjiUzVSuyH7'
+  },
+  {
+    id: 12,
+    params: 'ReelOMeter',
+    title: 'Reel O Meter',
+    subtitle: 'Online Reel Making Contest',
+    desc: 'Bring out the creative side of you. Showcase your talents through your amazing reel skills. Content of the reel can highlight any talent or creative persona in the form of art and craft, music, dance, photography and editing skills, travel, cooking, fashion and makeup, etc.',
+    rules: [
+      {
+        id: 1,
+        rule: 'The submitted reel must be created by you.'
+      },
+      {
+        id: 2,
+        rule: 'The reel has to be posted in the participant’s personal instagram account (in public mode), tagging @ecstasia.uemk as a collaborator.'
+      },
+      {
+        id: 3,
+        rule: 'You must use #uemk, #timesofyore, #ecstasia2022, #ecstasia’22 and #ecstasia in the caption. You can also use other hashtags along with the ones mentioned.'
+      },
+      {
+        id: 4,
+        rule: 'Participants are allowed to use their choice of audio to enhance the reach of their reels. Audios and songs of any genre is allowed, provided it does not contain inappropriate lyrics.'
+      },
+      {
+        id: 5,
+        rule: 'Duration of the reel should ideally be 15 to 30 seconds. Maximum time limit is 45 seconds.'
+      },
+      {
+        id: 6,
+        rule: 'Inclusion of inappropriate and/or offensive content will lead to disqualification.'
+      },
+      {
+        id: 7,
+        rule: 'Decision of the judges will be final'
+      },
+      {
+        id: 8,
+        rule: 'Submissions will not be accepted once the deadline lapses which is 25th March 2022, 8:00 A.M.'
+      },
+      {
+        id: 9,
+        rule: `Judegement Criteria:
+        Content
+        Reach and Engagement in the reel.
+        Choice of Audio, fluency and transformations used in the video.`
+      }
+    ],
+    coOrdinators: [
+      {
+        id: 1,
+        name: 'Shromona Nag',
+        number: '7063095480'
+      },
+      {
+        id: 2,
+        name: 'Sharanya Paul',
+        number: '6287048444'
+      }
+    ],
+    coverImage: RoM,
+    coverColor: '#121013',
+    regLink: 'https://forms.gle/oLVwXVyq3mhmpbio6'
+  },
+  {
+    id: 13,
+    params: 'PerfectShutter',
+    title: 'Perfect Shutter',
+    subtitle: 'Online Photography Contest',
+    desc: `"A camera is the save button for the mind's eyes." At ECSTASIA 2022, gather your lenses, adjust your focus and express your emotions through the beautiful art of photography.`,
+    rules: [
+      {
+        id: 1,
+        rule: 'Participation in the event is not permitted without registration'
+      },
+      {
+        id: 2,
+        rule: 'Entries submitted after the last date of submission will not be considered.'
+      },
+      {
+        id: 3,
+        rule: 'A single entry will be considered from each participant.'
+      },
+      {
+        id: 4,
+        rule: 'Entries must not exceed 45 MB.'
+      },
+      {
+        id: 5,
+        rule: 'Entries must be based on the theme "Life in Motion"'
+      },
+      {
+        id: 6,
+        rule: 'Plagiarism is strictly prohibited.'
+      },
+      {
+        id: 7,
+        rule: 'Entries must not promote vulgarity, and any strong political and religious opinions.'
+      },
+      {
+        id: 8,
+        rule: 'The sole responsibility of each picture goes to the individual participants'
+      },
+      {
+        id: 9,
+        rule: `Judges' decision will be considered final.`
+      },
+      {
+        id: 10,
+        rule: 'The last date of submission of entries is 25th March,2022, 8:00 A.M'
+      }
+    ],
+    coOrdinators: [
+      {
+        id: 1,
+        name: 'Sagnick Datta',
+        number: '8240374511'
+      },
+      {
+        id: 2,
+        name: 'Swapnaneel Chakrabarti',
+        number: '8335037289'
+      }
+    ],
+    coverImage: perfectShutter,
+    coverColor: '#121013',
+    regLink: 'https://forms.gle/qhNtmXY2azuUnNma9'
+  },
+  {
+    id: 13,
+    params: 'ArtsyLens',
+    title: 'Artsy Lens',
+    subtitle: 'Online Selfie Contest',
+    desc: `With help of theme and photograph, bring out in yourself. Participate and showcase your composition, thinking, and creativity skills in this self-portrait contest of Ecstasia’22. This is a solo event.
+    Theme :- Light 
+    `,
+    rules: [
+      {
+        id: 1,
+        rule: 'Registrations will be considered through the circulated google form link and our website'
+      },
+      {
+        id: 2,
+        rule: 'Participants will not be allowed in the event without registrations.'
+      },
+      {
+        id: 3,
+        rule: 'The Last date of submission of entries is 25th March 2022, 8:00 A.M'
+      },
+      {
+        id: 4,
+        rule: 'A single entry will be considered from each individual.'
+      },
+      {
+        id: 5,
+        rule: 'The sole responsibility of each portrait goes to the individual participants, so avoid any vulgar or indecent content.'
+      },
+      {
+        id: 6,
+        rule: 'Participants are asked to take their pictures unassisted'
+      },
+      {
+        id: 7,
+        rule: 'Composition is key, so we are expecting the entries to be well thought out.'
+      },
+      {
+        id: 8,
+        rule: 'Plagiarism is strictly prohibited.'
+      },
+      {
+        id: 9,
+        rule: `Judges' decision will be considered final.`
+      }
+    ],
+    coOrdinators: [
+      {
+        id: 1,
+        name: 'Sharanya Paul',
+        number: '6287048444'
+      },
+      {
+        id: 2,
+        name: 'Rheetwiza Mandal:',
+        number: '7076844206'
+      }
+    ],
+    coverImage: artsyLens,
+    coverColor: '#121013',
+    regLink: 'https://forms.gle/PXDcbiEomtEp9WR96'
   }
 ]
