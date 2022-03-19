@@ -26,6 +26,13 @@ import Wizword from '../../Assets/IndEvents/Literature/Wizword.png'
 import Knownsense from '../../Assets/IndEvents/Literature/KnownSense.png'
 import wordyMuse from '../../Assets/IndEvents/Literature/WordyMuse.png'
 
+//Games Images import
+import ShuttleHustle from '../../Assets/IndEvents/Games/ShuttleHustle.png'
+import Hotshots from '../../Assets/IndEvents/Games/Hotshots.png'
+import Brainstorm from '../../Assets/IndEvents/Games/Brainstorm.png'
+import Futsal from '../../Assets/IndEvents/Games/Futsal.png'
+import WhiffWhaff from '../../Assets/IndEvents/Games/WhiffWhaff.png'
+
 export const singleEvent = [
   {
     id: 1,
@@ -1105,15 +1112,319 @@ export const singleEvent = [
         id: 2,
         name: 'Amrita Kundu',
         number: '8777739807'
-      },
-      {
-        id: 3,
-        name: 'Prasun Das',
-        number: '7685044881'
       }
     ],
     coverImage: wordyMuse,
     coverColor: '#121013',
     regLink: 'https://forms.gle/f6DknEhMuiJHi6jX6'
+  },
+  {
+    id: 17,
+    params: 'ShuttleHustle',
+    title: 'Shuttle Hustle',
+    subtitle: 'Badminton Contest',
+    desc: `Do you think you are Good at badminton?
+
+    Can you beat good players from various institutes and win the trophy?
+    Well think no more and participate in the best badminton inter-college tournament of Kolkata as
+    UNIVERSITY OF ENGINEERING & MANAGEMENT, KOLKATA presents their Badminton Tournament. Come and win exciting prizes & trophies!
+    CENTRAL REGISTRATION
+    FILL UP THE REGISTRATION FORM ASAP TO MARK YOUR SPOT IN THE TOURNAMENT!
+    `,
+    rules: [
+      {
+        id: 1,
+        rule: 'This is a singles tournament, Both Male & Female'
+      },
+      {
+        id: 2,
+        rule: 'A player must wait until his opponent is ready before serving. If the opponent attempts a return then he is ruled had been ready.'
+      },
+      {
+        id: 3,
+        rule: `The feet of both players must remain in a stationary position until the service is made. Your feet can not be touching the line at this time.`
+      },
+      {
+        id: 4,
+        rule: `It is not a fault if you miss the shuttle while serving.`
+      },
+      {
+        id: 5,
+        rule: 'The shuttle cannot be caught and slung with the racket.'
+      },
+      {
+        id: 6,
+        rule: `The shuttle, at the instant of being hit, is higher than the server's waist or the head of the racket is higher than the server's racket hand.`
+      },
+      {
+        id: 7,
+        rule: 'The shuttle does not land in the correct service court.'
+      },
+      {
+        id: 8,
+        rule: `The server's feet are not in the service court or if the feet of the receiver is not in the court diagonally opposite the server.`
+      },
+      {
+        id: 9,
+        rule: `The server steps forward as he/she serves.`
+      },
+      {
+        id: 10,
+        rule: `Any player balking or feinting his opponent before serving or during servicing.`
+      },
+      {
+        id: 11,
+        rule: `A serve or shot that lands outside the court boundaries, pass under or through the net, touches any other obstructions or a player's body or clothing. The boundary and service lines are considered in play.`
+      },
+      {
+        id: 12,
+        rule: `The shuttle in play is struck before it crosses the net to the striker's side of the net. You may follow through over the net.`
+      },
+      {
+        id: 13,
+        rule: `A player touching the net or its supports with his body or racket while the shuttle is in play.`
+      },
+      {
+        id: 14,
+        rule: `Hitting the shuttle twice in succession by a player or team.`
+      },
+      {
+        id: 15,
+        rule: `Scoring System:
+        * A match consists of the best of 3 games of 11 points.
+        * Every time there is a serve – there is a point scored.
+        * The side winning a rally adds a point to its score.
+        * At 10 all, the side that gains a 2 point lead first, wins that game.
+        * At 29 all, the side scoring the 30th point wins that game.
+        * The side winning a game serves first in the next game.
+        `
+      },
+      {
+        id: 16,
+        rule: `Interval and Change of Ends: A 1-minute interval between each game is allowed.`
+      }
+    ],
+    coOrdinators: [
+      {
+        id: 1,
+        name: 'Sayan Mondal',
+        number: '8910988385'
+      },
+      {
+        id: 2,
+        name: 'Shameek De',
+        number: '8116943490'
+      }
+    ],
+    coverImage: ShuttleHustle,
+    coverColor: '#121013',
+    regLink: 'https://forms.gle/NkDSmo45FPsS4CyXA'
+  },
+  {
+    id: 18,
+    params: 'Hotshots',
+    title: 'Hotshots',
+    subtitle: 'Basketball Contest',
+    desc: `Stick to the ground, jump to a height, aim for the basket with the ball you will throw. Ecstasia’22 introduces Basketball Hotshots where you don’t have to play by a team but still can win the game because it needs you to stand some steps away and throw the ball towards the basket.`,
+    rules: [
+      {
+        id: 1,
+        rule: 'No one will be allowed to participate without registration.'
+      },
+      {
+        id: 2,
+        rule: 'The court will be marked with five points named 1,2,3,4,5. The balls must be thrown from those points.'
+      },
+      {
+        id: 3,
+        rule: `If you follow the pattern 1, 2, 3, 4, 5, you will receive 5 bonus points.`
+      },
+      {
+        id: 4,
+        rule: `For each basket, you will be rewarded with a score of that point.
+        For example, If you throw the ball from point 3, you will receive 3 points.`
+      },
+      {
+        id: 5,
+        rule: 'Time limit:    30 seconds'
+      },
+      {
+        id: 6,
+        rule: `Every participant must bring their college ID card with them. Without the ID card participants are not allowed to participate.`
+      },
+      {
+        id: 7,
+        rule: `'Judges' decisions will be the final ones.`
+      },
+      {
+        id: 8,
+        rule: `The participants will be judged on the basis of their total score.`
+      },
+      {
+        id: 9,
+        rule: `Any offensive behavior will result in disqualification`
+      },
+      {
+        id: 10,
+        rule: `All participants should arrive on time. No second chance will be given if any participant misses his or her scheduled time`
+      },
+      {
+        id: 11,
+        rule: `Any violation of the above rules will not be entertained.`
+      }
+    ],
+    coOrdinators: [
+      {
+        id: 1,
+        name: 'Sagnick Datta:',
+        number: '8240374511'
+      },
+      {
+        id: 2,
+        name: 'Raj Nayak:',
+        number: '7980630509'
+      }
+    ],
+    coverImage: Hotshots,
+    coverColor: '#121013',
+    regLink: 'https://forms.gle/CAcFF6bLQdAGSWnW6'
+  },
+  {
+    id: 19,
+    params: 'Brainstorm',
+    title: 'Brainstorm',
+    subtitle: 'Chess Contest',
+    desc: `WELCOME TO THE WORLD OF CHESS. ❤
+    Hello chess Lovers. It's all about pure talent. So be ready to face the toughest challenge in the world of games.
+    Get ready to play & win.`,
+    rules: [
+      {
+        id: 1,
+        rule: 'The movement of pieces is to be done with one hand.'
+      },
+      {
+        id: 2,
+        rule: `In the serious play, if a player having the move touches a piece as if having the intention of moving it, then the player must move it if it can be legally moved. So long as the hand has not left the piece on a new square, any legal move can be made with the piece. If a player touches one of the opponent's pieces then that piece must be captured if there is a legal move that does so. If none of the touching pieces can be moved or captured there is no penalty.`
+      },
+      {
+        id: 3,
+        rule: `Time limit will be 10 mins for each player,i.e, 20 mins full.`
+      },
+      {
+        id: 4,
+        rule: `A player who makes an illegal move must retract that move and make a legal move. That move must be made with the same piece if possible because the touch-move rule applies.`
+      },
+      {
+        id: 5,
+        rule: 'Players may not use any notes, outside sources of information (including computers), or advice from other people. Analysis on another board is not permitted. Score sheets are to record objective facts about the game only, such as time on the clock or draw offers. Players may not leave the competition area without the permission of the arbiter.'
+      }
+    ],
+    coOrdinators: [
+      {
+        id: 1,
+        name: 'Mangaldeep Barai',
+        number: '6295101699'
+      }
+    ],
+    coverImage: Brainstorm,
+    coverColor: '#121013',
+    regLink: 'https://forms.gle/SvQsLmWtqaijnr7D8'
+  },
+  {
+    id: 20,
+    params: 'Futsal',
+    title: 'Futsal',
+    subtitle: 'FutaslContest',
+    desc: `Futsal Tournament organized by University of Engineering & Management, Kolkata for the very first time. This will be held on college premises. Every team must report at the registration desk before 9 am. Please remember it carefully before 10 am.`,
+    rules: [
+      {
+        id: 1,
+        rule: 'There is no overtime, injury time.'
+      },
+      {
+        id: 2,
+        rule: `Teams are composed of four outfield players and one goalkeeper.
+        The goalkeeper must wear a different color jersey than the outfield players.`
+      },
+      {
+        id: 3,
+        rule: `There are no offsides in futsal.`
+      },
+      {
+        id: 4,
+        rule: `The match will be conducted with two halves each of 7 minutes.`
+      },
+      {
+        id: 5,
+        rule: 'There is only one substitution in a match.'
+      },
+      {
+        id: 6,
+        rule: `The offending player is shown a yellow card. If a player is shown two yellow cards in a match, he is shown a red card for the particular match.`
+      },
+      {
+        id: 7,
+        rule: `A team can have 5+2 players. Two extra players for substitution.`
+      },
+      {
+        id: 8,
+        rule: `The Referee's decision is the last decision in a game. Everyone should respect the referee's decision.`
+      }
+    ],
+    coOrdinators: [
+      {
+        id: 1,
+        name: 'Shrabasti Ghatak',
+        number: '7319105595'
+      },
+      {
+        id: 2,
+        name: 'Dwippayan Saha',
+        number: '7602463416'
+      }
+    ],
+    coverImage: Futsal,
+    coverColor: '#121013',
+    regLink: 'https://forms.gle/xjHnaRzgRAA26Fe17'
+  },
+  {
+    id: 21,
+    params: 'WhiffWhaff',
+    title: 'Whiff Whaff',
+    subtitle: 'Table Tennis Contest',
+    desc: `Do you have what it takes to be a Champion?...... Go ahead, participate and push past your limit right here in this Table Tennis Competition. Victory comes to those who strive harder. Good Luck.`,
+    rules: [
+      {
+        id: 1,
+        rule: 'Best Of 3 matches will be played .'
+      },
+      {
+        id: 2,
+        rule: `Knockout Basis`
+      },
+      {
+        id: 3,
+        rule: `The bat should have a red and a black side.`
+      },
+      {
+        id: 4,
+        rule: `The ball will be white or yellow.`
+      }
+    ],
+    coOrdinators: [
+      {
+        id: 1,
+        name: 'Aryan Gupta:',
+        number: '7908713743'
+      },
+      {
+        id: 2,
+        name: 'Shameek de',
+        number: '8116943490'
+      }
+    ],
+    coverImage: WhiffWhaff,
+    coverColor: '#121013',
+    regLink: 'https://forms.gle/kRz6sdsWsvUBBdTZ8'
   }
 ]
