@@ -33,6 +33,11 @@ import Brainstorm from '../../Assets/IndEvents/Games/Brainstorm.png'
 import Futsal from '../../Assets/IndEvents/Games/Futsal.png'
 import WhiffWhaff from '../../Assets/IndEvents/Games/WhiffWhaff.png'
 
+//FineArts Images import
+import TeeShades from '../../Assets/IndEvents/FineArts/TeeShades.png'
+import Rangoli from '../../Assets/IndEvents/FineArts/Rangoli.png'
+import DoADoodle from '../../Assets/IndEvents/FineArts/DoADoodle.png'
+
 export const singleEvent = [
   {
     id: 1,
@@ -1426,5 +1431,141 @@ export const singleEvent = [
     coverImage: WhiffWhaff,
     coverColor: '#121013',
     regLink: 'https://forms.gle/kRz6sdsWsvUBBdTZ8'
+  },
+  {
+    id: 22,
+    params: 'TeeShades',
+    title: 'Tee Shades',
+    subtitle: 'T-Shirt Painting Contest',
+    desc: `"Fashion is art and you are the canvas." However, this colorful event presents you with an opportunity to make your T-shirt a canvas for your fashion. Our style reflects who we are—participate in this event and create your own personal style!This is a solo event.`,
+    rules: [
+      {
+        id: 1,
+        rule: 'Registration is mandatory for participants.'
+      },
+      {
+        id: 2,
+        rule: `Theme: Times of Yore`
+      },
+      {
+        id: 3,
+        rule: `Participants will be provided with the white T-shirts and are expected to carry their own essentials like brushes, paints etc.`
+      },
+      {
+        id: 4,
+        rule: `The time limit provided will be 2 hours.`
+      },
+      {
+        id: 5,
+        rule: 'Content of Participants will be rejected immediately if any allegation of plagiarism comes.'
+      },
+      {
+        id: 6,
+        rule: 'Judges will make the final decision based on your creativity, design and its explanation.'
+      }
+    ],
+    coOrdinators: [
+      {
+        id: 1,
+        name: 'Sanket Mitra',
+        number: '9674674535'
+      },
+      {
+        id: 2,
+        name: 'Rheetwiza Mandal',
+        number: '7076844206'
+      }
+    ],
+    coverImage: TeeShades,
+    coverColor: '#121013',
+    regLink: 'https://forms.gle/mxDWG2Znnw1CcH378'
+  },
+  {
+    id: 23,
+    params: 'ColordeCarousal',
+    title: 'Color de Carousal',
+    subtitle: 'Rangoli Making Contest',
+    desc: `Do you like making rangoli? If yes, participate in the Rangoli making an event of Ecstasia’22 and decorate the ground with vibrant colors molded into beautiful designs.`,
+    rules: [
+      {
+        id: 1,
+        rule: 'Maximum size of rangoli should be 2 ft x 2 ft '
+      },
+      {
+        id: 2,
+        rule: `No specific theme is there for rangoli.`
+      },
+      {
+        id: 3,
+        rule: `One round of competition will be held for rangoli.`
+      },
+      {
+        id: 4,
+        rule: `Time limit is 2 hours.`
+      },
+      {
+        id: 5,
+        rule: 'Arrangements for the rangoli preparation will be done by the teams. '
+      },
+      {
+        id: 6,
+        rule: 'Maximum of two people can form a group.'
+      }
+    ],
+    coOrdinators: [
+      {
+        id: 1,
+        name: 'Somava Nath',
+        number: '8981085053'
+      },
+      {
+        id: 2,
+        name: 'Shreya Basak',
+        number: '9123387404'
+      }
+    ],
+    coverImage: Rangoli,
+    coverColor: '#121013',
+    regLink: 'https://forms.gle/zb16tWxgYUaSA62H9'
+  },
+  {
+    id: 24,
+    params: 'DoADoodle',
+    title: 'Do A Doodle',
+    subtitle: 'Doodle Making Contest',
+    desc: `Do you like doodling? Do you find yourself doodling in your free time? Well, Ecstasia’22 brings to you the perfect opportunity to Doodle and win prizes for it! "Being creative isn't a hobby, it's a way of life." Arm up with your creativity and participate in the Doodle-making event of Ecstasia’22. `,
+    rules: [
+      {
+        id: 1,
+        rule: 'Presence of participants on the college premises during the competition is necessary.'
+      },
+      {
+        id: 2,
+        rule: `Participants will be allowed with a4 size drawing paper.`
+      },
+      {
+        id: 3,
+        rule: `During submission of the doodle,80% of the a4 page should be covered.`
+      },
+      {
+        id: 4,
+        rule: `Participants can use any type of pen of any color. But it is advisable to avoid gel pens.`
+      }
+    ],
+    coOrdinators: [
+      {
+        id: 1,
+        name: 'Sanket Mitra',
+        number: '9674674535'
+      },
+      {
+        id: 2,
+        name: 'Sharanya Paul',
+        number: '6287048444'
+      }
+    ],
+    coverImage: DoADoodle,
+    coverColor: '#121013',
+    regLink: 'https://forms.gle/2zP6fP8Bmud8tNYy5'
   }
 ]
