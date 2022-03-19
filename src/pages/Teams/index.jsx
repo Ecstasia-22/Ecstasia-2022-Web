@@ -13,12 +13,17 @@ let teamArray = [
     TeamName: 'Core',
     TeamMembers: [
       {
+        id: 1,
         Name: 'Name of the person',
         Designation: 'President',
         fb: 'https://www.facebook.com',
         insta: 'https://www.instagram.com'
       }
     ]
+  },
+  {
+    TeamMembers: 'Website team member',
+    TeamMember: [{ id: 1, Name: '', Designation: '', fb: '', insta: '' }]
   }
 ]
 

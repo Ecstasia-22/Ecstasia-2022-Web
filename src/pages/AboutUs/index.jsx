@@ -2,13 +2,16 @@ import './style.css'
 import '../Home/home.css'
 import uemLogo from '../../Assets/uemLogo.jpg'
 import ecstasiaLogo from '../../Assets/ecstasiaLogo.jpg'
+import uemPic from '../../Assets/AboutUs/uempic.png'
+import djTheme from '../../Assets/AboutUs/ourTheme_bg.png'
+
 import { Container, Grid, Paper, Typography } from '@mui/material'
 import Footer from '../../components/Home/Footer'
 
 const writeup = {
   uem: {
     image: uemLogo,
-    background: '#000',
+    background: uemPic,
     title: 'About our university, UEM Kolkata',
     desc: `University of Engineering and Management (UEM), Kolkata was established in the year 2014 by Act No. 25 of Government of West Bengal. Students of this university are always on the spot with the top corporates. UEM Kolkata has been awarded to be in "AAA" category in NPTEL program (IIT Kharagpur and IIT Madras).
     The IEM-UEM group is a renowned educational group amongst the organizations focusing on academic attainment keeping industry at the centre. Exquisite standards have been set by IEM-UEM group regarding the depletion of technical and management assests. The strong foundation of IEM-UEM group has helped to rise the standards and attain fame and recognition all over the country. It aims to serve the country by enabling the future generation to attain great success with self-sufficiency.`
@@ -22,7 +25,7 @@ const writeup = {
   theme: {
     title: 'Our theme - Times of Yore',
     desc: `UEM Kolkata is organizing ECSTASIA with the theme "The times of yore". Why not relive our memories from our favourite TV channels, favourite food and books, to our favourite songs that made our childhood memorable? There is a saying-'Old is gold', we become emotional when we recollect the past or bygone days of our life. We plunge into blissful memories and ecstasy. Let us mix our memorable times of yore with the present significant moment of our life with a nostalgic recollection of former times as our expertise by joining us, this march ECSTASIA'22.`,
-    background: ecstasiaLogo
+    background: djTheme
   }
 }
 
@@ -94,11 +97,16 @@ function AboutUs() {
                 <br />
                 <br />
                 {/**------------------------------------------- Change to yt video -------------------------------------------------------- */}
-                <img
-                  className="about_uemLogo"
-                  src={uemLogo}
-                  alt="uem  transparent logo"
-                />
+                <iframe
+                  style={{ marginTop: '7px' }}
+                  width="320"
+                  height="196"
+                  src="https://www.youtube.com/embed/ohHTIdxVsTE?start=10"
+                  title="YouTube video player"
+                  frameborder="2"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen
+                ></iframe>
               </Grid>
               <Grid item md={8}>
                 <div className="about_hero">
