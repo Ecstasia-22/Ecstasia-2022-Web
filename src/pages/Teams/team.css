@@ -5,15 +5,17 @@
   margin: 0 auto;
 }
 .border {
-  height: 369px;
-  width: 290px;
+  height: 379px;
+  width: 300px;
   background: transparent;
   border-radius: 10px;
   transition: border 2s;
   position: relative;
+  /* filter: brightness(120%) !important; */
 }
 .border:hover {
   border: 1px solid #fff;
+  background-color: rgba(0, 0, 0, 0.37);
 }
 .team_card {
   height: 379px;
@@ -29,60 +31,37 @@
   align-items: center;
   position: relative;
 }
-.card0 {
-  background: url('https://i.pinimg.com/736x/8f/a0/51/8fa051251f5ac2d0b756027089fbffde--terry-o-neill-al-pacino.jpg')
-    center center no-repeat;
-  background-size: 300px;
-}
-.card0:hover {
-  background: url('https://i.pinimg.com/736x/8f/a0/51/8fa051251f5ac2d0b756027089fbffde--terry-o-neill-al-pacino.jpg')
-    left center no-repeat;
-  background-size: 600px;
-}
-.card0:hover h2 {
-  opacity: 1;
-}
-.card0:hover .fa {
-  opacity: 1;
-}
+
 .card1 {
-  background: url('https://i.pinimg.com/originals/28/d2/e6/28d2e684e7859a0dd17fbd0cea00f8a9.jpg')
-    center center no-repeat;
   background-size: 300px;
 }
 .card1:hover {
-  background: url('https://i.pinimg.com/originals/28/d2/e6/28d2e684e7859a0dd17fbd0cea00f8a9.jpg')
-    left center no-repeat;
   background-size: 600px;
 }
-.card1:hover h2 {
-  opacity: 1;
-}
+
 .card1:hover .fa {
   opacity: 1;
 }
-.card2 {
-  background: url('https://i.pinimg.com/originals/ee/85/08/ee850842e68cfcf6e3943c048f45c6d1.jpg')
-    center center no-repeat;
-  background-size: 300px;
-}
-.card2:hover {
-  background: url('https://i.pinimg.com/originals/ee/85/08/ee850842e68cfcf6e3943c048f45c6d1.jpg')
-    left center no-repeat;
-  background-size: 600px;
-}
-.card2:hover h2 {
-  opacity: 1;
-}
-.card2:hover .fa {
-  opacity: 1;
-}
+
 h2 {
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   color: #fff;
   margin: 20px;
   opacity: 0;
   transition: opacity 1s;
+}
+.card1:hover h2 {
+  opacity: 1;
+}
+h3 {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: #fff;
+  margin: 20px;
+  opacity: 0;
+  transition: opacity 1s;
+}
+.card1:hover h3 {
+  opacity: 1;
 }
 .fa {
   opacity: 0;
@@ -99,4 +78,8 @@ h2 {
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
+  opacity: 0;
+}
+.icons:hover {
+  opacity: 1;
 }
