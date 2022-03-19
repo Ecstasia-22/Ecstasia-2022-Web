@@ -1,3 +1,5 @@
+import { Container, Typography, Grid } from '@mui/material'
+
 import React from 'react'
 import './team.css'
 
@@ -86,42 +88,65 @@ let teamArray = [
 
 export default function Teams() {
   return (
-    <div>
-      <div class="container">
-        <div class="card card0">
-          <div class="border">
+    <Container>
+      <h1>Web Team</h1>
+      <Grid class="container">
+        <Grid class="card card0">
+          <Grid class="border">
             <h2>Al Pacino</h2>
-            <div class="icons">
+            <Grid class="icons">
               <i class="fa fa-instagram" aria-hidden="true"></i>
               <i class="fa fa-dribbble" aria-hidden="true"></i>
               <i class="fa fa-twitter" aria-hidden="true"></i>
               <i class="fa fa-facebook" aria-hidden="true"></i>
-            </div>
-          </div>
-        </div>
-        <div class="card card1">
-          <div class="border">
+            </Grid>
+          </Grid>
+        </Grid>
+        {/* <Grid class="card card1">
+          <Grid class="border">
             <h2>Ben Stiller</h2>
-            <div class="icons">
+            <Grid class="icons">
               <i class="fa fa-instagram" aria-hidden="true"></i>
               <i class="fa fa-dribbble" aria-hidden="true"></i>
               <i class="fa fa-twitter" aria-hidden="true"></i>
               <i class="fa fa-facebook" aria-hidden="true"></i>
-            </div>
-          </div>
-        </div>
-        <div class="card card2">
-          <div class="border">
+            </Grid>
+          </Grid>
+        </Grid>
+        <Grid class="card card2">
+          <Grid class="border">
             <h2>Patrick Stewart</h2>
-            <div class="icons">
+            <Grid class="icons">
               <i class="fa fa-instagram" aria-hidden="true"></i>
               <i class="fa fa-dribbble" aria-hidden="true"></i>
               <i class="fa fa-twitter" aria-hidden="true"></i>
               <i class="fa fa-facebook" aria-hidden="true"></i>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+            </Grid>
+          </Grid>
+        </Grid>
+        <Grid class="card card2">
+          <Grid class="border">
+            <h2>Patrick Stewart</h2>
+            <Grid class="icons">
+              <i class="fa fa-instagram" aria-hidden="true"></i>
+              <i class="fa fa-dribbble" aria-hidden="true"></i>
+              <i class="fa fa-twitter" aria-hidden="true"></i>
+              <i class="fa fa-facebook" aria-hidden="true"></i>
+            </Grid>
+          </Grid>
+        </Grid>
+        <Grid class="card card2">
+          <Grid class="border">
+            <h2>Patrick Stewart</h2>
+            <Grid class="icons">
+              <i class="fa fa-instagram" aria-hidden="true"></i>
+              <i class="fa fa-dribbble" aria-hidden="true"></i>
+              <i class="fa fa-twitter" aria-hidden="true"></i>
+              <i class="fa fa-facebook" aria-hidden="true"></i>
+            </Grid>
+          </Grid>
+        </Grid> */}
+      </Grid>
+    </Container>
   )
 }
