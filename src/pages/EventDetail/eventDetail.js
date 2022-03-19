@@ -532,7 +532,7 @@ export const singleEvent = [
       },
       {
         id: 3,
-        rule: 'nstruments won’t be provided by the management team or college. Personal instruments should be brought to perform.'
+        rule: 'Instruments won’t be provided by the management team or college. Personal instruments should be brought to perform.'
       },
       {
         id: 4,
@@ -577,6 +577,87 @@ export const singleEvent = [
     ],
     coverImage: 'https://i.ibb.co/0zZxXxL/cover.jpg',
     coverColor: '#121013',
-    regLink: 'https://forms.gle/eXLqh5ptTAkwUjRg9 '
+    regLink: 'https://forms.gle/DmwVQbn6CUrC8Lk48'
+  },
+  {
+    id: 10,
+    params: 'Ad Spoof',
+    title: 'Ad Spoof',
+    subtitle: 'https://i.ibb.co/0zZxXxL/cover.jpg',
+    desc: '"Laughter is timeless, imagination has no age, and dreams are forever."- Walt Disney In the Ad Spoof event of Ecstasia’22, conjure up your imaginations, and fulfill your dreams of making fun of advertisements! Make everyone laugh out loud with your witty humor and exquisite taste for comedy.',
+    rules: [
+      {
+        id: 1,
+        rule: 'None will be allowed to participate without registration.'
+      },
+      {
+        id: 2,
+        rule: 'Participants must bring their respective props and dresses if requires.'
+      },
+      {
+        id: 3,
+        rule: 'Time limit: Minimum: 3mins.Maximum: 5mins'
+      },
+      {
+        id: 4,
+        rule: 'It can be a solo performance or group performance. '
+      },
+      {
+        id: 5,
+        rule: 'Every participant must bring their college identity card with them, without an id card participants are not allowed to participate.'
+      },
+      {
+        id: 6,
+        rule: 'Decision of the judges will be the ultimate ones.'
+      },
+      {
+        id: 7,
+        rule: 'The participants will be judged based on their emotions, dialogues, script, and overall presentation.'
+      },
+      {
+        id: 8,
+        rule: 'Any offensive word is not allowed and no one should wear any vulgar dress(including sleeveless or crop top).'
+      },
+      {
+        id: 9,
+        rule: 'Every participant should come on time. No second chance will be given if any participant misses his or her scheduled time.'
+      },
+      {
+        id: 10,
+        rule: 'Every performance is time-specific, exceeding the time limit can cause disqualification of the team.'
+      },
+      {
+        id: 11,
+        rule: 'Any violation of the above rules will not be entertained.'
+      }
+    ],
+    coOrdinators: [
+      {
+        id: 1,
+        name: 'If you  are facing issues or any problems please contact them.'
+      },
+      {
+        id: 2,
+        name: 'Soumita Ghosh',
+        number: '6290711265'
+      },
+      {
+        id: 3,
+        name: 'Antara Ghoshal:',
+        number: '6291014606'
+      },
+      {
+        id: 4,
+        name: 'Sayoni Saha',
+        number: '9163445023'
+      },
+      {
+        id: 5,
+        name: 'NOTE: Every participant has to register on the event day with the central registration fees of 100/-. '
+      }
+    ],
+    coverImage: 'https://i.ibb.co/0zZxXxL/cover.jpg',
+    coverColor: '#121013',
+    regLink: 'https://forms.gle/1f1pu6PxniBXzpSi9'
   }
 ]
