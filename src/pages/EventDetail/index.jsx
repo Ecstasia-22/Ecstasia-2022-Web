@@ -1,96 +1,203 @@
 import './style.css'
 import { Container, Grid, Typography, Link } from '@mui/material'
 import ArrowBackIcon from '@mui/icons-material/ArrowBack'
-import { useNavigate } from 'react-router-dom'
+import Logo from '../../Assets/ecstasiaLogo.jpg'
+import { useNavigate, useParams } from 'react-router-dom'
 import dance1 from './taleTale.png'
+import { singleEvent } from './eventDetail'
+import FacebookIcon from '../../Assets/socials/facebook.svg'
+import InstagramIcon from '../../Assets/socials/instagram.svg'
+import TwitterIcon from '../../Assets/socials/twitter.svg'
+import YoutubeIcon from '../../Assets/socials/youtube.svg'
+
+const HEIGHT = 'calc(100vh - 90px)'
 
 function EventDetail() {
   const navigate = useNavigate()
+  const param = useParams().eventDetail
+
+  const event = singleEvent.find((event) => event.params === param) || {}
+
   return (
     <div className="eventDetails">
-      {/* heading */}
+      <div className="bg" style={{ position: 'relative' }}>
+        <div
+          style={{
+            zIndex: 9999,
+            marginTop: '1.5rem',
+            position: 'absolute',
+            left: '50%',
+            top: '1rem',
+            transform: 'translateX(-50%)'
+          }}
+        >
+          <div style={{ display: 'flex', alignItems: 'center' }}>
+            <ArrowBackIcon onClick={() => navigate(-1)} className="arrowBack" />
+            <span className="headingText">{event.title}</span>{' '}
+          </div>
+          <p className="subHeading">{event.subtitle}</p>
+        </div>
+        <Grid container style={{ height: window.innerWidth >= 900 ? HEIGHT : '100%' }}>
+          <Grid item xs={12} md={5} style={{ position: 'relative', height: HEIGHT }}>
+            <img src={dance1} style={{ height: HEIGHT }} id="leftImage" alt="leftImage" />
+            <div
+              style={{
+                display: 'flex',
+                flexDirection: 'column',
+                alignItems: 'center',
+                justifyContent: 'center',
+                position: 'absolute',
+                top: '45%',
+                transform: 'translateY(-50%)',
+                left: 0,
+                zIndex: 999
+              }}
+            >
+              <img src={FacebookIcon} style={{ width: '5rem', height: '5rem' }} alt="" />
+              <img src={TwitterIcon} style={{ width: '5rem', height: '5rem' }} alt="" />
+              <img src={InstagramIcon} style={{ width: '5rem', height: '5rem' }} alt="" />
+              <img src={YoutubeIcon} style={{ width: '5rem', height: '5rem' }} alt="" />
+            </div>
+            <div
+              style={{
+                display: 'flex',
+                flexDirection: window.innerWidth >= 900 ? 'row' : 'column',
+                alignItems: 'center',
+                justifyContent: 'center',
+                position: 'absolute',
+                bottom: '1.3rem',
+                zIndex: 999,
+                width: '100%',
+                padding: '1rem'
+              }}
+            >
+              <button
+                className="registerButton"
+                style={{
+                  color: event.coverColor,
+                  marginRight: '1rem',
+                  marginBottom: window.innerWidth >= 900 ? 0 : '1rem'
+                }}
+                onClick={() => window.open(event.regLink, '_blank')}
+              >
+                Register
+              </button>
+              <button className="blurButton">3 and 8 Members per Team</button>
+            </div>
+          </Grid>
+          <Grid
+            item
+            xs={12}
+            md={7}
+            style={{
+              position: 'relative',
+              height: HEIGHT,
+              overflow: 'auto',
+              color: 'white',
+              background: event.coverColor
+            }}
+          >
+            <div
+              style={{
+                padding: '3rem',
+                marginTop: window.innerWidth >= 900 ? '8rem' : 0
+              }}
+            >
+              {event.rules.map((rule) => (
+                <p key={rule.id} className="ruleText">
+                  {rule.rule}
+                </p>
+              ))}
+              <Typography style={{ marginTop: '1.4rem' }}>
+                <p className="nameEvent">Event co-ordinators</p>
+              </Typography>
+              <div style={{ display: 'flex', flexWrap: 'wrap', marginTop: '0.7rem' }}>
+                {event.coOrdinators.map((c) => (
+                  <div style={{ marginRight: '1rem' }}>
+                    <p className="nameCo">{c.name}</p>
+                    <p className="eventNum">{c.number}</p>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </Grid>
+        </Grid>
+        <Container maxWidth="lg" style={{ marginTop: '1rem' }}>
+          <Grid container alignItems="center">
+            <Grid item xs={12} md={3}>
+              <img src={Logo} style={{ width: '100%', height: 'auto' }} alt="logo" />
+            </Grid>
+            <Grid item xs={0} md={1} />
+            <Grid item xs={12} md={8}>
+              <Typography variant="h6" style={{ marginTop: '1rem', textAlign: 'center' }}>
+                For General Enquiries:
+              </Typography>
+              <Typography component="p" variant="p" style={{ textAlign: 'center' }}>
+                ecstasia.uemk@gmail.com
+              </Typography>
+              <Typography variant="h6" style={{ marginTop: '1rem', textAlign: 'center' }}>
+                For Sponorship Enquiries:
+              </Typography>
+              <Typography component="p" variant="p" style={{ textAlign: 'center' }}>
+                sponsorship.ecstasia.uemk@gmail.com
+              </Typography>
+            </Grid>
+          </Grid>
+          <hr style={{ margin: '1rem 0', borderWidth: '3px' }} />
+          <p style={{ margin: '1rem 0', textAlign: 'center', width: '100%' }}>
+            © Copyright ECSTASIA 2022 - All Rights Reserved
+          </p>
+        </Container>
+      </div>
+      {/* 
+      <Grid item xs={7} style={{ backgroundColor: event.coverColor }}>
+        <Container maxWidth="xl" className="rules">
+          <Typography>
+            {event.rules.map((rule) => (
+              <p key={rule.id} className="ruleText">
+                {rule.rule}
+              </p>
+            ))}
+            <br />
+            <br />
+            <Typography>
+              <p className="nameEvent">Event co-ordinators</p>
+            </Typography>
+            <br />
+
+            <Grid container>
+              {event.coOrdinators.map((c) => (
+                <Grid key={c.id} item xs={3}>
+                  <p className="nameCo">{c.name}</p>
+                  <p className="eventNum">{c.number}</p>
+                </Grid>
+              ))}
+            </Grid>
+          </Typography>
+        </Container>
+      </Grid>
       <div>
         <Typography>
           <ArrowBackIcon onClick={() => navigate(-1)} className="arrowBack" />
-          <p className="headingText">Nrityer O Tale Tale </p>{' '}
+          <p className="headingText">{event.title}</p>{' '}
         </Typography>
-        <p className="subHeading">
-          inter school and college classical Group Dance Contest
-        </p>
+        <p className="subHeading">{event.desc}</p>
       </div>
 
       <Grid container>
-        {/* Image grid */}
         <Grid item xs={5} className="picDetail">
-          <img src={dance1} id="leftImage" alt="leftImage" />
           <a href="">
-            <button className="registerButton" style={{ color: '#FF7158' }}>
+            <button
+              className="registerButton"
+              style={{ color: event.coverColor }}
+              onClick={() => window.open(event.regLink, '_blank')}
+            >
               Register
             </button>
           </a>
           <button className="blurButton">3 and 8 Members per Team</button>
         </Grid>
-        {/* Text grid */}
-        <Grid item xs={7} style={{ backgroundColor: '#FF7158' }}>
-          <Container maxWidth="xl" className="rules">
-            <Typography>
-              <p className="ruleText">
-                1.No one will be allowed to participate without registration.{' '}
-              </p>
-              <p className="ruleText">
-                2.No one will be allowed to participate without registration.
-              </p>
-              <p className="ruleText">
-                3.Participants must bring their pendrive or mobile phone containing their
-                particular song.
-              </p>
-              <p className="ruleText">
-                4.Every participant must bring their college id card with them, without id
-                card participants are not allowed to participate.
-              </p>
-              <p className="ruleText">
-                5.Time limit: Minimum: 3mins. Maximum :7mins. Judges decision will be the
-                ultimate one.
-              </p>
-              <p className="ruleText">
-                6.The participants will be judged on the basis of costumes, visual
-                presentation and dance forms. Any offensive music/song is not allowed and
-                no one should wear any vulgar dress (including sleeveless or crop top).
-              </p>
-              <p className="ruleText">
-                7.Every participant should come in time. Every performance is time
-                specific ,exceeding the time limit can cause disqualifying the team.
-              </p>
-              <p className="ruleText">
-                {' '}
-                8.Any violation of the above rules will not be entertained. For any
-                queries and further details contact the co ordinators.
-              </p>
-              <br />
-              <br />
-              <Typography>
-                <p className="nameEvent">Event co-ordinators</p>
-              </Typography>
-              <br />
-
-              <Grid container>
-                <Grid item xs={3}>
-                  <p className="nameCo">Smaranika</p>
-                  <p className="eventNum">9679447127</p>
-                </Grid>
-                <Grid item xs={3}>
-                  <p className="nameCo">Upasana </p>
-                  <p className="eventNum">8902228206</p>
-                </Grid>
-                <Grid item xs={3}>
-                  <p className="nameCo">Purba </p>
-                  <p className="eventNum">758639506</p>
-                </Grid>
-              </Grid>
-            </Typography>
-          </Container>
-        </Grid>
-      </Grid>
+      </Grid> */}
     </div>
   )
 }

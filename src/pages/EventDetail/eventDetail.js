@@ -2,7 +2,7 @@
 import fusionFantasea from '../../Assets/IndEvents/Dance/FusionFantasea.png'
 import nott from '../../Assets/IndEvents/Dance/NoTT.png'
 import rhythmicDuo from '../../Assets/IndEvents/Dance/RhythmicDuo.png'
-import stepUp from '../../Assets/IndEvents/Dance/StepUP.png'
+// import stepUp from '../../Assets/IndEvents/Dance/StepUP.png'
 
 //Music Images import
 import Funtakshari from '../../Assets/IndEvents/Music/Funtakshari.png'
@@ -23,7 +23,7 @@ import artsyLens from '../../Assets/IndEvents/Photography/ArtsyLens.png'
 
 //Literature Images import
 import Wizword from '../../Assets/IndEvents/Literature/Wizword.png'
-import Knownsense from '../../Assets/IndEvents/Literature/KnownSense.png'
+// import Knownsense from '../../Assets/IndEvents/Literature/KnownSense.png'
 import wordyMuse from '../../Assets/IndEvents/Literature/WordyMuse.png'
 
 //Games Images import
@@ -244,7 +244,7 @@ export const singleEvent = [
         number: '9836052755'
       }
     ],
-    coverImage: stepUp,
+    // coverImage: stepUp,
     coverColor: '#121013',
     regLink: 'https://forms.gle/B1bi36XhCJi5oYU57'
   },
@@ -1053,7 +1053,7 @@ export const singleEvent = [
         number: '7685044881'
       }
     ],
-    coverImage: Knownsense,
+    // coverImage: Knownsense,
     coverColor: '#121013',
     regLink: 'https://forms.gle/5pq31KBaryiQv9eT8'
   },
