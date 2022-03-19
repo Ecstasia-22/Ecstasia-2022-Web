@@ -40,7 +40,7 @@ function App() {
             path="/teams"
             element={
               <>
-                 <Teams />
+                <SocialIcons /> <Teams />
               </>
             }
           />
