@@ -42,7 +42,6 @@ function App() {
               </>
             }
           />
-
         </Routes>
       </BrowserRouter>
     </>
