@@ -49,28 +49,29 @@ function GalleryPage() {
 
               if (item.Id % 6 === 5 || item.Id % 6 === 4 || item.Id % 6 === 3) {
                 return (
-                  <Grid item xs={4}>
+                  <Grid item md={4}>
                     <img
-                      className="imgHover gallery_img"
+                      className=" gallery_img gallery_img__short"
                       src={`${item.image}`}
                       alt={item.title}
                     />
                   </Grid>)
               }
               if (item.Id % 6 === 2 || item.Id % 6 === 1) {
-                return (<Grid item xs={6}>
+                return (<Grid item md={6}>
                   {' '}
                   <img
-                    className="imgHover gallery_img"
+                    className=" gallery_img gallery_img__short"
                     src={`${item.image}`}
                     alt={item.title}
                   />
                 </Grid>)
               }
               if (item.Id % 6 === 0) {
-                return (<Grid item xs={12}>
+                return (<Grid item md={12}>
                   {' '}
                   <img
+                  className="gallery_img"
                     src={`${item.image}`}
                     alt={item.title}
                   />
