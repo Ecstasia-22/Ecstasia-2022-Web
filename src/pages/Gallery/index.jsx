@@ -68,13 +68,15 @@ function GalleryPage() {
                 </Grid>)
               }
               if (item.Id % 6 === 0) {
-                return (<Grid item md={12}>
+                return (<Grid item md={12} className="tooltip">
                   {' '}
                   <img
                   className="gallery_img"
                     src={`${item.image}`}
                     alt={item.title}
+
                   />
+                  <span class="tooltiptext">Tooltip text</span>
                 </Grid>)
               }
 
