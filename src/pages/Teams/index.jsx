@@ -88,7 +88,7 @@ export default function Teams() {
   return (
     <div>
       <div class="container">
-        <div class="card card0">
+        <div class="team_card card0">
           <div class="border">
             <h2>Al Pacino</h2>
             <div class="icons">
@@ -99,7 +99,7 @@ export default function Teams() {
             </div>
           </div>
         </div>
-        <div class="card card1">
+        <div class="team_card card1">
           <div class="border">
             <h2>Ben Stiller</h2>
             <div class="icons">
@@ -110,7 +110,7 @@ export default function Teams() {
             </div>
           </div>
         </div>
-        <div class="card card2">
+        <div class="team_card card2">
           <div class="border">
             <h2>Patrick Stewart</h2>
             <div class="icons">
