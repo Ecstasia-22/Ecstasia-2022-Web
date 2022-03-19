@@ -39,11 +39,11 @@
   background-size: 600px;
 }
 
-.card1:hover .fa {
+.card1:hover {
   opacity: 1;
 }
 
-h2 {
+.border h2 {
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   color: #fff;
   margin: 20px;
@@ -60,12 +60,15 @@ h2 {
   opacity: 0;
   transition: opacity 1s;
 }
-.card1:hover h3 {
-  opacity: 1;
-}
-.fa {
+.border h3 {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: #fff;
+  margin: 20px;
   opacity: 0;
   transition: opacity 1s;
+}
+.card1:hover h3 {
+  opacity: 1;
 }
 .icons {
   position: absolute;
@@ -80,6 +83,6 @@ h2 {
   justify-content: space-around;
   opacity: 0;
 }
-.icons:hover {
+.card1:hover .icons:hover {
   opacity: 1;
 }
