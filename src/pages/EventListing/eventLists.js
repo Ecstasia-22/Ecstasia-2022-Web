@@ -206,7 +206,7 @@ export const eventLists = [
       {
         id: 2,
         name: 'Rang o Mancha',
-        link: 'RangOMancha',
+        link: '/',
         description: 'Stage Play Perfomance',
         image: RoM,
         hoveredImage: musicCover //replace this field with the hover image of the event
