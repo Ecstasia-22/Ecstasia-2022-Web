@@ -11,11 +11,9 @@ const Navbar = () => {
   }
 
   let activeStyle = {
-    background: "#f566af",
+    background: '#f566af',
     color: '#fff'
-  };
-
-
+  }
 
   return (
     <nav className="NavbarItems">
@@ -30,16 +28,18 @@ const Navbar = () => {
         {MenuItems.map((item, index) => {
           return (
             <NavLink
-            to="messages"
-            style={({ isActive }) =>
-              isActive ? activeStyle : undefined
-            }
-          >
-            <li key={index}>
-              <Link className={item.cName} to={item.url} onClick={(e) => handleClick(e)}>
-                {item.title}
-              </Link>
-            </li>
+              to="messages"
+              style={({ isActive }) => (isActive ? activeStyle : undefined)}
+            >
+              <li key={index}>
+                <Link
+                  className={item.cName}
+                  to={item.url}
+                  onClick={(e) => handleClick(e)}
+                >
+                  {item.title}
+                </Link>
+              </li>
             </NavLink>
           )
         })}

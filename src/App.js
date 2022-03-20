@@ -17,36 +17,18 @@ function App() {
       <BrowserRouter>
         <ScrollToTop />
         <Navbar />
-        <SocialIcons/>
+        <SocialIcons />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/events" element={<Events />} />
-          <Route
-            path="/aboutus"
-            element={
-              <AboutUs />
-            }
-          />
+          <Route path="/aboutus" element={<AboutUs />} />
           {/**The :eventListing take the parameter from url dynamically */}
           <Route path="/events/:eventListing" element={<EventListing />} />
 
           <Route path="/events/:eventListing/:eventDetail" element={<EventDetail />} />
 
-          <Route
-            path="/gallery"
-            element={
-
-              <GalleryPage />
-            }
-          />
-          <Route
-            path="/teams"
-            element={
-
-              <Teams />
-
-            }
-          />
+          <Route path="/gallery" element={<GalleryPage />} />
+          <Route path="/teams" element={<Teams />} />
         </Routes>
       </BrowserRouter>
     </>

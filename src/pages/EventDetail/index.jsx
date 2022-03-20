@@ -53,19 +53,22 @@ function EventDetail() {
                 padding: '1rem'
               }}
             >
-            {event.show && (
-              <button
-                className="registerButton"
-                style={{
-                  color: event.coverColor,
-                  marginRight: '1rem',
-                  marginBottom: window.innerWidth >= 900 ? 0 : '1rem'
-                }}
-                onClick={() => window.open(event.regLink, '_blank')}
-              >
-                Register
-              </button>)}
-              <button className="blurButton"><img src={community}/> {" "} 3 and 8 Members per Team </button>
+              {event.show && (
+                <button
+                  className="registerButton"
+                  style={{
+                    color: event.coverColor,
+                    marginRight: '1rem',
+                    marginBottom: window.innerWidth >= 900 ? 0 : '1rem'
+                  }}
+                  onClick={() => window.open(event.regLink, '_blank')}
+                >
+                  Register
+                </button>
+              )}
+              <button className="blurButton">
+                <img src={community} /> 3 and 8 Members per Team{' '}
+              </button>
             </div>
           </Grid>
           <Grid
@@ -86,11 +89,18 @@ function EventDetail() {
                 marginTop: window.innerWidth >= 900 ? '8rem' : 0
               }}
             >
-            <Typography variant="h4" className="about_title"> Rules and Regulation </Typography>
-              <Typography variant="subtitle2" className="ruleText"><b style={{textTransform: "uppercase"}}>• For registration details, contact the co-ordinators.</b></Typography>
+              <Typography variant="h4" className="about_title">
+                {' '}
+                Rules and Regulation{' '}
+              </Typography>
+              <Typography variant="subtitle2" className="ruleText">
+                <b style={{ textTransform: 'uppercase' }}>
+                  • For registration details, contact the co-ordinators.
+                </b>
+              </Typography>
               {event.rules.map((rule) => (
                 <Typography variant="subtitle2" key={rule.id} className="ruleText">
-                •  {rule.rule}
+                  • {rule.rule}
                 </Typography>
               ))}
               <Typography variant="subtitle2" style={{ marginTop: '1.4rem' }}>
