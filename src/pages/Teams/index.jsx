@@ -16,6 +16,7 @@ import traina from '../../Assets/TeamPics/Core/Trina.jpg'
 import sayantani from '../../Assets/TeamPics/Core/Sayantani.jpeg'
 import Soumita from '../../Assets/TeamPics/Core/soumita.jpg'
 import swarnava from '../../Assets/TeamPics/Core/swarnava.jpeg'
+import pahel from '../../Assets/TeamPics/Core/pahel.jpg'
 
 import bihan from '../../Assets/TeamPics/Developers/bihan.jpg'
 import aayush from '../../Assets/TeamPics/Developers/aayush.jpg'
@@ -131,6 +132,14 @@ let teamArray = [
         fb: 'https://www.facebook.com/kiwtir.amrev',
         insta: 'https://instagram.com/_.amrev._?utm_medium=copy_link',
         pic: ritwik
+      },
+      {
+        id: 12,
+        Name: 'Pahel Singh',
+        Designation: 'Head of Content Team',
+        fb: 'https://www.facebook.com/profile.php?id=100069298763919',
+        insta: 'https://www.instagram.com/pahel.psk.29',
+        pic: panel
       }
     ]
   },
