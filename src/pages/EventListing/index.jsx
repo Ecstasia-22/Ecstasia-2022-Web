@@ -99,7 +99,7 @@ export default function EventListing() {
 
               {eventDetails.others.map((item, index) => {
                 return (
-                  <div key={index}>
+                  <div key={index} style={{padding: '1rem'}}>
                     <button
                       className="btn1"
                       style={{ border: `4px solid ${item.color}` }}

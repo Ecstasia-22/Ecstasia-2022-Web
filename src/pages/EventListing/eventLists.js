@@ -198,8 +198,8 @@ export const eventLists = [
       {
         id: 1,
         name: 'Pather Dabi',
-        link: 'PatherDabi',
-        description: 'Street Duet Dance',
+        link: '/',
+        description: 'Street Duet Dance Perfomance',
         image: patherDabi,
         hoveredImage: musicCover //replace this field with the hover image of the event
       },
@@ -207,7 +207,7 @@ export const eventLists = [
         id: 2,
         name: 'Rang o Mancha',
         link: 'RangOMancha',
-        description: 'Stage Play Contest',
+        description: 'Stage Play Perfomance',
         image: RoM,
         hoveredImage: musicCover //replace this field with the hover image of the event
       },

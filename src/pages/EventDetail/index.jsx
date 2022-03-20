@@ -48,24 +48,6 @@ function EventDetail() {
             <div
               style={{
                 display: 'flex',
-                flexDirection: 'column',
-                alignItems: 'center',
-                justifyContent: 'center',
-                position: 'absolute',
-                top: '45%',
-                transform: 'translateY(-50%)',
-                left: 0,
-                zIndex: 999
-              }}
-            >
-              <img src={FacebookIcon} style={{ width: '5rem', height: '5rem' }} alt="" />
-              <img src={TwitterIcon} style={{ width: '5rem', height: '5rem' }} alt="" />
-              <img src={InstagramIcon} style={{ width: '5rem', height: '5rem' }} alt="" />
-              <img src={YoutubeIcon} style={{ width: '5rem', height: '5rem' }} alt="" />
-            </div>
-            <div
-              style={{
-                display: 'flex',
                 flexDirection: window.innerWidth >= 900 ? 'row' : 'column',
                 alignItems: 'center',
                 justifyContent: 'center',
