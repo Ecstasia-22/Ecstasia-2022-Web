@@ -5,7 +5,7 @@ import { useNavigate, useParams } from 'react-router-dom'
 import { singleEvent } from './eventDetail'
 import community from '../../Assets/IndEvents/community.svg'
 
-const HEIGHT = 'calc(100vh)'
+const HEIGHT = 'calc(120vh)'
 
 function EventDetail() {
   const navigate = useNavigate()
