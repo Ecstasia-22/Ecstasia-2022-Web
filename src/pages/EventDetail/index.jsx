@@ -66,9 +66,9 @@ function EventDetail() {
                   Register
                 </button>
               )}
-              <button className="blurButton">
+              </*button className="blurButton">
                 <img src={community} /> 3 and 8 Members per Team{' '}
-              </button>
+              </button*/>
             </div>
           </Grid>
           <Grid
