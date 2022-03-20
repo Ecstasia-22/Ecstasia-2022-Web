@@ -131,7 +131,7 @@ let teamArray = [
         fb: 'https://www.facebook.com/kiwtir.amrev',
         insta: 'https://instagram.com/_.amrev._?utm_medium=copy_link',
         pic: ritwik
-      },
+      }
     ]
   },
   {
@@ -199,19 +199,21 @@ let teamArray = [
         fb: 'https://www.facebook.com/ayushphillip.mazumdar',
         insta: 'https://www.instagram.com/the_introverted_guy',
         pic: ayushM
-      },
+      }
     ]
   }
 ]
 
 export default function Teams() {
   return (
-    <div className='teams'>
+    <div className="teams">
       <Container>
         {teamArray.map((item, index) => {
           return (
             <>
-              <Typography variant='h3' className='teamName'>{item.TeamName}</Typography>
+              <Typography variant="h3" className="teamName">
+                {item.TeamName}
+              </Typography>
               <Grid container>
                 {item.TeamMember.map((i) => {
                   return (
@@ -226,14 +228,26 @@ export default function Teams() {
                         >
                           <Grid class="border">
                             <h2>{i.Name}</h2>
-                            <Typography variant="subtitle2" className="de h3">{i.Designation}</Typography>
+                            <Typography variant="subtitle2" className="de h3">
+                              {i.Designation}
+                            </Typography>
                             <Grid class="icons">
-
-                              {i.fb ? (<a href={`${i.fb}`}>
-                                <FacebookRoundedIcon fontSize='small' className='fa' sx={{ fontSize: 40, color: '#ffff' }} />
-                              </a>) : (<></>)}
+                              {i.fb ? (
+                                <a href={`${i.fb}`}>
+                                  <FacebookRoundedIcon
+                                    fontSize="small"
+                                    className="fa"
+                                    sx={{ fontSize: 40, color: '#ffff' }}
+                                  />
+                                </a>
+                              ) : (
+                                <></>
+                              )}
                               <a href={`${i.insta}`}>
-                                <InstagramIcon fontSize='small' sx={{ fontSize: 40, color: '#ffff' }} />
+                                <InstagramIcon
+                                  fontSize="small"
+                                  sx={{ fontSize: 40, color: '#ffff' }}
+                                />
                               </a>
                               <i class="fa fa-facebook" aria-hidden="true"></i>
                             </Grid>
