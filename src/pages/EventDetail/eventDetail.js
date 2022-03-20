@@ -106,6 +106,11 @@ export const singleEvent = [
         id: 2,
         name: 'Upasana Sharma',
         number: '8902228206'
+      },
+      {
+        id: 3,
+        name: 'Purba Ghosh',
+        number: '758639506'
       }
     ],
     coverImage: rhythmicDuo,
@@ -174,6 +179,11 @@ export const singleEvent = [
         id: 2,
         name: 'Indrani Bose',
         number: '9836052755'
+      },
+      {
+        id: 3,
+        name: 'Purba Ghosh',
+        number: '758639506'
       }
     ],
     coverImage: fusionFantasea,
@@ -242,6 +252,11 @@ export const singleEvent = [
         id: 2,
         name: 'Indrani Bose',
         number: '9836052755'
+      },
+      {
+        id: 3,
+        name: 'Purba Ghosh',
+        number: '758639506'
       }
     ],
     coverImage: stepUp,
@@ -310,6 +325,11 @@ export const singleEvent = [
         id: 2,
         name: 'Upasana Sharma',
         number: '8902228206'
+      },
+      {
+        id: 3,
+        name: 'Purba Ghosh',
+        number: '758639506'
       }
     ],
     coverImage: nott,
@@ -358,6 +378,11 @@ export const singleEvent = [
         id: 2,
         name: 'Shreya Basu',
         number: '9088166211'
+      },
+      {
+        id: 3,
+        name: 'Arka Bhattacharya',
+        number: '8620058575'
       }
     ],
     coverImage: Funtakshari,
@@ -418,6 +443,11 @@ export const singleEvent = [
         id: 2,
         name: 'Rajdeep Chatterjee',
         number: '8620058575'
+      },
+      {
+        id: 3,
+        name: 'Arka Bhattacharya',
+        number: '8620058575'
       }
     ],
     coverImage: melodicFiesta,
@@ -474,6 +504,11 @@ export const singleEvent = [
         id: 2,
         name: 'Rajdeep Chatterjee',
         number: ' 8620058575'
+      },
+      {
+        id: 3,
+        name: 'Arka Bhattacharya',
+        number: '8620058575'
       }
     ],
     coverImage: plugAndPlay,
@@ -510,6 +545,11 @@ export const singleEvent = [
         id: 2,
         name: 'Shreya Basu',
         number: '9088166211'
+      },
+      {
+        id: 3,
+        name: 'Arka Bhattacharya',
+        number: '8620058575'
       }
     ],
     coverImage: sangeetTantra,
@@ -539,12 +579,17 @@ export const singleEvent = [
     coOrdinators: [
       {
         id: 1,
-        name: 'Lahama Banerjee',
-        number: '9051723913'
+        name: 'Pratik Das',
+        number: '9477105828'
       },
       {
         id: 2,
         name: 'Rajdeep Chatterjee',
+        number: '8620058575'
+      },
+      {
+        id: 3,
+        name: 'Arka Bhattacharya',
         number: '8620058575'
       }
     ],
@@ -1222,8 +1267,8 @@ export const singleEvent = [
     coOrdinators: [
       {
         id: 1,
-        name: 'Sayan Mondal',
-        number: '8910988385'
+        name: 'Dwippayan Saha',
+        number: '7602463416'
       },
       {
         id: 2,
