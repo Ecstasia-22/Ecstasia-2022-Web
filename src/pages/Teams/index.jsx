@@ -139,7 +139,7 @@ let teamArray = [
         Designation: 'Head of Content Team',
         fb: 'https://www.facebook.com/profile.php?id=100069298763919',
         insta: 'https://www.instagram.com/pahel.psk.29',
-        pic: panel
+        pic: pahel
       }
     ]
   },
