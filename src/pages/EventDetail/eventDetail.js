@@ -183,7 +183,7 @@ export const singleEvent = [
       {
         id: 3,
         name: 'Purba Ghosh',
-        number: '758639506'
+        number: '7586839506'
       }
     ],
     coverImage: fusionFantasea,
@@ -256,7 +256,7 @@ export const singleEvent = [
       {
         id: 3,
         name: 'Purba Ghosh',
-        number: '758639506'
+        number: '7586839506'
       }
     ],
     coverImage: stepUp,
@@ -329,7 +329,7 @@ export const singleEvent = [
       {
         id: 3,
         name: 'Purba Ghosh',
-        number: '758639506'
+        number: '7586839506'
       }
     ],
     coverImage: nott,
