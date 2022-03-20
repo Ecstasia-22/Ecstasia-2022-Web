@@ -184,44 +184,49 @@ let teamArray = [
 
 export default function Teams() {
   return (
-    <div className='teams'>
-    <Container>
-      {teamArray.map((item, index) => {
-        return (
-          <>
-            <h1>{item.TeamName}</h1>
-            <Grid container>
-              {item.TeamMember.map((i) => {
-                return (
-                  <>
-                    <Grid item md={3} xs={12} lg={3} class="teams_container">
-                      <Grid
-                        class=" card1 team_card"
-                        style={{
-                          background: `url(${i.pic}) center center no-repeat`,
-                          backgroundSize: 'cover'
-                        }}
-                      >
-                        <Grid class="border">
-                          <h2>{i.Name}</h2>
-                          <Typography variant="subtitle2" className="de h3">{i.Designation}</Typography>
-                          <Grid class="icons">
-                            <FacebookRoundedIcon className='fa' sx={{ fontSize: 40, color: '#ffff' }} />
-                            <InstagramIcon sx={{ fontSize: 40, color: '#ffff' }} />
+    <div className="teams">
+      <Container>
+        {teamArray.map((item, index) => {
+          return (
+            <>
+              <h1>{item.TeamName}</h1>
+              <Grid container>
+                {item.TeamMember.map((i) => {
+                  return (
+                    <>
+                      <Grid item md={3} xs={12} lg={3} class="teams_container">
+                        <Grid
+                          class=" card1 team_card"
+                          style={{
+                            background: `url(${i.pic}) center center no-repeat`,
+                            backgroundSize: 'cover'
+                          }}
+                        >
+                          <Grid class="border">
+                            <h2>{i.Name}</h2>
+                            <Typography variant="subtitle2" className="de h3">
+                              {i.Designation}
+                            </Typography>
+                            <Grid class="icons">
+                              <FacebookRoundedIcon
+                                className="fa"
+                                sx={{ fontSize: 40, color: '#ffff' }}
+                              />
+                              <InstagramIcon sx={{ fontSize: 40, color: '#ffff' }} />
 
-                            <i class="fa fa-facebook" aria-hidden="true"></i>
+                              <i class="fa fa-facebook" aria-hidden="true"></i>
+                            </Grid>
                           </Grid>
                         </Grid>
                       </Grid>
-                    </Grid>
-                  </>
-                )
-              })}
-            </Grid>
-          </>
-        )
-      })}
-    </Container>
+                    </>
+                  )
+                })}
+              </Grid>
+            </>
+          )
+        })}
+      </Container>
     </div>
   )
 }
