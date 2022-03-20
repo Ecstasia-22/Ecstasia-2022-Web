@@ -35,7 +35,7 @@ import prasun from '../../Assets/TeamPics/Developers/Prasun.jpeg'
 
 let teamArray = [
   {
-    TeamName: 'Core Committee',
+    TeamName: 'Our Team',
     TeamMember: [
       {
         id: 1,
@@ -135,7 +135,7 @@ let teamArray = [
     ]
   },
   {
-    TeamName: 'Website Team ',
+    TeamName: 'Developers and UI/UX Team ',
     TeamMember: [
       {
         id: 1,
