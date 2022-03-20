@@ -184,6 +184,7 @@ let teamArray = [
 
 export default function Teams() {
   return (
+    <div className='teams'>
     <Container>
       {teamArray.map((item, index) => {
         return (
@@ -203,9 +204,9 @@ export default function Teams() {
                       >
                         <Grid class="border">
                           <h2>{i.Name}</h2>
-                          <h3 className="de">{i.Designation}</h3>
+                          <Typography variant="subtitle2" className="de h3">{i.Designation}</Typography>
                           <Grid class="icons">
-                            <FacebookRoundedIcon sx={{ fontSize: 40, color: '#ffff' }} />
+                            <FacebookRoundedIcon className='fa' sx={{ fontSize: 40, color: '#ffff' }} />
                             <InstagramIcon sx={{ fontSize: 40, color: '#ffff' }} />
 
                             <i class="fa fa-facebook" aria-hidden="true"></i>
@@ -220,51 +221,7 @@ export default function Teams() {
           </>
         )
       })}
-
-      {/* <Grid class="card card1">
-          <Grid class="border">
-            <h2>Ben Stiller</h2>
-            <Grid class="icons">
-              <i class="fa fa-instagram" aria-hidden="true"></i>
-              <i class="fa fa-dribbble" aria-hidden="true"></i>
-              <i class="fa fa-twitter" aria-hidden="true"></i>
-              <i class="fa fa-facebook" aria-hidden="true"></i>
-            </Grid>
-          </Grid>
-        </Grid>
-        <Grid class="card card2">
-          <Grid class="border">
-            <h2>Patrick Stewart</h2>
-            <Grid class="icons">
-              <i class="fa fa-instagram" aria-hidden="true"></i>
-              <i class="fa fa-dribbble" aria-hidden="true"></i>
-              <i class="fa fa-twitter" aria-hidden="true"></i>
-              <i class="fa fa-facebook" aria-hidden="true"></i>
-            </Grid>
-          </Grid>
-        </Grid>
-        <Grid class="card card2">
-          <Grid class="border">
-            <h2>Patrick Stewart</h2>
-            <Grid class="icons">
-              <i class="fa fa-instagram" aria-hidden="true"></i>
-              <i class="fa fa-dribbble" aria-hidden="true"></i>
-              <i class="fa fa-twitter" aria-hidden="true"></i>
-              <i class="fa fa-facebook" aria-hidden="true"></i>
-            </Grid>
-          </Grid>
-        </Grid>
-        <Grid class="card card2">
-          <Grid class="border">
-            <h2>Patrick Stewart</h2>
-            <Grid class="icons">
-              <i class="fa fa-instagram" aria-hidden="true"></i>
-              <i class="fa fa-dribbble" aria-hidden="true"></i>
-              <i class="fa fa-twitter" aria-hidden="true"></i>
-              <i class="fa fa-facebook" aria-hidden="true"></i>
-            </Grid>
-          </Grid>
-        </Grid> */}
     </Container>
+    </div>
   )
 }

@@ -1,12 +1,18 @@
+.teams{
+  
+}
+
 .teams_container {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  margin: 0 auto;
+  margin: 1rem auto;
 }
 .border {
-  height: 379px;
-  width: 300px;
+  height: 279px;
+  width: 200px;
+ /* height: 379px;
+  width: 300px;*/
   background: transparent;
   border-radius: 10px;
   transition: border 2s;
@@ -18,8 +24,8 @@
   background-color: rgba(0, 0, 0, 0.37);
 }
 .team_card {
-  height: 379px;
-  width: 300px;
+  height: 279px;
+  width: 200px;
   background: #808080;
   border-radius: 10px;
   transition: background 0.8s;
@@ -47,7 +53,7 @@
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   color: #fff;
   margin: 20px;
-  opacity: 0;
+/*  opacity: 0;*/
   transition: opacity 1s;
 }
 .card1:hover h2 {
@@ -60,29 +66,32 @@
   opacity: 0;
   transition: opacity 1s;
 }
-.border h3 {
+.border .h3 {
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   color: #fff;
   margin: 20px;
   opacity: 0;
   transition: opacity 1s;
 }
-.card1:hover h3 {
+.card1:hover .h3 {
   opacity: 1;
 }
 .icons {
   position: absolute;
   fill: #fff;
   color: #fff;
-  height: 130px;
-  top: 201px;
-  width: 50px;
+  height: 100%;
+  top: 1px;
+  width: 100%;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: space-around;
+  align-items: left;
+padding-top: 9rem;
   opacity: 0;
 }
-.card1:hover .icons:hover {
+.icons .fa{
+  margin: 1rem 0rem !important;
+}
+.card1:hover .border .icons:hover {
   opacity: 1;
 }
