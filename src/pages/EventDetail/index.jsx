@@ -66,9 +66,9 @@ function EventDetail() {
                   Register
                 </button>
               )}
-              <button class="blurButton __web-inspector-hide-shortcut__">
+              </*button classname="blurButton">
                 <img src={community} /> 3 and 8 Members per Team{' '}
-              </button>
+              </button*/>
             </div>
           </Grid>
           <Grid
