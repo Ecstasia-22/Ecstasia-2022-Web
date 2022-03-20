@@ -74,7 +74,7 @@ export const eventLists = [
       {
         id: 1,
         name: 'Funtakshari',
-        link: 'FuntaKshari',
+        link: 'Funtakshari',
         description: 'Antaksari',
         image: Funtakshari,
         hoveredImage: musicCover //replace this field with the hover image of the event

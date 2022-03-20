@@ -426,7 +426,7 @@ export const singleEvent = [
   },
   {
     id: 7,
-    params: 'PlugandPlay',
+    params: 'PlugAndPlay',
     title: 'Plug and Play',
     subtitle: 'Instrumental Music Contest',
     desc: 'If playing a guitar or any musical instrument is your hobby, get your instruments ready for its time for the performances. Ecstasia 22 will provide a stage to all the instrumentalists. Let’s get the show started with some wonderful music.This is a solo event.',
@@ -1487,7 +1487,7 @@ export const singleEvent = [
   },
   {
     id: 23,
-    params: 'ColordeCarousal',
+    params: 'ColorDeCarousal',
     title: 'Color de Carousal',
     subtitle: 'Rangoli Making Contest',
     desc: `Do you like making rangoli? If yes, participate in the Rangoli making an event of Ecstasia’22 and decorate the ground with vibrant colors molded into beautiful designs.`,
