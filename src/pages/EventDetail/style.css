@@ -50,6 +50,7 @@ button {
   flex-direction: row;
 }
 .registerButton {
+  cursor: pointer;
   padding: 12px;
   background: #ffffff;
   backdrop-filter: blur(50px);
