@@ -109,7 +109,7 @@ export const singleEvent = [
       }
     ],
     coverImage: rhythmicDuo,
-    coverColor: '#121013',
+    coverColor: '#FA567C',
     regLink: 'https://forms.gle/XRiN5UHn6nXr3nyB7'
   },
   {
@@ -177,7 +177,7 @@ export const singleEvent = [
       }
     ],
     coverImage: fusionFantasea,
-    coverColor: '#121013',
+    coverColor: '#F78A2D',
     regLink: 'https://forms.gle/UfPkbh3HkU156MAE9'
   },
   {
@@ -245,7 +245,7 @@ export const singleEvent = [
       }
     ],
     coverImage: stepUp,
-    coverColor: '#121013',
+    coverColor: '#F7A62D',
     regLink: 'https://forms.gle/B1bi36XhCJi5oYU57'
   },
   {
@@ -313,7 +313,7 @@ export const singleEvent = [
       }
     ],
     coverImage: nott,
-    coverColor: '#121013',
+    coverColor: '#F96762',
     regLink: 'https://forms.gle/UfXq9ZhWavXYmfHK6'
   },
   {
@@ -361,7 +361,7 @@ export const singleEvent = [
       }
     ],
     coverImage: Funtakshari,
-    coverColor: '#121013',
+    coverColor: '#F96762',
     regLink: 'https://forms.gle/eXLqh5ptTAkwUjRg9'
   },
   {
@@ -421,7 +421,7 @@ export const singleEvent = [
       }
     ],
     coverImage: melodicFiesta,
-    coverColor: '#121013',
+    coverColor: '#FA567C',
     regLink: 'https://forms.gle/skxAnHJWd5SxMirw9'
   },
   {
@@ -477,7 +477,7 @@ export const singleEvent = [
       }
     ],
     coverImage: plugAndPlay,
-    coverColor: '#121013',
+    coverColor: '#F96762',
     regLink: 'https://forms.gle/DmwVQbn6CUrC8Lk48'
   },
   {
@@ -549,7 +549,7 @@ export const singleEvent = [
       }
     ],
     coverImage: westernSerenity,
-    coverColor: '#121013',
+    coverColor: '#960796',
     regLink: 'https://forms.gle/ZVnjGheXjVChKQ2T8'
   },
   {
@@ -691,7 +691,7 @@ export const singleEvent = [
       }
     ],
     coverImage: Swabalambi,
-    coverColor: '#121013',
+    coverColor: '#960796',
     regLink: 'https://forms.gle/UsQ2bP8eA8WxGe34A'
   },
   {
@@ -747,7 +747,7 @@ export const singleEvent = [
       }
     ],
     coverImage: dareToDub,
-    coverColor: '#121013',
+    coverColor: '#FF71FF',
     regLink: 'https://forms.gle/ttjf4abjiUzVSuyH7'
   },
   {
@@ -810,7 +810,7 @@ export const singleEvent = [
       }
     ],
     coverImage: RoM,
-    coverColor: '#121013',
+    coverColor: '#F96762',
     regLink: 'https://forms.gle/oLVwXVyq3mhmpbio6'
   },
   {
@@ -936,7 +936,7 @@ export const singleEvent = [
       }
     ],
     coverImage: artsyLens,
-    coverColor: '#121013',
+    coverColor: '#F78A2D',
     regLink: 'https://forms.gle/PXDcbiEomtEp9WR96'
   },
   {
@@ -992,7 +992,7 @@ export const singleEvent = [
       }
     ],
     coverImage: Wizword,
-    coverColor: '#121013',
+    coverColor: '#FA567C',
     regLink: 'https://forms.gle/N7WTT2JcJD8cHe5W6'
   },
   {
@@ -1054,7 +1054,7 @@ export const singleEvent = [
       }
     ],
     coverImage: Knownsense,
-    coverColor: '#121013',
+    coverColor: '#610B62',
     regLink: 'https://forms.gle/5pq31KBaryiQv9eT8'
   },
   {
@@ -1125,7 +1125,7 @@ export const singleEvent = [
       }
     ],
     coverImage: wordyMuse,
-    coverColor: '#121013',
+    coverColor: '#5E3E13',
     regLink: 'https://forms.gle/f6DknEhMuiJHi6jX6'
   },
   {
@@ -1227,7 +1227,7 @@ export const singleEvent = [
       }
     ],
     coverImage: ShuttleHustle,
-    coverColor: '#121013',
+    coverColor: '#F87947',
     regLink: 'https://forms.gle/NkDSmo45FPsS4CyXA'
   },
   {
@@ -1296,7 +1296,7 @@ export const singleEvent = [
       }
     ],
     coverImage: Hotshots,
-    coverColor: '#121013',
+    coverColor: '#F96762',
     regLink: 'https://forms.gle/CAcFF6bLQdAGSWnW6'
   },
   {
@@ -1337,7 +1337,7 @@ export const singleEvent = [
       }
     ],
     coverImage: Brainstorm,
-    coverColor: '#121013',
+    coverColor: '#F78A2D',
     regLink: 'https://forms.gle/SvQsLmWtqaijnr7D8'
   },
   {
@@ -1394,7 +1394,7 @@ export const singleEvent = [
       }
     ],
     coverImage: Futsal,
-    coverColor: '#121013',
+    coverColor: '#FA567C',
     regLink: 'https://forms.gle/xjHnaRzgRAA26Fe17'
   },
   {
@@ -1434,7 +1434,7 @@ export const singleEvent = [
       }
     ],
     coverImage: WhiffWhaff,
-    coverColor: '#121013',
+    coverColor: '#610B62',
     regLink: 'https://forms.gle/kRz6sdsWsvUBBdTZ8'
   },
   {
@@ -1482,7 +1482,7 @@ export const singleEvent = [
       }
     ],
     coverImage: TeeShades,
-    coverColor: '#121013',
+    coverColor: '#5E3E13',
     regLink: 'https://forms.gle/mxDWG2Znnw1CcH378'
   },
   {
@@ -1530,7 +1530,7 @@ export const singleEvent = [
       }
     ],
     coverImage: Rangoli,
-    coverColor: '#121013',
+    coverColor: '#F87947',
     regLink: 'https://forms.gle/zb16tWxgYUaSA62H9'
   },
   {
@@ -1570,7 +1570,7 @@ export const singleEvent = [
       }
     ],
     coverImage: DoADoodle,
-    coverColor: '#121013',
+    coverColor: '#F96762',
     regLink: 'https://forms.gle/2zP6fP8Bmud8tNYy5'
   },
   {
@@ -1618,7 +1618,7 @@ export const singleEvent = [
       }
     ],
     coverImage: Fame,
-    coverColor: '#121013',
+    coverColor: '#F78A2D',
     regLink: 'https://forms.gle/FKjs9v3qTDva6is29'
   },
   {
@@ -1670,7 +1670,7 @@ export const singleEvent = [
       }
     ],
     coverImage: HumourUs,
-    coverColor: '#121013',
+    coverColor: '#FA567C',
     regLink: 'https://forms.gle/6YdiSs15AbqUXfmd6'
   },
   {
@@ -1733,7 +1733,7 @@ export const singleEvent = [
       }
     ],
     coverImage: MemeR,
-    coverColor: '#121013',
+    coverColor: '#610B62',
     regLink: 'https://forms.gle/JFHNRfRxPRscv2hG9'
   },
   {
@@ -1797,7 +1797,7 @@ export const singleEvent = [
       }
     ],
     coverImage: ElDorado,
-    coverColor: '#121013',
+    coverColor: '#F96762',
     regLink: 'https://forms.gle/TwewxhdXL5ZRuZKx8'
   }
 ]

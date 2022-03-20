@@ -17,16 +17,14 @@ function App() {
       <BrowserRouter>
         <ScrollToTop />
         <Navbar />
+        <SocialIcons/>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/events" element={<Events />} />
           <Route
             path="/aboutus"
             element={
-              <>
-                <SocialIcons />
-                <AboutUs />
-              </>
+              <AboutUs />
             }
           />
           {/**The :eventListing take the parameter from url dynamically */}
@@ -37,17 +35,16 @@ function App() {
           <Route
             path="/gallery"
             element={
-              <>
-                <SocialIcons /> <GalleryPage />
-              </>
+
+              <GalleryPage />
             }
           />
           <Route
             path="/teams"
             element={
-              <>
-                <SocialIcons /> <Teams />
-              </>
+
+              <Teams />
+
             }
           />
         </Routes>

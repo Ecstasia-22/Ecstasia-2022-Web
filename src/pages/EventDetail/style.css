@@ -34,6 +34,7 @@
   position: absolute;
   width: 100%;
   z-index: 0;
+  filter: brightness(80%);
 }
 button {
   outline: none;
