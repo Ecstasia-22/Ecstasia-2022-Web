@@ -4,7 +4,7 @@ class Map extends Component {
   render() {
     return (
       // Important! Always set the container height explicitly
-      <div style={{ height: '220px', width: '100%' }}>
+      <div style={{ height: '220px', width: '100%', borderRadius: '8px' }}>
         <div className="google-map-code">
           <iframe
             title="UEM Kolkata"

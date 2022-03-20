@@ -12,8 +12,8 @@
 .gallery_img {
   margin: 1rem 1.5rem;
   overflow: hidden;
-  border: 1rem solid #fff;
-  width: 100%;
+  border: 0.6rem solid #fff;
+  width: 90%;
 }
 
 .gallery_img::after {
@@ -41,7 +41,7 @@
 }
 
 .gallery_img__short{
-width: 100%;
+width: 94%;
   height: 30rem;
 }
 

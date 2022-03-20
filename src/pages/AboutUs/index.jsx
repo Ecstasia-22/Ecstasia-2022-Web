@@ -31,7 +31,7 @@ const writeup = {
 
 function AboutUs() {
   return (
-    <>
+    <div>
       <section style={{ background: `url(${writeup.uem.background})`, padding: '3rem' }}>
         <Container>
           <Grid container spacing={1}>
@@ -93,14 +93,14 @@ function AboutUs() {
         >
           <Container>
             <Grid container spacing={1}>
-              <Grid item md={3}>
+              <Grid item md={4}>
                 <br />
                 <br />
                 {/**------------------------------------------- Change to yt video -------------------------------------------------------- */}
                 <iframe
                   style={{ marginTop: '7px' }}
-                  width="320"
-                  height="196"
+                  width="100%"
+                  height="226"
                   src="https://www.youtube.com/embed/ohHTIdxVsTE?start=10"
                   title="YouTube video player"
                   frameborder="2"
@@ -124,7 +124,7 @@ function AboutUs() {
         </section>
         <Footer />
       </div>
-    </>
+    </div>
   )
 }
 
