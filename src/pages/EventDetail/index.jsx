@@ -1,14 +1,9 @@
 import './style.css'
 import { Container, Grid, Typography, Link } from '@mui/material'
 import ArrowBackIcon from '@mui/icons-material/ArrowBack'
-import Logo from '../../Assets/ecstasiaLogo.jpg'
 import { useNavigate, useParams } from 'react-router-dom'
-import dance1 from './taleTale.png'
 import { singleEvent } from './eventDetail'
-import FacebookIcon from '../../Assets/socials/facebook.svg'
-import InstagramIcon from '../../Assets/socials/instagram.svg'
-import TwitterIcon from '../../Assets/socials/twitter.svg'
-import YoutubeIcon from '../../Assets/socials/youtube.svg'
+import community from '../../Assets/IndEvents/community.svg'
 
 const HEIGHT = 'calc(100vh)'
 
@@ -58,6 +53,7 @@ function EventDetail() {
                 padding: '1rem'
               }}
             >
+            {event.show && (
               <button
                 className="registerButton"
                 style={{
@@ -68,8 +64,8 @@ function EventDetail() {
                 onClick={() => window.open(event.regLink, '_blank')}
               >
                 Register
-              </button>
-              <button className="blurButton">3 and 8 Members per Team</button>
+              </button>)}
+              <button className="blurButton"><img src={community}/> {" "} 3 and 8 Members per Team </button>
             </div>
           </Grid>
           <Grid
@@ -90,9 +86,11 @@ function EventDetail() {
                 marginTop: window.innerWidth >= 900 ? '8rem' : 0
               }}
             >
+            <Typography variant="h4" className="about_title"> Rules and Regulation </Typography>
+              <Typography variant="subtitle2" className="ruleText"><b style={{textTransform: "uppercase"}}>• For registration details, contact the co-ordinators.</b></Typography>
               {event.rules.map((rule) => (
                 <Typography variant="subtitle2" key={rule.id} className="ruleText">
-                  {rule.rule}
+                •  {rule.rule}
                 </Typography>
               ))}
               <Typography variant="subtitle2" style={{ marginTop: '1.4rem' }}>

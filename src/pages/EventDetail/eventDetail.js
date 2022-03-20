@@ -53,47 +53,47 @@ export const singleEvent = [
     rules: [
       {
         id: 1,
-        rule: '1.None will be allowed to participate without registration.'
+        rule: 'None will be allowed to participate without registration.'
       },
       {
         id: 2,
-        rule: '2.Participants must bring their pen drive or mobile phone containing their particular song.'
+        rule: 'Participants must bring their pen drive or mobile phone containing their particular song.'
       },
       {
         id: 3,
-        rule: '3.Time limit: Minimum :3mins. Maximum :7mins.'
+        rule: 'Time limit: Minimum :3mins. Maximum :7mins.'
       },
       {
         id: 4,
-        rule: '4.Group member: Minimum: 3 Maximum: 8 (On stage there should be 3 members)'
+        rule: 'Group member: Minimum: 3 Maximum: 8 (On stage there should be 3 members)'
       },
       {
         id: 5,
-        rule: '5.Every participant must bring their college id card with them, without id card participants are not allowed to participate.'
+        rule: 'Every participant must bring their college id card with them, without id card participants are not allowed to participate.'
       },
       {
         id: 6,
-        rule: '6.Judges decision will be the ultimate one.'
+        rule: 'Judges decision will be the ultimate one.'
       },
       {
         id: 7,
-        rule: '7.The participants will be judged on the basis of  costumes, visual presentation and dance forms.'
+        rule: 'The participants will be judged on the basis of  costumes, visual presentation and dance forms.'
       },
       {
         id: 8,
-        rule: '8.Any offensive music/song is not allowed and no one should wear any vulgar dress(including sleeveless or crop top).'
+        rule: 'Any offensive music/song is not allowed and no one should wear any vulgar dress(including sleeveless or crop top).'
       },
       {
         id: 9,
-        rule: '9.Every participant should come in time.No second chance will be given if any participant misses his or her scheduled time.'
+        rule: 'Every participant should come in time.No second chance will be given if any participant misses his or her scheduled time.'
       },
       {
         id: 10,
-        rule: '10.Every performance is time specific ,exceeding the time limit can cause  disqualifying the team.'
+        rule: 'Every performance is time specific ,exceeding the time limit can cause  disqualifying the team.'
       },
       {
         id: 11,
-        rule: '11.Any violation of the above rules will not be entertained.'
+        rule: 'Any violation of the above rules will not be entertained.'
       }
     ],
     coOrdinators: [
@@ -121,47 +121,47 @@ export const singleEvent = [
     rules: [
       {
         id: 1,
-        rule: '1.None will be allowed to participate without registration.'
+        rule: 'None will be allowed to participate without registration.'
       },
       {
         id: 2,
-        rule: '2.Participants must bring their pen drive or mobile phone containing their particular song.'
+        rule: 'Participants must bring their pen drive or mobile phone containing their particular song.'
       },
       {
         id: 3,
-        rule: '3.Time limit: Minimum :3mins. Maximum :7mins.'
+        rule: 'Time limit: Minimum :3mins. Maximum :7mins.'
       },
       {
         id: 4,
-        rule: '4.Group member: Minimum: 3 Maximum: 8 (On stage there should be 3 members)'
+        rule: 'Group member: Minimum: 3 Maximum: 8 (On stage there should be 3 members)'
       },
       {
         id: 5,
-        rule: '5.Every participant must bring their college id card with them, without id card participants are not allowed to participate.'
+        rule: 'Every participant must bring their college id card with them, without id card participants are not allowed to participate.'
       },
       {
         id: 6,
-        rule: '6.Judges decision will be the ultimate one.'
+        rule: 'Judges decision will be the ultimate one.'
       },
       {
         id: 7,
-        rule: '7.The participants will be judged on the basis of  costumes, visual presentation and dance forms.'
+        rule: 'The participants will be judged on the basis of  costumes, visual presentation and dance forms.'
       },
       {
         id: 8,
-        rule: '8.Any offensive music/song is not allowed and no one should wear any vulgar dress(including sleeveless or crop top).'
+        rule: 'Any offensive music/song is not allowed and no one should wear any vulgar dress(including sleeveless or crop top).'
       },
       {
         id: 9,
-        rule: '9.Every participant should come in time.No second chance will be given if any participant misses his or her scheduled time.'
+        rule: 'Every participant should come in time.No second chance will be given if any participant misses his or her scheduled time.'
       },
       {
         id: 10,
-        rule: '10.Every performance is time specific ,exceeding the time limit can cause  disqualifying the team.'
+        rule: 'Every performance is time specific ,exceeding the time limit can cause  disqualifying the team.'
       },
       {
         id: 11,
-        rule: '11.Any violation of the above rules will not be entertained.'
+        rule: 'Any violation of the above rules will not be entertained.'
       }
     ],
     coOrdinators: [
@@ -189,31 +189,31 @@ export const singleEvent = [
     rules: [
       {
         id: 1,
-        rule: '1.None will be allowed to participate without registration.'
+        rule: 'None will be allowed to participate without registration.'
       },
       {
         id: 2,
-        rule: '2.Participants must bring their pen drive or mobile phone containing their particular song.'
+        rule: 'Participants must bring their pen drive or mobile phone containing their particular song.'
       },
       {
         id: 3,
-        rule: '3.Time limit: Minimum :3mins. Maximum :7mins.'
+        rule: 'Time limit: Minimum :3mins. Maximum :7mins.'
       },
       {
         id: 4,
-        rule: '4.Group member: Minimum: 3 Maximum: 8 (On stage there should be 3 members)'
+        rule: 'Group member: Minimum: 3 Maximum: 8 (On stage there should be 3 members)'
       },
       {
         id: 5,
-        rule: '5.Every participant must bring their college id card with them, without id card participants are not allowed to participate.'
+        rule: 'Every participant must bring their college id card with them, without id card participants are not allowed to participate.'
       },
       {
         id: 6,
-        rule: '6.Judges decision will be the ultimate one.'
+        rule: 'Judges decision will be the ultimate one.'
       },
       {
         id: 7,
-        rule: '7.The participants will be judged on the basis of  costumes, visual presentation and dance forms.'
+        rule: 'The participants will be judged on the basis of  costumes, visual presentation and dance forms.'
       },
       {
         id: 8,
@@ -257,47 +257,47 @@ export const singleEvent = [
     rules: [
       {
         id: 1,
-        rule: '1.None will be allowed to participate without registration.'
+        rule: 'None will be allowed to participate without registration.'
       },
       {
         id: 2,
-        rule: '2.Participants must bring their pen drive or mobile phone containing their particular song.'
+        rule: 'Participants must bring their pen drive or mobile phone containing their particular song.'
       },
       {
         id: 3,
-        rule: '3.Time limit: Minimum :3mins. Maximum :7mins.'
+        rule: 'Time limit: Minimum :3mins. Maximum :7mins.'
       },
       {
         id: 4,
-        rule: '4.Group member: Minimum: 3 Maximum: 8 (On stage there should be 3 members)'
+        rule: 'Group member: Minimum: 3 Maximum: 8 (On stage there should be 3 members)'
       },
       {
         id: 5,
-        rule: '5.Every participant must bring their college id card with them, without id card participants are not allowed to participate.'
+        rule: 'Every participant must bring their college id card with them, without id card participants are not allowed to participate.'
       },
       {
         id: 6,
-        rule: '6.Judges decision will be the ultimate one.'
+        rule: 'Judges decision will be the ultimate one.'
       },
       {
         id: 7,
-        rule: '7.The participants will be judged on the basis of  costumes, visual presentation and dance forms.'
+        rule: 'The participants will be judged on the basis of  costumes, visual presentation and dance forms.'
       },
       {
         id: 8,
-        rule: '8.Any offensive music/song is not allowed and no one should wear any vulgar dress(including sleeveless or crop top).'
+        rule: 'Any offensive music/song is not allowed and no one should wear any vulgar dress(including sleeveless or crop top).'
       },
       {
         id: 9,
-        rule: '9.Every participant should come in time.No second chance will be given if any participant misses his or her scheduled time.'
+        rule: 'Every participant should come in time.No second chance will be given if any participant misses his or her scheduled time.'
       },
       {
         id: 10,
-        rule: '10.Every performance is time specific ,exceeding the time limit can cause  disqualifying the team.'
+        rule: 'Every performance is time specific ,exceeding the time limit can cause  disqualifying the team.'
       },
       {
         id: 11,
-        rule: '11.Any violation of the above rules will not be entertained.'
+        rule: 'Any violation of the above rules will not be entertained.'
       }
     ],
     coOrdinators: [
@@ -748,6 +748,7 @@ export const singleEvent = [
     ],
     coverImage: dareToDub,
     coverColor: '#FF71FF',
+    show: true,
     regLink: 'https://forms.gle/ttjf4abjiUzVSuyH7'
   },
   {
@@ -811,6 +812,7 @@ export const singleEvent = [
     ],
     coverImage: RoM,
     coverColor: '#F96762',
+    show: true,
     regLink: 'https://forms.gle/oLVwXVyq3mhmpbio6'
   },
   {
@@ -875,6 +877,7 @@ export const singleEvent = [
     ],
     coverImage: perfectShutter,
     coverColor: '#121013',
+    show: true,
     regLink: 'https://forms.gle/qhNtmXY2azuUnNma9'
   },
   {
@@ -937,6 +940,7 @@ export const singleEvent = [
     ],
     coverImage: artsyLens,
     coverColor: '#F78A2D',
+    show: true,
     regLink: 'https://forms.gle/PXDcbiEomtEp9WR96'
   },
   {
@@ -993,6 +997,7 @@ export const singleEvent = [
     ],
     coverImage: Wizword,
     coverColor: '#FA567C',
+    show: true,
     regLink: 'https://forms.gle/N7WTT2JcJD8cHe5W6'
   },
   {
