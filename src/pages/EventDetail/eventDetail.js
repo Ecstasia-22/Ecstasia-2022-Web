@@ -51,21 +51,25 @@ export const singleEvent = [
     subtitle: 'Duet Dance',
     desc: 'A pair, a couple, some salsa, some kathak Bharatanatyam. Together a pair can perform the best show ever. This year, Ecstasia 22 gives an opportunity to the dancers to light up the evening with their performances.This is a Group event.',
     rules: [
+      /*
+        4.Group memeber: 2
+      */
+
       {
         id: 1,
         rule: 'None will be allowed to participate without registration.'
       },
       {
         id: 2,
-        rule: 'Participants must bring their pen drive or mobile phone containing their particular song.'
+        rule: 'Participants must bring their pendrive or mobile phone containing their particular song.'
       },
       {
         id: 3,
-        rule: 'Time limit: Minimum :3mins. Maximum :7mins.'
+        rule: 'Time limit: Minimum: 3mins. Maximum: 6 mins.'
       },
       {
         id: 4,
-        rule: 'Group member: Minimum: 3 Maximum: 8 (On stage there should be 3 members)'
+        rule: 'Group member: 2'
       },
       {
         id: 5,
@@ -77,19 +81,19 @@ export const singleEvent = [
       },
       {
         id: 7,
-        rule: 'The participants will be judged on the basis of  costumes, visual presentation and dance forms.'
+        rule: 'The participants will be judged on the basis of costumes, visual presentation and dance forms.'
       },
       {
         id: 8,
-        rule: 'Any offensive music/song is not allowed and no one should wear any vulgar dress(including sleeveless or crop top).'
+        rule: 'Any offensive music/song is not allowed and no one should wear any vulgar dress( including sleeveless or crop top).'
       },
       {
         id: 9,
-        rule: 'Every participant should come in time.No second chance will be given if any participant misses his or her scheduled time.'
+        rule: 'Every participant should come in time. No second chance will be given if any participant misses his or her scheduled time.'
       },
       {
         id: 10,
-        rule: 'Every performance is time specific ,exceeding the time limit can cause  disqualifying the team.'
+        rule: 'Every performance is time specific ,exceeding the time limit can cause disqualifying the team.'
       },
       {
         id: 11,
@@ -130,15 +134,15 @@ export const singleEvent = [
       },
       {
         id: 2,
-        rule: 'Participants must bring their pen drive or mobile phone containing their particular song.'
+        rule: 'Participants must bring their pendrive or mobile phone containing their particular song.'
       },
       {
         id: 3,
-        rule: 'Time limit: Minimum :3mins. Maximum :7mins.'
+        rule: 'Time limit: Minimum: 3 mins. Maximum: 10 mins.'
       },
       {
         id: 4,
-        rule: 'Group member: Minimum: 3 Maximum: 8 (On stage there should be 3 members)'
+        rule: 'Group member: Minimum: 3 Maximum: 10 (On stage there should be 3 members)'
       },
       {
         id: 5,
@@ -150,19 +154,19 @@ export const singleEvent = [
       },
       {
         id: 7,
-        rule: 'The participants will be judged on the basis of  costumes, visual presentation and dance forms.'
+        rule: 'The participants will be judged on the basis of costumes, visual presentation and dance forms.'
       },
       {
         id: 8,
-        rule: 'Any offensive music/song is not allowed and no one should wear any vulgar dress(including sleeveless or crop top).'
+        rule: 'Any offensive music/song is not allowed and no one should wear any vulgar dress (including sleeveless or crop top).'
       },
       {
         id: 9,
-        rule: 'Every participant should come in time.No second chance will be given if any participant misses his or her scheduled time.'
+        rule: 'Every participant should come in time. No second chance will be given if any participant misses his or her scheduled time.'
       },
       {
         id: 10,
-        rule: 'Every performance is time specific ,exceeding the time limit can cause  disqualifying the team.'
+        rule: 'Every performance is time specific ,exceeding the time limit can cause disqualifying the team.'
       },
       {
         id: 11,
@@ -203,15 +207,15 @@ export const singleEvent = [
       },
       {
         id: 2,
-        rule: 'Participants must bring their pen drive or mobile phone containing their particular song.'
+        rule: 'Participants must bring their pendrive or mobile phone containing their particular song.'
       },
       {
         id: 3,
-        rule: 'Time limit: Minimum :3mins. Maximum :7mins.'
+        rule: 'Time limit: Minimum :3mins. Maximum :8mins.'
       },
       {
         id: 4,
-        rule: 'Group member: Minimum: 3 Maximum: 8 (On stage there should be 3 members)'
+        rule: 'Group member: Minimum: 3 Maximum: 12 (On stage there should be 3 members)'
       },
       {
         id: 5,
@@ -227,19 +231,19 @@ export const singleEvent = [
       },
       {
         id: 8,
-        rule: '8.Any offensive music/song is not allowed and no one should wear any vulgar dress(including sleeveless or crop top).'
+        rule: 'Any offensive music/song is not allowed and no one should wear any vulgar dress(including sleeveless or crop top).'
       },
       {
         id: 9,
-        rule: '9.Every participant should come in time.No second chance will be given if any participant misses his or her scheduled time.'
+        rule: 'Every participant should come in time. No second chance will be given if any participant misses his or her scheduled time.'
       },
       {
         id: 10,
-        rule: '10.Every performance is time specific ,exceeding the time limit can cause  disqualifying the team.'
+        rule: 'Every performance is time specific ,exceeding the time limit can cause  disqualifying the team.'
       },
       {
         id: 11,
-        rule: '11.Any violation of the above rules will not be entertained.'
+        rule: 'Any violation of the above rules will not be entertained.'
       }
     ],
     coOrdinators: [
@@ -276,7 +280,7 @@ export const singleEvent = [
       },
       {
         id: 2,
-        rule: 'Participants must bring their pen drive or mobile phone containing their particular song.'
+        rule: 'Participants must bring their pendrive or mobile phone containing their particular song.'
       },
       {
         id: 3,

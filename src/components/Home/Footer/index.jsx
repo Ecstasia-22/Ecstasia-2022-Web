@@ -23,7 +23,7 @@ export default function Footer() {
                 <br />
                 <br />
                 <b>For Sponorship Enquiries:</b>
-                <p>sponsorship.ecstasia.uemk@gmail.com</p>
+                <p>collaborations.ecstasia@gmail.com</p>
               </div>
             </Grid>
             <Grid item md={1}></Grid>

@@ -41,7 +41,7 @@ let teamArray = [
       {
         id: 1,
         Name: 'Sayantani Garai',
-        Designation: 'Convenor',
+        Designation: 'Ecstasia Head',
         fb: 'https://www.facebook.com/XOXmischiefmanagedXOX',
         insta: 'https://www.instagram.com/messchiefmanaged',
         pic: sayantani
@@ -177,14 +177,14 @@ let teamArray = [
         insta: 'https://www.instagram.com/roy_k19',
         pic: kaustav
       },
-      {
-        id: 8,
-        Name: 'Bihan Chakraborty',
-        Designation: 'Web Developer',
-        fb: 'https://www.facebook.com/bihan.chakraborty.9',
-        insta: 'https://www.instagram.com/bihanc001',
-        pic: bihan
-      },
+      // {
+      //   id: 8,
+      //   Name: 'Bihan Chakraborty',
+      //   Designation: 'Web Developer',
+      //   fb: 'https://www.facebook.com/bihan.chakraborty.9',
+      //   insta: 'https://www.instagram.com/bihanc001',
+      //   pic: bihan
+      // },
       {
         id: 4,
         Name: 'Sweta Karar',
