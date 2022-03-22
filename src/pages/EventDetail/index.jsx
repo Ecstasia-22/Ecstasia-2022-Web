@@ -53,18 +53,17 @@ function EventDetail() {
                 padding: '1rem'
               }}
             >
-              
-                <button
-                  className="registerButton"
-                  style={{
-                    color: event.coverColor,
-                    marginRight: '1rem',
-                    marginBottom: window.innerWidth >= 900 ? 0 : '1rem'
-                  }}
-                  onClick={() => window.open(event.regLink, '_blank')}
-                >
-                  Register
-                </button>
+              <button
+                className="registerButton"
+                style={{
+                  color: event.coverColor,
+                  marginRight: '1rem',
+                  marginBottom: window.innerWidth >= 900 ? 0 : '1rem'
+                }}
+                onClick={() => window.open(event.regLink, '_blank')}
+              >
+                Register
+              </button>
 
               {/*<button classname="blurButton">
                 <img src={community} /> 3 and 8 Members per Team{' '}

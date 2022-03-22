@@ -50,10 +50,9 @@ export default function Gallery() {
           ))}
         </div>
       </Typography>
+      <Typography align="center"></Typography>
       <Typography align="center">
-  </Typography>
-      <Typography align="center">
-        <Link to={'/gallery'} style={{textDecoration: 'none'}}>
+        <Link to={'/gallery'} style={{ textDecoration: 'none' }}>
           <Grid align="center">
             <button className="sectionGallery_btn"> View More </button>
           </Grid>
