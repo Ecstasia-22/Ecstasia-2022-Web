@@ -53,7 +53,7 @@ function EventDetail() {
                 padding: '1rem'
               }}
             >
-              {event.show && (
+              
                 <button
                   className="registerButton"
                   style={{
@@ -65,7 +65,7 @@ function EventDetail() {
                 >
                   Register
                 </button>
-              )}
+
               {/*<button classname="blurButton">
                 <img src={community} /> 3 and 8 Members per Team{' '}
                 </button>*/}

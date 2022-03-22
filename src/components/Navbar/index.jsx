@@ -27,10 +27,7 @@ const Navbar = () => {
       <ul className={clicked ? 'nav-menu active' : 'nav-menu'}>
         {MenuItems.map((item, index) => {
           return (
-            <NavLink
-              to="messages"
-              style={({ isActive }) => (isActive ? activeStyle : undefined)}
-            >
+
               <li key={index}>
                 <Link
                   className={item.cName}
@@ -40,7 +37,7 @@ const Navbar = () => {
                   {item.title}
                 </Link>
               </li>
-            </NavLink>
+
           )
         })}
       </ul>
