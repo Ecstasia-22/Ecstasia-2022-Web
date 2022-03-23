@@ -49,7 +49,7 @@ let teamArray = [
       {
         id: 2,
         Name: 'Somlina Ghosh Ray',
-        Designation: 'General Secretary',
+        Designation: 'Convenor',
         fb: 'https://www.facebook.com/somlina.ghoshray.92',
         insta: 'https://www.instagram.com/_seriously.unserious_',
         pic: somlina
