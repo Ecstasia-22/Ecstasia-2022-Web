@@ -661,7 +661,7 @@ export const singleEvent = [
       },
       {
         id: 2,
-        name: 'Antara Ghoshal:',
+        name: 'Antara Ghoshal',
         number: '6291014606'
       },
       {
@@ -983,7 +983,7 @@ export const singleEvent = [
       },
       {
         id: 2,
-        name: 'Rheetwiza Mandal:',
+        name: 'Rheetwiza Mandal',
         number: '7076844206'
       }
     ],
@@ -1340,12 +1340,12 @@ export const singleEvent = [
     coOrdinators: [
       {
         id: 1,
-        name: 'Sagnick Datta:',
+        name: 'Sagnick Datta',
         number: '8240374511'
       },
       {
         id: 2,
-        name: 'Raj Nayak:',
+        name: 'Raj Nayak',
         number: '7980630509'
       }
     ],
@@ -1478,7 +1478,7 @@ export const singleEvent = [
     coOrdinators: [
       {
         id: 1,
-        name: 'Aryan Gupta:',
+        name: 'Aryan Gupta',
         number: '7908713743'
       },
       {
